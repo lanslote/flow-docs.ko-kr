@@ -1,0 +1,41 @@
+### YamlMime:YamlDocument
+documentType: LandingData
+title: Microsoft Flow 단계별 학습
+metadata:
+  title: Microsoft Flow 단계별 학습
+  meta.description: 'Start your learning journey with this sequenced collection of courses, and understand the extensive and powerful capabilities of Microsoft Flow.'
+  author: MSFTMan
+  manager: anneta
+  layout: LandingPage
+  ms.assetid: null
+  ms.service: flow
+  ms.tgt_pltfrm: na
+  ms.devlang: na
+  ms.topic: landing-page
+  ms.date: 10/13/2017
+  ms.author: deonhe
+abstract:
+  description: 이 강의의 순차화된 컬렉션에서 학습을 시작하고 Microsoft Flow의 광범위하고 강력한 기능을 이해합니다.
+sections:
+  - items:
+      - type: list
+        style: cards
+        className: cardsF
+        columns: 2
+        items:
+          - html: '<p><a href="get-started#step-1">Microsoft Flow 기본 사항 이해</a> - 14분</p><p><a href="get-started#step-2">템플릿에서 흐름 만들기</a> - 9분</p><p><a href="get-started#step-3">Microsoft Flow 모바일 앱 사용</a> - 8분</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+            title: 시작
+          - html: '<p><a href="build-flows#step-1">단추 흐름 만들기</a> - 11분</p><p><a href="build-flows#step-2">알림 가져오기</a> - 6분</p><p><a href="build-flows#step-3">파일 복사</a> - 4분</p><p><a href="build-flows#step-4">데이터 수집</a> - 5분</p><p><a href="build-flows#step-5">흐름에서 트윗 게시</a> - 15분</p><p><a href="build-flows#step-6">예약된 흐름 만들기</a> - 9분</p><p><a href="build-flows#step-7">문서 변환 및 저장</a> - 14분</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_build.svg'
+            title: 흐름 빌드
+          - html: '<p><a href="work-with-approvals#step-1">승인 요청 만들기</a> - 4분</p><p><a href="work-with-approvals#step-2">승인 요청 처리</a> - 7분</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_tasks.svg'
+            title: 승인된 작업
+          - html: '<p><a href="administer-flows#step-1">환경을 사용하여 흐름 관리</a> - 8분</p><p><a href="administer-flows#step-2">데이터 손실 방지 정책 사용</a> - 6분</p>'
+            image:
+              src: 'https://docs.microsoft.com/media/common/i_management.svg'
+            title: 흐름 관리

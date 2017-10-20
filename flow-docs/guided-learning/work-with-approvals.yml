@@ -1,0 +1,35 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: 승인된 작업
+metadata:
+  title: 승인된 작업 | Microsoft Flow
+  description: Microsoft Flow에서 문서 및 프로세스의 승인을 관리하는 방법을 알아봅니다.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: administer-flows
+  nextTutorialTitle: Administer flows
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      Microsoft Flow에서 문서 및 프로세스의 승인을 관리하는 방법을 알아봅니다.
+  - title: 승인 요청 만들기
+    durationInMinutes: 4
+    content: |
+      > [!Video https://www.youtube.com/embed/65yz8tqnWe0?rel=0]
+
+      [!INCLUDE [learning-approval-center](../includes/learning-approval-center.md)]
+  - title: 승인 요청 처리
+    durationInMinutes: 7
+    content: |
+      > [!Video https://www.youtube.com/embed/-0r5ZKVEIS4?rel=0]
+
+      [!INCLUDE [learning-approval-request](../includes/learning-approval-request.md)]
+  - content: |
+      Microsoft Flow 단계별 학습의 **승인된 작업** 섹션을 완료했습니다.

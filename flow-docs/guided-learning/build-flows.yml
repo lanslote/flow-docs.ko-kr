@@ -1,0 +1,65 @@
+### YamlMime:YamlDocument
+documentType: Tutorial
+title: 흐름 빌드
+metadata:
+  title: 흐름 빌드 | Microsoft Flow
+  description: 알림을 보내는 흐름뿐만 아니라 데이터를 복사하고 수집하는 흐름을 빌드하는 방법에 대해 알아봅니다. 단추에서 요청 시 또는 일정에 따라 흐름을 실행합니다.
+  audience: Business User
+  level: Beginner
+  nextTutorialHref: work-with-approvals
+  nextTutorialTitle: Work with approvals
+  displayType: one-column
+  author: MSFTMan
+  manager: anneta
+  ms.service: flow
+  ms.topic: get-started-article
+  ms.date: 10/04/2017
+  ms.author: deonhe
+items:
+  - durationInMinutes: 1
+    content: |
+      알림을 보내는 흐름뿐만 아니라 데이터를 복사하고 수집하는 흐름을 빌드하는 방법에 대해 알아봅니다. 단추에서 요청 시 또는 일정에 따라 흐름을 실행합니다.
+  - title: 단추 흐름 만들기
+    durationInMinutes: 11
+    content: |
+      > [!Video https://www.youtube.com/embed/s8ozmlVRV-Q?rel=0]
+
+      [!INCLUDE [learning-create-button-flow](../includes/learning-create-button-flow.md)]
+  - title: 알림 가져오기
+    durationInMinutes: 6
+    content: |
+      > [!Video https://www.youtube.com/embed/VEHKGLY0hq4?rel=0]
+
+      [!INCLUDE [learning-get-notifications](../includes/learning-get-notifications.md)]
+  - title: 파일 복사
+    durationInMinutes: 4
+    content: |
+      > [!Video https://www.youtube.com/embed/liL0IWNcRcc?rel=0]
+
+      [!INCLUDE [learning-copy-files](../includes/learning-copy-files.md)]
+  - title: 데이터 수집
+    durationInMinutes: 5
+    content: |
+      > [!Video https://www.youtube.com/embed/U54cdN0tXEI?rel=0]
+
+      [!INCLUDE [learning-collect-data](../includes/learning-collect-data.md)]
+  - title: 흐름에서 트윗 게시
+    durationInMinutes: 15
+    content: |
+      > [!Video https://www.youtube.com/embed/y1iDal8XPAo?rel=0]
+
+      [!INCLUDE [learning-push-notifications](../includes/learning-push-notifications.md)]
+  - title: 예약된 흐름 만들기
+    durationInMinutes: 9
+    content: |
+      > [!Video https://www.youtube.com/embed/hh4nmS_M8Co?rel=0]
+
+      [!INCLUDE [learning-recurrence](../includes/learning-recurrence.md)]
+  - title: 문서 변환 및 저장
+    durationInMinutes: 14
+    content: |
+      > [!Video https://www.youtube.com/embed/ukRhuJGC9A0?rel=0]
+
+      [!INCLUDE [learning-create-pdf](../includes/learning-create-pdf.md)]
+  - content: |
+      Microsoft Flow 단계별 학습의 **흐름 빌드** 섹션을 완료했습니다.

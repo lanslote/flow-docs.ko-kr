@@ -30,6 +30,8 @@
       href: data-operations.md
     - name: 데이터 필터링 및 복사
       href: odata-filters.md
+    - name: 조건에 식 사용
+      href: use-expressions-in-conditions.md
     - name: Dynamics 365을 사용하여 흐름 만들기
       href: connection-dynamics365.md
     - name: Common Data Service에 데이터 추가

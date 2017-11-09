@@ -45,7 +45,7 @@ sections:
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'
             title: 단추에 대해 알아보기
-          - href: 'https://flow.microsoft.com/blog/automation-for-recruiters'
+          - href: 'https://aka.ms/flowoftheweek'
             html: <p>일주일의 흐름에서 영감 얻기</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_api-reference.svg'

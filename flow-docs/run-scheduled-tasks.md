@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/14/2017
 ms.author: stepsic
 ms.openlocfilehash: eaeaf62da694daf7f8e6d876c3d225337fdbe592
-ms.sourcegitcommit: 122870842a07183ab3b90e07d99b60d822d6c5ae
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="run-flows-on-a-schedule"></a>일정에 따라 흐름 실행
 하나 이상의 작업(예: 전자 메일로 보고서 보내기)을 수행하는 흐름을 만듭니다.

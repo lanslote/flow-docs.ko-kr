@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/24/2017
 ms.author: deonhe
 ms.openlocfilehash: b4d11da19db97ce94df3e3d5237f6c90b3514269
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-parallel-approval-workflows-with-microsoft-flow"></a>Microsoft Flow를 사용하여 병렬 승인 워크플로 만들기
 병렬 승인 워크플로에서 송장, 구매 주문, 휴가 요청 등을 포함하여 항목을 승인하는 데 여러 사용자가 필요합니다. 각 사용자의 승인은 다른 모든 승인자와 무관합니다.

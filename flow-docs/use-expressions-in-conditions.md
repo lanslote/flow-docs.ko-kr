@@ -26,10 +26,10 @@ ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
 ms.openlocfilehash: a833abf7cb43e6d8a1c67b0f4160c90a4b24545a
-ms.sourcegitcommit: 122870842a07183ab3b90e07d99b60d822d6c5ae
+ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2017
+ms.lasthandoff: 11/03/2017
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>조건에서 식을 사용하여 여러 값을 확인합니다.
 이 연습에서는 식과 **조건**을 사용하여 **고급 모드**에서 여러 값을 비교하는 법을 알아봅니다.

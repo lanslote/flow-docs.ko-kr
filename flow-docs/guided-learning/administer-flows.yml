@@ -1,9 +1,8 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: 흐름 관리
+title: "흐름 관리"
 metadata:
-  title: 흐름 관리 | Microsoft Flow
-  description: 환경 및 데이터 보호 정책을 사용하여 데이터 원본 및 흐름을 관리하는 방법을 알아봅니다.
+  title: "흐름 관리 | Microsoft Flow"
+  description: "환경 및 데이터 보호 정책을 사용하여 데이터 원본 및 흐름을 관리하는 방법을 알아봅니다."
   audience: Business User
   level: Beginner
   displayType: one-column
@@ -14,20 +13,25 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      환경 및 데이터 보호 정책을 사용하여 데이터 원본 및 흐름을 관리하는 방법을 알아봅니다.
-  - title: 환경을 사용하여 흐름 관리
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
+- durationInMinutes: 1
+  content: "환경 및 데이터 보호 정책을 사용하여 데이터 원본 및 흐름을 관리하는 방법을 알아봅니다.\n"
+  ms.openlocfilehash: 52eb25087beb258481be25a560c84093d025021a
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/07/2017
+- title: "환경을 사용하여 흐름 관리"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/wnScBLz7css?rel=0]
 
-      [!INCLUDE [learning-environments](../includes/learning-environments.md)]
-  - title: 데이터 손실 방지 정책 사용
-    durationInMinutes: 6
-    content: |
-      > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
 
-      [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
-  - content: |
-      Microsoft Flow 단계별 학습의 **흐름 관리** 섹션을 완료했습니다.
+    [!INCLUDE [learning-environments](../includes/learning-environments.md)]
+- title: "데이터 손실 방지 정책 사용"
+  durationInMinutes: 6
+  content: >
+    > [!Video https://www.youtube.com/embed/vls4RPVP5xE?rel=0]
+
+
+    [!INCLUDE [learning-data-loss-prevention](../includes/learning-data-loss-prevention.md)]
+- content: "Microsoft Flow 단계별 학습의 **흐름 관리** 섹션을 완료했습니다.\0"

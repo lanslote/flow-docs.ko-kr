@@ -1,13 +1,12 @@
-### YamlMime:YamlDocument
 documentType: Tutorial
-title: 시작
+title: "시작"
 metadata:
-  title: 시작 | Microsoft Flow
-  description: Microsoft Flow에 대한 가이드 학습을 시작합니다. 이 자습형 온라인 과정은 순차적인 방법으로 Microsoft Flow를 설명하므로 기초부터 지식을 쌓을 수 있습니다.
+  title: "시작 | Microsoft Flow"
+  description: "Microsoft Flow에 대한 가이드 학습을 시작합니다. 이 자습형 온라인 과정은 순차적인 방법으로 Microsoft Flow를 설명하므로 기초부터 지식을 쌓을 수 있습니다."
   audience: Business User
   level: Beginner
   nextTutorialHref: build-flows
-  nextTutorialTitle: 흐름 빌드
+  nextTutorialTitle: "흐름 빌드"
   displayType: one-column
   author: MSFTMan
   manager: anneta
@@ -16,26 +15,32 @@ metadata:
   ms.date: 10/04/2017
   ms.author: deonhe
 items:
-  - durationInMinutes: 1
-    content: |
-      Microsoft Flow에 대한 가이드 학습을 시작합니다. 이 자습형 온라인 과정은 순차적인 방법으로 Microsoft Flow를 설명하므로 기초부터 지식을 쌓을 수 있습니다.
-  - title: Microsoft Flow 기본 사항 이해
-    durationInMinutes: 14
-    content: |
-      > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
+- durationInMinutes: 1
+  content: "Microsoft Flow에 대한 가이드 학습을 시작합니다. 이 자습형 온라인 과정은 순차적인 방법으로 Microsoft Flow를 설명하므로 기초부터 지식을 쌓을 수 있습니다.\n"
+  ms.openlocfilehash: 7b5bcbbe1a53feb773b940aae32b295cec5feba8
+  ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+  ms.translationtype: HT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/07/2017
+- title: "Microsoft Flow 기본 사항 이해"
+  durationInMinutes: 14
+  content: >
+    > [!Video https://www.youtube.com/embed/CYR-fZc5Maw?rel=0]
 
-      [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
-  - title: 템플릿에서 흐름 만들기
-    durationInMinutes: 9
-    content: |
-      > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
-  - title: Microsoft Flow 모바일 앱 사용
-    durationInMinutes: 8
-    content: |
-      > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+    [!INCLUDE [learning-introduce-flow](../includes/learning-introduce-flow.md)]
+- title: "템플릿에서 흐름 만들기"
+  durationInMinutes: 9
+  content: >
+    > [!Video https://www.youtube.com/embed/D46qE7FuShM?rel=0]
 
-      [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
-  - content: |
-      Microsoft Flow 단계별 학습의 **시작** 섹션을 완료했습니다.
+
+    [!INCLUDE [learning-create-a-flow](../includes/learning-create-a-flow.md)]
+- title: "Microsoft Flow 모바일 앱 사용"
+  durationInMinutes: 8
+  content: >
+    > [!Video https://www.youtube.com/embed/o80hRMpb0_4?rel=0]
+
+
+    [!INCLUDE [learning-mobile-app](../includes/learning-mobile-app.md)]
+- content: "Microsoft Flow 단계별 학습의 **시작** 섹션을 완료했습니다.\0"

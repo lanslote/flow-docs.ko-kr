@@ -2,11 +2,11 @@
 
 1. [Microsoft Flow](https://flow.microsoft.com)에 로그인합니다.
    
-    ![로그인](includes/media/modern-approvals/sign-in.png)
+    ![로그인](media/modern-approvals/sign-in.png)
 2. **승인** 탭을 선택합니다.
    
-    ![승인 탭](includes/media/modern-approvals/approvals-tab.png)
+    ![승인 탭](media/modern-approvals/approvals-tab.png)
 3. **수신된 요청**에서 모든 보류 중인 승인 요청을 찾습니다.
    
-    ![보류 중인 요청](includes/media/modern-approvals/pending-requests.png)
+    ![보류 중인 요청](media/modern-approvals/pending-requests.png)
 

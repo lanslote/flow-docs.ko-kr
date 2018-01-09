@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/25/2017
+ms.date: 01/01/2018
 ms.author: stepsic
-ms.openlocfilehash: 37bab7ccd54ecc7976a42df2e215daa19916fc85
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
+ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/03/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -28,11 +28,11 @@ ms.lasthandoff: 10/15/2017
    1. 오류를 식별합니다. 웹 포털 위쪽의 알림 아이콘으로 이동하거나 모바일 앱에서 **작업** 탭을 선택하여 시작합니다. 여기서 흐름이 표시되며 해당 흐름을 선택할 수 있습니다.
    2. 이제 흐름 정보를 자세히 볼 수 있습니다. 빨간색 느낌표(!) 아이콘이 있는 단계를 찾습니다. 여기서 흐름에 대한 오류 메시지가 표시됩니다.
    3. 오류 메시지에 따라 흐름을 **편집**하고 수정할 수 있어야 합니다. [일반적인 흐름 오류를 수정하는 방법에 대해 자세히 알아보세요](fix-flow-failures.md).
-2. 고급 조건 또는 수식은 어떻게 사용합니까?
+2. 고급 조건 또는 식은 어떻게 사용합니까?
    
-   * [조건을 추가하는 방법](add-a-condition.md)에 대해 자세히 알아보세요.
+   * [조건을 추가하는 방법](add-condition.md)에 대해 자세히 알아보세요.
    * 흐름의 여러 사례를 보려는 경우 기존 조건 내에서 **조건 추가**를 클릭하거나 누릅니다.
-   * [Logic Apps에서 함수](https://docs.microsoft.com/rest/api/logic/definition-language)를 참조하여 고급 수식을 만듭니다.
+   * [Logic Apps에서 함수](https://docs.microsoft.com/rest/api/logic/definition-language)를 참조하여 고급 식을 만듭니다.
 3. Office 365 라이선스는 어떻게 작동합니까?
    
    * Office 365 사용자인 경우 Office 365용 Microsoft Flow 요금제를 통해 모든 액세스 권한을 얻습니다. 자세한 내용은 [Microsoft Flow에 대한 가격 책정 플랜](https://flow.microsoft.com/pricing/)을 참조하세요.
@@ -40,11 +40,110 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="known-issues-and-resolutions"></a>알려진 문제 및 해결 방법
 1. 내 사이트에 있는 SharePoint 목록 및 *사용자 지정 목록* 형식이 아닌 SharePoint 목록은 지원되지 않습니다. 이 문제를 해결하려면 표준 SharePoint 사이트에서 사용자 지정 목록을 만듭니다.
-2. SharePoint 문서 라이브러리에 있는 트리거에서 문서 메타데이터가 반환되지 않습니다.
-3. 흐름은 SharePoint 목록의 분류 필드에 쓸 수 없습니다. 이 문제가 해결될 때까지 간단한 문자열 필드를 사용하는 것이 좋습니다.
-4. 선택한 폴더의 중첩된 폴더 내에 추가되는 파일에 대해 파일 트리거가 발생하지 않습니다.
+2. 흐름은 SharePoint 목록의 분류 필드에 쓸 수 없습니다. 이 문제가 해결될 때까지 간단한 문자열 필드를 사용하는 것이 좋습니다.
+3. 선택한 폴더의 중첩된 폴더 내에 추가되는 파일에 대해 파일 트리거가 발생하지 않습니다.
 
 ## <a name="whats-new"></a>새로운 기능
+
+### <a name="release-2017-12-20"></a>릴리스 2017-12-20
+
+이제 모든 Microsoft Flow 지역에서 Microsoft Flow Analytics를 사용하여 사용자 환경 내에서 실행 중인 흐름의 상태에 대한 자세한 정보를 얻을 수 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/announcing-microsoft-flow-analytics/).
+
+
+### <a name="release-2017-12-14"></a>릴리스 2017-12-14
+
+- **Outlook 커넥터 기능 향상** - 전자 메일을 ".eml" 파일로 저장하고, 일정 초대에 자동으로 응답하고, 전자 메일 스레드에 본인이 언급된 경우 흐름을 트리거할 수 있습니다.
+- **연결 기능 향상** - Microsoft Flow는 가장 최근에 사용된 연결을 기억하고 새로 추가된 커넥터를 모두 보여 줍니다.
+- **5개의 새 커넥터** - Azure Container Instances, Azure Kusto, Metatask, Microsoft To-Do 및 Plumsail 문서가 추가되었습니다.
+- **HTTP 기능 향상** - 이제 HTTP 동작이 청크 분할 인코딩을 지원합니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/outlook-connector-more/).
+
+### <a name="release-2017-12-05"></a>릴리스 2017-12-05
+
+이제 모든 지역에서 Microsoft Flow 시작 패널을 사용할 수 있습니다. 이 패널을 사용하면 SharePoint 목록 또는 문서 라이브러리 내에서 흐름을 실행할 때 흐름에 값을 추가할 수 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/introducing-flow-launch-panel-in-sharepoint-lists-and-libraries/).
+
+
+### <a name="release-2017-11-28"></a>릴리스 2017-11-28
+
+- **관리되는 메타데이터** - 관리되는 메타데이터(즉, 분류) 유형을 사용하는 SharePoint의 열에서 데이터를 읽거나 씁니다.
+- **배열에 추가** - 배열 변수에 추가라는 새로운 작업을 사용하여 배열 끝에 항목을 추가합니다.
+- **Tago** - 외부 데이터와 전자 장치의 간편한 연결을 지원하여 문맥 분석을 사용한 더 스마트한 결정을 이끄는 Tago에 대한 새로운 커넥터입니다.
+- **iPhone X** - iPhone X에서 전체 화면을 사용하고, 이미지 업로드 속도가 개선된 새로운 버전의 Microsoft Flow 앱입니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/managed-metadata-tago/).
+
+### <a name="release-2017-11-09"></a>릴리스 2017-11-09
+
+- **OneDrive for Business 통합** - 이제 선택한 파일 또는 폴더에 대한 흐름을 만들거나 트리거할 수 있는 [OneDrive for Business 내부의 흐름 단추](https://flow.microsoft.com/blog/microsoft-flow-integration-in-one-drive-for-business-and-new-connector-actions/)가 있습니다.
+- **Planner 트리거** - 새 작업이 생성된 경우, 새 작업이 할당된 경우 또는 작업이 완료된 경우 흐름을 시작합니다.
+- **SharePoint 첨부 파일** - SharePoint 목록 항목에서 첨부 파일 관련 작업을 수행합니다(첨부 파일 나열, 다운로드, 추가 또는 삭제).
+- **흐름 관리 커넥터** - 사용자 환경에서 다른 흐름의 관리를 자동화하는 흐름을 만듭니다(예: 자동으로 흐름에 권한 추가).
+- **4개의 새 커넥터** - Azure Custom Vision Service, D&B Optimizer, Enadoc 및 Derdak SIGNL4가 추가되었습니다. 
+- **추가 커넥터 작업** - SQL 쿼리를 실행하고, 전자 메일 트리거를 더 빨리 가져오고, Azure AD에서 HTTP와 관련한 모든 메서드를 사용할 수 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/planner-triggers-connector-improvements/).
+
+### <a name="release-2017-11-02"></a>릴리스 2017-11-02
+
+- **감사 로깅** - 이제 Office 365 Security & Compliance Center에서 모든 테넌트의 Microsoft Flow 감사 이벤트를 사용할 수 있습니다.
+- **흐름 위젯 수정** - Flow 모바일 앱의 위젯에서 단추가 로드되지 않게 하는 문제가 해결되었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/security-and-compliance-center/).
+
+### <a name="release-2017-10-19"></a>릴리스 2017-10-19
+
+- **각각에 중첩 적용** - 각각에 적용 작업을 추가하고, 다른 각각에 적용 컨테이너에서 필터링하고 선택할 수 있습니다.
+- **날짜 시간 작업** - 현지 시간 가져오기, 시간 더하기/빼기/서식 지정을 위한 새로운 작업입니다.
+- **4개의 새 커넥터** - Content Moderator, Docparser, Microsoft Kaizala 및 Pitney Bowes Data Validation이 추가되었습니다.
+- **향상된 연결 환경** - 연결이 끊긴 경우 흐름 포털에 알림이 표시되고, 더욱 풍부한 연결 세부 정보가 제공됩니다.
+- **이동 중 컬렉션** - [이동 중인 작업자](https://flow.microsoft.com/collections/onthego/)를 위한 새로운 템플릿 컬렉션입니다.
+- **전자 메일 주소 단추 입력** - 단추를 실행하는 사용자의 전자 메일 주소를 수집합니다.
+- **파일 단추 입력** - 단추를 실행하는 사용자의 사진과 같은 업로드된 파일을 가져옵니다.
+- **최초 실행 및 자동 로그인** - 모바일 앱의 최초 실행 환경이 개선되었습니다(자동 로그인 포함).
+- **더 빠른 Microsoft Forms 트리거** - Forms가 전보다 훨씬 더 빨리 흐름을 트리거합니다(이전에는 한 시간에 한 번).
+- **세션 전체에 적용되는 단추 입력** - 휴대폰에서 트리거된 단추가 이전 입력을 기억합니다.
+- **모바일 활동 피드** - 보다 자세한 실행 요약 및 문제 해결 세부 정보를 포함하도록 활동 피드가 개선되었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/nested-apply-to-each/).
+
+### <a name="release-2017-10-03"></a>릴리스 2017-10-03
+
+- **모든 사람이 승인해야 함** - 승인 요청을 여러 사람에게 전송하여 요청을 받은 모든 사람에게 승인을 받아야 합니다.
+- **새로운 비즈니스용 OneDrive 작업** - 비즈니스용 OneDrive에 저장된 파일에 대한 PDF를 생성할 수 있고, 그 밖에 새로운 작업 네 가지가 지원됩니다.
+- **Apache Impala 커넥터** - Apache Impala(개발 중)는 오픈 소스이며, Apache Hadoop용 네이티브 분석 데이터베이스입니다.
+- **흐름 설명 추가** - 공동 작업자가 흐름 작업에 대한 요약을 볼 수 있도록 흐름을 공유할 때 흐름 설명을 제공합니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/all-must-approve-and-onedrive/).
+
+### <a name="release-2017-09-25---q3-update-for-microsoft-flow"></a>릴리스 2017-09-25 - Microsoft Flow에 대한 3분기 업데이트
+
+- **첫 번째 릴리스의 더 긴밀한 SharePoint 통합** - 검토 흐름과 흐름 패널에 첫 번째 릴리스 테넌트에 대한 흐름을 실행할 때 입력을 수집하기 위한 새로운 기본 제공 보내기 기능이 있습니다.
+- **고객 관계용 Dynamics 365** - 이제 고객 관계용 Dynamics 365의 UI에 흐름이 통합됩니다.
+- **Microsoft Trust Center** - 흐름이 Microsoft Trust Center에 나열되고, HIPAA, ISO 및 SOC와 같은 인증이 표시됩니다.
+- **사용 현황 분석** - 모든 흐름에는 기본 사용 현황 분석을 제공하는 Power BI 대시보드가 포함되어 있습니다.
+- **첫 번째 릴리스의 감사 로깅** - Office 365 Security and Compliance Center에 첫 번째 릴리스 테넌트에 대한 모든 흐름 관리 이벤트가 로깅됩니다.
+- **6개의 새로운 커넥터** - LinkedIn, Office 365 그룹, 비즈니스용 Skype, Adobe Sign, Bizzy 및 Azure Log Analytics Data Collection이 추가되었습니다.
+- **SQL 트리거** - SQL 테이블에서 새 행이 추가되거나 행이 업데이트될 때 흐름을 실행합니다.
+- **온-프레미스 사용자 지정 커넥터** - 사용자 지정 커넥터는 이제 온-프레미스 데이터 게이트웨이를 사용하여 네트워크의 내부 끝점에 연결할 수 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/q3-2017-update/).
+
+### <a name="release-2017-09-21"></a>릴리스 2017-09-21
+
+- **흐름 기록 다운로드** - 흐름의 실행 기록을 Excel에서 열리는 CSV 파일로 다운로드합니다.
+- **고급 되풀이** - 흐름을 트리거하는 되풀이 예약을 작성합니다(예: 평일에만 트리거).
+- **IntelliSense** - 식에 입력할 때 IntelliSense가 매개 변수를 제안합니다.
+- **4개의 새로운 커넥터** - Azure AD HTTP 서비스, Amazon Redshift, Azure Event Grid Publish 및 FlowForma에 대한 커넥터가 추가되었습니다.
+- **링크 공유** - OneDrive 파일 또는 Azure Storage Blob에 대한 공유 가능한 링크를 생성하는 새로운 작업입니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/download-history-recurrence/).
+
+
 ### <a name="release-2017-08-25"></a>릴리스 2017-08-25
 * **SharePoint에 대한 문서 속성 및 추가 사항** - [SharePoint 문서 라이브러리 속성을 읽고 설정하며](https://flow.microsoft.com/blog/support-for-sharepoint-document-library-properties/), 링크와 같은 SharePoint 항목에 대한 추가 필드를 사용합니다.
 * **흐름 컬렉션** - 흐름 컬렉션은 역할 또는 세로로 구성된 템플릿 컬렉션 집합입니다.
@@ -406,8 +505,8 @@ Microsoft Common Data Service의 공개 미리 보기가 Microsoft Flow에 통�
 * 흐름을 사용자 지정한 후 [자체 템플릿](publish-a-template.md)을 갤러리에 게시할 수 있습니다.
 * 흐름의 모든 확인 및 실행 내역을 볼 수 있습니다.
 * 흐름을 저장하면 트리거 동작을 실행하여 [즉시 동작을 확인](see-a-flow-run.md)할 수 있습니다.
-* 흐름에 대해 논의하거나 [아이디어를 제출할 수 있는](https://go.microsoft.com/fwlink/?LinkID=787474) [새 커뮤니티](http://go.microsoft.com/fwlink/?LinkID=787467)를 마련했습니다.
+* 흐름에 대해 논의하거나 [아이디어를 제출할 수 있는](https://go.microsoft.com/fwlink/?LinkID=787474) [새 커뮤니티](https://go.microsoft.com/fwlink/?LinkID=787467)를 마련했습니다.
 
 ## <a name="next-steps"></a>다음 단계
-이 릴리스 정보나[FAQ](frequently-asked-questions.md)에서 다루지 않은 문제가 있는 경우 [커뮤니티에 가입](http://go.microsoft.com/fwlink/?LinkID=787467)하여 질문하거나 [지원을 요청합니다](http://go.microsoft.com/fwlink/?LinkID=787479).
+이 릴리스 정보나[FAQ](frequently-asked-questions.md)에서 다루지 않은 문제가 있는 경우 [커뮤니티에 가입](https://go.microsoft.com/fwlink/?LinkID=787467)하여 질문하거나 [지원을 요청합니다](http://go.microsoft.com/fwlink/?LinkID=787479).
 

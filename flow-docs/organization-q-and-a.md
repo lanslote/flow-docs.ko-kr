@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
-ms.openlocfilehash: 6a05153864e37682ece83d8e5d90fa43a3ad01e1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
+ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/17/2018
 ---
 # <a name="flow-in-your-organization-qa"></a>조직의 Microsoft Flow 관련 Q & A
 이 토픽에는 조직에서 Microsoft Flow를 사용하는 방법과 Microsoft Flow 서비스를 컨트롤하는 방법을 설명합니다.
@@ -101,12 +101,12 @@ PowerShell을 통해 대량으로 라이선스를 제거할 수도 있습니다.
 여기서는 기본적으로 Flow 타일만 제거합니다. 그럼에도 불구하고 사용자는 개인적으로 Microsoft Flow를 계속 선택할 수 있습니다.
 
 ### <a name="why-did-10000-licenses-for-microsoft-flow-show-up-in-my-office-365-tenant"></a>왜 Office 365 테넌트에 10,000개 Microsoft Flow 라이선스가 표시되었습니까?
-전 세계 모든 사람은 Microsoft Flow 계획 1 또는 Microsoft Flow 계획 2를 90일 동안 사용해 볼 수 있으며, 이 평가판 라이선스는 테넌트의 새 Flow 사용자에게 사용 가능한 용량을 나타냅니다. 이러한 라이선스에 대해서는 무료입니다. 특히 다음 두 가지 이유로 Flow에 대한 10,000개 용량의 라이선스(평가판)가 Office 365 관리 포털에서 표시됩니다.
+모든 사람은 Microsoft Flow 계획 1 또는 2를 90일 동안 사용해 볼 수 있으며, 이 평가판 라이선스는 테넌트의 새 Flow 사용자에게 사용 가능한 용량을 나타냅니다. 이러한 라이선스에 대해서는 무료입니다. 특히 다음 두 가지 이유로 Flow에 대한 10,000개 용량의 라이선스(평가판)가 Office 365 관리 포털에서 표시됩니다.
 
 1. 테넌트에서 한 명 이상의 사용자가 2016년 4월부터 2016년 10월에 걸친 Flow 공개 미리보기에 참여한 경우 "Microsoft PowerApps and Logic flows"라는 레이블이 붙은 10,000개의 라이선스가 표시됩니다.
    
     ![](./media/organization-q-and-a/licenses2.png)
-2. 테넌트에서 최소한 한 명 이상의 사용자가 [PowerApps에 등록하는 방법](#how-do-users-sign-up-for-powerapps) 섹션에서 설명하는 **옵션 1** 평가판 등록을 통해 Flow 계획 2 평가판에 등록한 경우 "Microsoft Power Apps & Flow"라는 레이블이 붙은 10,000개의 라이선스가 표시됩니다.
+2. 테넌트에서 최소한 한 명 이상의 사용자가 [PowerApps에 등록하는 방법](#how-do-people-sign-up-for-flow) 섹션에서 설명하는 **옵션 1** 평가판 등록을 통해 Flow 계획 2 평가판에 등록한 경우 "Microsoft Power Apps & Flow"라는 레이블이 붙은 10,000개의 라이선스가 표시됩니다.
    
     ![](./media/organization-q-and-a/licenses1.png)
 

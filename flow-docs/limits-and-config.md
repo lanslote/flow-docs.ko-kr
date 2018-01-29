@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/02/2017
 ms.author: stepsic
-ms.openlocfilehash: 27e12df6ae5754f921d37992fa6759d152fd1afc
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/18/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -108,4 +108,16 @@ SQL API 또는 SharePoint API와 같이 흐름을 통해 연결된 API에서 만
 | 미국(초기 액세스) |52.161.26.191, 52.161.27.42, 52.161.29.40, 52.161.26.33, 13.66.213.240, 13.66.214.51, 13.66.210.166, 13.66.213.29 |
 
 예를 들어, Azure SQL Database의 IP 주소를 허용 목록에 지정해야 하는 경우 이러한 주소를 사용해야 합니다.
+
+다음 표에는 Microsoft Flow가 연결하는 서비스가 나열되어 있습니다. 이러한 서비스가 네트워크에서 차단되지 않도록 해야 합니다.
+
+도메인 | 프로토콜 | 사용
+--------|  ---------| -----
+management.azure.com|https|Azure Resource Manager에 액세스합니다.
+login.microsoft.com</br>login.windows.net</br>login.microsoftonline.com</br>secure.aadcdn.microsoftonline-p.com|https|ADAL(Active Directory Authentication Library)에 액세스합니다.
+graph.microsoft.com </br>graph.windows.net</br>|https|프로필 사진 같은 사용자 정보를 가져오기 위해 Azure AD Graph API에 액세스합니다.
+*.azure-apim.net|https|커넥터의 런타임에 액세스합니다.
+*.flow.microsoft.com|https|Microsoft Flow 사이트에 액세스합니다.
+*.powerapps.com|https|PowerApps 사이트에 액세스합니다.
+psux.azureedge.net|https|Microsoft Flow CDN에 액세스합니다.
 

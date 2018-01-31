@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/01/2017
 ms.author: mblythe
 ms.openlocfilehash: 3709f8e9bb09171a8e31a8b64695d064f0b8146a
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="microsoft-flow-for-isvs-and-microsoft-partners"></a>ISV 및 Microsoft 파트너를 위한 Microsoft Flow
 Microsoft 파트너 또는 ISV로서 고객의 데이터 및 비즈니스 프로세스와 통합하도록 제품을 확장하여 고객 채택을 가속화할 수 있습니다. 고객이 Microsoft Flow를 통해 제품에 연결할 수 있도록 하는 커넥터를 빌드합니다. 앱을 작성하고 새 고객이 시험 사용할 수 있도록 AppSource에 게시하여 비즈니스에 대한 새 잠재 고객을 생성할 수 있습니다.

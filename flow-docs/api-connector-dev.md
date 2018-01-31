@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 05/06/2017
 ms.author: astay
 ms.openlocfilehash: 8731e8a90a62bac4a05068386d23d2449952860b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="develop-an-api-connector-microsoft-flow"></a>API 커넥터 개발(Microsoft Flow)
 커넥터 빌드에는 여러 단계가 포함됩니다. 시작하려면 [Microsoft Flow](https://flow.microsoft.com/)에서 페이지의 오른쪽 위에 있는 **설정** 단추(톱니바퀴 아이콘)를 클릭하거나 누릅니다. 그런 다음 **사용자 지정 커넥터**를 클릭하거나 누릅니다.

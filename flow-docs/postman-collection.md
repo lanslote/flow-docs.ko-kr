@@ -15,10 +15,10 @@ ms.workload: na
 ms.date: 04/28/2017
 ms.author: sunayv
 ms.openlocfilehash: fe98999ea307367c7f3b032974fef9be6ca3f388
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="describe-a-custom-connector-with-postman"></a>Postman으로 사용자 지정 커넥터 설명
 [Postman](https://www.getpostman.com/)은 API 개발을 보다 빠르고 쉽게 만들기 위한 도구입니다. 이 자습서는 Postman 컬렉션을 만드는 방법을 설명하고 이를 사용하여 Microsoft Flow에서 쉽게 [사용자 지정 커넥터](register-custom-api.md)를 만들 수 있습니다.

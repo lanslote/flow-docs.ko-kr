@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/19/2017
 ms.author: astay
 ms.openlocfilehash: 1715700fa6a94bb35733865556a2c9be0ba3ce9f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 01/30/2018
 ---
 # <a name="api-connector-faq-microsoft-flow"></a>API 커넥터 FAQ(Microsoft Flow)
 ## <a name="requirements"></a>요구 사항
@@ -39,11 +39,11 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="triggers"></a>트리거
 **Q:** 웹후크 없이 트리거를 빌드할 수 있습니까? </br>
-**A:** 아니요, Azure Logic Apps 및 Microsoft Flow용 사용자 지정 커넥터는 webhook 기반 트리거만을 지원합니다. 구현에 대한 다른 패턴을 요청하려는 경우 API에 대한 자세한 정보를 사용하여 [condevhelp@microsoft.com](mailto:condevhelp@microsoft.com)에 문의하세요.
+**A:** 아니요, Azure Logic Apps 및 Microsoft Flow용 사용자 지정 커넥터는 웹후크 기반 트리거만을 지원합니다. 구현에 대한 다른 패턴을 요청하려는 경우 API에 대한 자세한 정보를 사용하여 [condevhelp@microsoft.com](mailto:condevhelp@microsoft.com)에 문의하세요.
 
 ## <a name="certification"></a>인증
 **Q:**: Microsoft 파트너 또는 ISV(독립 소프트웨어 공급 업체)가 아닌 경우 여전히 커넥터를 만들 수 있습니까? </br>
-**A**: 예, 조직의 내부에서 사용하기 위해 이러한 커넥터를 등록할 수 있지만 커넥터를 인증하고 공개적으로 해제하려는 경우 기본 서비스를 소유하거나 API를 사용할 명시적 권한이 나타나야 합니다.
+**A**: 예, 조직의 내부에서 사용하기 위해 이러한 커넥터를 등록할 수 있지만, 커넥터를 인증하고 공개적으로 해제하려는 경우 기본 서비스를 소유하거나 API를 사용할 명시적 권한이 나타나야 합니다.
 
 ## <a name="other"></a>기타
 **Q:** 내 API가 동적 호스트를 사용합니다. OpenAPI에서 구현하려면 어떻게 할까요? </br>

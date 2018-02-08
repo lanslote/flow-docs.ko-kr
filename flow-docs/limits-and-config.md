@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 08/02/2017
+ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: c5fefde9bdd2f8e82052abfaa64a7188d768d8ea
-ms.sourcegitcommit: f3236f9f1ec050cda0d9c3e2b9c356132b2a2594
+ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
+ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2018
+ms.lasthandoff: 02/05/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/18/2018
 
 | 이름 | 제한 | 참고 |
 | --- | --- | --- |
-| 실행 지속 시간 |30일 |승인 같은 보류 중인 단계가 있는 워크플로를 포함합니다. 보류 중인 단계는 30일 후 만료됩니다. |
+| 실행 지속 시간 |30일 |승인 같은 보류 중인 단계가 있는 워크플로를 포함합니다. 30일 후에 보류 중인 단계는 시간 제한을 초과합니다. 시간 제한이 초과된 승인은 승인 센터에서 제거됩니다. 사용자가 시간 제한이 초과된 요청을 승인하려는 경우 오류 메시지를 수신합니다. |
 | 저장소 보존 기간 |30일 |실행 시작 시간입니다. |
 | 최소 되풀이 간격 |1분 | |
 | 최대 되풀이 간격 |500일 | |
@@ -107,7 +107,7 @@ SQL API 또는 SharePoint API와 같이 흐름을 통해 연결된 API에서 만
 | 미국 |104.43.232.28, 104.43.232.242, 104.43.235.249, 104.43.234.211, 52.160.93.247, 52.160.91.66, 52.160.92.131, 52.160.95.100, 40.117.101.91, 40.117.98.246, 40.117.101.120, 40.117.100.191 |
 | 미국(초기 액세스) |52.161.26.191, 52.161.27.42, 52.161.29.40, 52.161.26.33, 13.66.213.240, 13.66.214.51, 13.66.210.166, 13.66.213.29 |
 
-예를 들어, Azure SQL Database의 IP 주소를 허용 목록에 지정해야 하는 경우 이러한 주소를 사용해야 합니다.
+예를 들어, Azure SQL Database에서 IP 주소를 인증해야 하는 경우 이러한 주소를 사용해야 합니다.
 
 다음 표에는 Microsoft Flow가 연결하는 서비스가 나열되어 있습니다. 이러한 서비스가 네트워크에서 차단되지 않도록 해야 합니다.
 

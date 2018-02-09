@@ -1,4 +1,4 @@
-- name: 시작
+- name: Get started
   items:
     - name: 시작
       href: getting-started.md

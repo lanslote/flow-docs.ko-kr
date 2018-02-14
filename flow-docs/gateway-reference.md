@@ -10,16 +10,16 @@ editor:
 tags: 
 ms.service: flow
 ms.devlang: na
-ms.topic: article
+ms.topic: get-started-article
 ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 06b0198ffa75a3de673460dc13037205f58ad515
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
+ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/09/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow의 온-프레미스 데이터 게이트웨이 이해
 Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보안 연결을 설정하려면 Microsoft Flow와 함께 온-프레미스 데이터 게이트웨이를 사용합니다.
@@ -28,7 +28,7 @@ Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보�
 ### <a name="prerequisites"></a>필수 구성 요소
 최소:
 
-* [.NET Framework 4.5](http://www.microsoft.com/download/details.aspx?id=30653)
+* [.NET Framework 4.6](https://www.microsoft.com/download/details.aspx?id=48130)
 * 64비트 버전의 Windows 7 또는 Windows Server 2008 R2(이상)
 
 권장:
@@ -49,7 +49,7 @@ Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보�
 > 
 > 
 
-1. [설치 프로그램을 다운로드](http://go.microsoft.com/fwlink/?LinkID=820931)한 다음 실행합니다.
+1. [설치 프로그램을 다운로드](https://go.microsoft.com/fwlink/?LinkID=820931)한 다음 실행합니다.
    
     ![설치 프로그램 실행](./media/gateway-reference/run-installer.png)
 2. 설치 마법사의 첫 화면에서 **다음**을 선택하여 랩톱에 게이트웨이를 설치하는 것과 관련한 미리 알림을 승인합니다.
@@ -81,18 +81,25 @@ Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보�
 게이트웨이는 Windows서비스 형태로 실행되며 다른 Windows서비스와 마찬가지로 여러 방법으로 시작 및 중지할 수 있습니다. 예를 들어, 게이트웨이가 실행되는 컴퓨터에서 상승된 권한으로 명령 프롬프트를 열고 다음 명령 중 하나를 실행합니다.
 
 * 서비스를 중지하려면 다음 명령을 실행합니다.
-  
-    ````net stop PBIEgwService````
+
+```batchfile
+    net stop PBIEgwService
+```
+
 * 서비스를 시작하려면 다음 명령을 실행합니다.
-  
-    ````net start PBIEgwService````
+
+```batchfile
+    net start PBIEgwService
+```
 
 ## <a name="configure-a-firewall-or-proxy"></a>방화벽 또는 프록시 구성
 게이트웨이에 대한 프록시 정보를 제공하는 것과 관련한 정보는 [프록시 설정 구성](https://powerbi.microsoft.com/documentation/powerbi-gateway-proxy/)을 참조하세요.
 
 PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프록시가 연결을 차단하고 있는지 확인할 수 있습니다. 이 명령은 Azure Service Bus에 대한 연결을 테스트합니다. 이 명령은 네트워크 연결만을 테스트하며, 클라우드 서버 서비스나 게이트웨이에 영향을 미치지 않습니다. 이 명령은 컴퓨터가 인터넷에 연결되었는지 판단하는 데 도움이 됩니다.
 
-````Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350````
+```powershell
+Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
+```
 
 결과는 아래 출력과 같아야 합니다. **TcpTestSucceeded**가 *true*가 아니면 방화벽에 의해 차단되었을 수 있습니다.
 
@@ -157,7 +164,7 @@ PowerShell 프롬프트에서 다음 명령을 실행하여 방화벽 또는 프
 **대답:** 아니요. 게이트웨이는 Azure Service Bus에 대한 아웃바운드 연결을 사용합니다.
 
 **질문:** 아웃바운드 연결을 차단한 경우 어떻게 되나요? 열려면 어떻게 해야 하나요?
-**대답:** 게이트웨이가 사용하는 [포트](gateway-reference.md#ports) 및 호스트를 참조하세요.
+**대답:** 게이트웨이가 사용하는 [포트](gateway-reference.md#configure-ports) 및 호스트를 참조하세요.
 
 **질문:** 게이트웨이는 데이터 원본과 동일한 컴퓨터에 설치해야 하나요?
 **대답:** 아니요. 게이트웨이는 제공된 연결 정보를 사용하여 데이터 원본에 연결합니다. 이런 점에서 게이트웨이를 클라이언트 응용 프로그램으로 생각할 수 있습니다. 제공된 서버 이름에 연결할 수 있기만 하면 됩니다.

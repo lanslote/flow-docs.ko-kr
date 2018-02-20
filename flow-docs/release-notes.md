@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/01/2018
+ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 8bdfafff5fbf3a5491809063e92607cd8e10167c
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
+ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 02/12/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -45,6 +45,30 @@ ms.lasthandoff: 01/03/2018
 
 ## <a name="whats-new"></a>새로운 기능
 
+### <a name="release-2018-02-09"></a>릴리스 2018-02-09
+
+- **게이트웨이 고가용성** - 온-프레미스 데이터 게이트웨이에 대해 가용성이 뛰어난 클러스터를 만들어 단일 컴퓨터가 작동을 멈출 때 연결을 유지합니다.
+- **향상된 Apply to each(각각에 적용)** - Flow 요금제 1 또는 Flow 요금제 2를 사용하는 경우 Apply to each(각각에 적용) 루프에서 프로세스가 단일 실행으로 최대 100,000개의 항목을 처리하고 50개 작업을 나란히 처리합니다. 
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each/).
+
+### <a name="release-2018-01-29"></a>릴리스 2018-01-29
+
+- **Microsoft Teams 내의 흐름** - Teams에서 흐름을 만들고 관리하고, 받은 승인과 보낸 승인을 검토하고, Teams 데스크톱 앱 또는 teams.microsoft.com에서 바로 흐름을 시작할 수 있습니다. [자세한 정보](https://flow.microsoft.com/blog/microsoft-flow-in-microsoft-teams/)
+- **공유 편집 알림** - 사용자가 소유한 흐름을 동료가 변경할 때마다 누가 어떤 흐름을 변경했는지를 알려주는 메일 알림을 받습니다.
+- **새 식** - 새로운 두 식이 추가되었습니다. 하나는 URL 구문 분석 식이고 다른 하나는 JSON 개체를 사용하는 식입니다.
+- **새로운 세 커넥터** - 이번 주 새로운 두 Plumsail 커넥터(Plumsail SP, Plumsail Forms)와 kintone에 대한 새 커넥터가 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/shared-notifications-and-expressions/).
+
+### <a name="release-2018-01-17"></a>릴리스 2018-01-17
+
+- **Office 365 프로필 정보** - 사용자 프로필 및 사진과 작동하는 Office 365 사용자 커넥터에 새로운 동작을 추가했습니다.
+- **문자열 변수에 추가** - 루프 내의 문자열에 추가하여 테이블 또는 기타 목록을 빌드할 수 있습니다.
+- **Infobip 커넥터** - Infobip은 음성 호출 및 인바운드 SMS에 대한 트리거 등 엔터프라이즈급 통신을 사용하는 서비스입니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/o365-profile-infobip/).
+
 ### <a name="release-2017-12-20"></a>릴리스 2017-12-20
 
 이제 모든 Microsoft Flow 지역에서 Microsoft Flow Analytics를 사용하여 사용자 환경 내에서 실행 중인 흐름의 상태에 대한 자세한 정보를 얻을 수 있습니다.
@@ -55,7 +79,7 @@ ms.lasthandoff: 01/03/2018
 ### <a name="release-2017-12-14"></a>릴리스 2017-12-14
 
 - **Outlook 커넥터 기능 향상** - 전자 메일을 ".eml" 파일로 저장하고, 일정 초대에 자동으로 응답하고, 전자 메일 스레드에 본인이 언급된 경우 흐름을 트리거할 수 있습니다.
-- **연결 기능 향상** - Microsoft Flow는 가장 최근에 사용된 연결을 기억하고 새로 추가된 커넥터를 모두 보여 줍니다.
+- **연결 기능 향상** - Microsoft Flow는 가장 최근에 사용된 연결을 기억하고 새로 추가된 커넥터를 모두 보여줍니다.
 - **5개의 새 커넥터** - Azure Container Instances, Azure Kusto, Metatask, Microsoft To-Do 및 Plumsail 문서가 추가되었습니다.
 - **HTTP 기능 향상** - 이제 HTTP 동작이 청크 분할 인코딩을 지원합니다.
 

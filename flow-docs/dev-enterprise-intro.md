@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
-ms.openlocfilehash: 3e6a6e0e369f8d89dcf834b4225dfd5aa4758dd7
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>엔터프라이즈 개발자, ISV 및 파트너를 위한 Microsoft Flow
 
@@ -51,7 +51,7 @@ Microsoft 파트너 또는 ISV(독립 소프트웨어 공급업체)로써 고객
 
 ### <a name="1-connecting-to-your-apis-or-enabling-customers-to-connect-to-your-apis"></a>1. API에 연결 또는 고객이 API에 연결하도록 설정
 
-ISV에서는 고객이 흐름을 통해 액세스하는 소유 데이터가 있는 경우가 많습니다. 사용자 지정 커넥터를 통해 데이터에 대한 액세스 권한을 노출할 수 있습니다. [자세히 알아보기](https://docs.microsoft.com/en-us/connectors/custom-connectors/)
+ISV에서는 고객이 흐름을 통해 액세스하는 소유 데이터가 있는 경우가 많습니다. 사용자 지정 커넥터를 통해 데이터에 대한 액세스 권한을 노출할 수 있습니다. [자세히 알아보기](https://docs.microsoft.com/connectors/custom-connectors/)
 
 일단 커넥터를 만들면 고객이 사용할 수 있도록 하는 두 가지 방법이 있습니다.
 - REST API 또는 PowerShell을 통해 고객의 테넌트에 커넥터를 배포할 수 있습니다.
@@ -77,7 +77,7 @@ REST API를 호출하고 인증된 UI를 포함하려면 응용 프로그램이 
 
 고객에게 Office 365 또는 Dynamics 365가 이미 설치되어 있고 이러한 라이선스가 Azure AD에 로그인하는 사용자 ID와 연결되어 있는 경우 추가 라이선스가 요구되지 않습니다. 그러나 고객이 Office 365 또는 Dynamics 365를 사용하지 않는 경우 Microsoft Flow 대신 해당 프로그램에 대한 권한을 취득해야 합니다. 그러면 응용 프로그램에서 포함된 해당 구성 요소를 활용하도록 허가를 받게 됩니다.
 
-[Microsoft 클라우드 솔루션 공급자](https://partner.microsoft.com/en-US/cloud-solution-provider) 프로그램을 제공하여 고객 대신 라이선스를 취득합니다. Microsoft Flow에 사용할 수 있는 두 개의 [가격 책정 계획](https://flow.microsoft.com/pricing/)이 있습니다. 여기서는 계획 및 기능 세부 정보를 확인해야 합니다.
+[Microsoft 클라우드 솔루션 공급자](https://partner.microsoft.com/cloud-solution-provider) 프로그램을 제공하여 고객 대신 라이선스를 취득합니다. Microsoft Flow에 사용할 수 있는 두 개의 [가격 책정 계획](https://flow.microsoft.com/pricing/)이 있습니다. 여기서는 계획 및 기능 세부 정보를 확인해야 합니다.
 
 ### <a name="7-list-on-appsource"></a>7. AppSource에 등록
 

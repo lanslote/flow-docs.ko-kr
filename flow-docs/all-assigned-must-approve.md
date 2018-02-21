@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/22/2017
 ms.author: deonhe
-ms.openlocfilehash: 0e0309793cfcb45ca7ee72910803a4abc27d2f26
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 6b152f0ec85558889970db2784fe8c2dcbf526ed
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>모든 사용자가 승인해야 하는 승인 흐름 만들기
 이 연습에서는 모든 사용자(할당된 모든 승인자)가 휴가 요청을 승인하도록 동의해야 하는 승인 워크플로를 만드는 방법을 보여줍니다. 하지만 승인자는 전체 요청을 거부할 수 있습니다.
@@ -28,12 +28,12 @@ ms.lasthandoff: 10/15/2017
 
 ## <a name="prerequisites"></a>필수 구성 요소
 * [Microsoft Flow](https://flow.microsoft.com), Office 365 Outlook, Office 365 사용자에 대한 액세스 권한
-* SharePoint Online [목록](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)
+* SharePoint Online [목록](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)
   
     이 연습에서는 휴가를 요청하는 데 사용되는 SharePoint Online 목록을 이미 만들었다고 가정합니다. SharePoint 목록 모양을 설명하는 심층 예제는 [병렬 승인](parallel-modern-approvals.md) 연습을 참조하세요.
 * 흐름을 만드는 기본 사항에 익숙해야 합니다.
   
-    [작업, 트리거](multi-step-logic-flow.md#add-another-action) 및 [조건](add-a-condition.md)을 추가하는 방법을 검토할 수 있습니다. 다음 단계에서는 이러한 작업을 수행하는 방법을 알고 있다고 가정합니다.
+    [작업, 트리거](multi-step-logic-flow.md#add-another-action) 및 [조건](add-condition.md)을 추가하는 방법을 검토할 수 있습니다. 다음 단계에서는 이러한 작업을 수행하는 방법을 알고 있다고 가정합니다.
 
 > [!NOTE]
 > 이 연습에서 SharePoint Online 및 Office 365 Outlook을 사용하는 동안 Zendesk, Salesforce, Gmail 또는 Microsoft Flow에서 지원하는 [150개 이상의 서비스](https://flow.microsoft.com/connectors/)와 같은 다른 서비스를 사용할 수 있습니다.

@@ -15,16 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: 37b53fa50afdc6865c5ba905957405f0e4b67520
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow에서 데이터 필터링 및 복사
 이 연습에서는 새롭거나 변경된 항목에 대한 원본을 모니터링하고 해당 변경 내용을 대상에 복사하는 흐름을 만드는 방법을 보여줍니다. 사용자가 한 위치에서 데이터를 입력하지만 팀에서 다른 위치 또는 형식이 필요한 경우 이와 같은 흐름을 만들 수 있습니다.
 
-이 연습을 통해 Microsoft SharePoint [목록](https://support.office.com/en-us/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)(원본)에서 [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)테이블 (대상)으로 데이터를 복사하는 동안 Microsoft Flow에서 지원하는 [150개 이상의 서비스](https://flow.microsoft.com/connectors/) 간에 데이터를 복사할 수 있습니다.
+이 연습을 통해 Microsoft SharePoint [목록](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194)(원본)에서 [Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview)테이블 (대상)으로 데이터를 복사하는 동안 Microsoft Flow에서 지원하는 [150개 이상의 서비스](https://flow.microsoft.com/connectors/) 간에 데이터를 복사할 수 있습니다.
 
 > [!IMPORTANT]
 > 양방향 동기화가 지원되지 않으므로 대상에서 변경된 내용은 원본에 복사되지 않습니다. 양방향 동기화를 설정하려고 하면 원본과 대상 간에 변경 내용을 끊임 없이 전송하는 무한 루프를 만듭니다.
@@ -35,7 +35,7 @@ ms.lasthandoff: 10/15/2017
 * 데이터 원본 및 대상에 대한 액세스입니다. 이 연습에는 원본 및 대상을 만드는 단계가 포함되지 않습니다.
 * [Microsoft Flow](https://flow.microsoft.com)에 액세스합니다.
 * 데이터가 저장되는 방법에 대해 기본적으로 이해합니다.
-* 흐름을 만드는 기본 사항에 익숙해야 합니다. [작업, 트리거](multi-step-logic-flow.md#add-another-action) 및 [조건](add-a-condition.md)을 추가하는 방법을 검토할 수 있습니다. 다음 단계에서는 이러한 작업을 수행하는 방법을 알고 있다고 가정합니다.
+* 흐름을 만드는 기본 사항에 익숙해야 합니다. [작업, 트리거](multi-step-logic-flow.md#add-another-action) 및 [조건](add-condition.md)을 추가하는 방법을 검토할 수 있습니다. 다음 단계에서는 이러한 작업을 수행하는 방법을 알고 있다고 가정합니다.
 
 > [!TIP]
 > 원본 및 대상의 모든 열 이름이 일치할 필요는 없지만 항목을 삽입하거나 업데이트하는 경우 모든 *필수* 열에 대한 데이터를 제공해야 합니다. Microsoft Flow는 필수 필드를 식별합니다.

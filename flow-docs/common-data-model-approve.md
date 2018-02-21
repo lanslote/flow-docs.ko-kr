@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: 41c416557dbb491432448c33369767f9705278c9
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Microsoft Flow 및 Microsoft Common Data Service를 사용하여 승인 루프 작성
 Common Data Service를 사용하면 흐름과 독립적인 데이터베이스에 저장된 정보를 갖는 흐름을 작성할 수 있습니다. 가장 좋은 예로 승인을 들 수 있습니다. 엔터티에 승인 상태를 저장할 경우 흐름이 이를 기반으로 작업할 수 있습니다.
@@ -34,7 +34,7 @@ Common Data Service를 사용하면 흐름과 독립적인 데이터베이스에
 
 **필수 구성 요소**
 
-* [Microsoft Flow](sign-up-sign-in.md)와 [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/)에 가입합니다.
+* [Microsoft Flow](sign-up-sign-in.md)와 [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/)에 가입합니다.
 * [연결 관리](https://powerapps.microsoft.com/tutorials/add-manage-connections/)에서 설명한 대로 Dropbox 및 Office 365 Outlook에 연결합니다. 
 
 ## <a name="build-the-entity"></a>엔터티 작성

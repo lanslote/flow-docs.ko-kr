@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: a63ccacb1e6d9bd63d5a11a8db6ea01a9fc37333
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
+ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/15/2018
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service를 사용하는 흐름 만들기
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/)를 사용하는 흐름을 만들어 비즈니스 데이터의 통합 보기를 통해 운영 효율성을 증대합니다. 조직 내에 잘 구성된 표준 비즈니스 엔티티(예: 영업, 구매, 고객 서비스, 생산성 등)로 구성된 이 안전한 비즈니스 데이터베이스를 배치합니다. Microsoft Excel 및 Salesforce 등과 같은 외부 데이터 원본에서 여러 이점을 제공하는 하나 이상의 [사용자 지정 엔터티](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)에 조직 데이터를 저장합니다.
@@ -37,7 +37,7 @@ ms.lasthandoff: 10/15/2017
 
 * [Microsoft Flow](https://flow.microsoft.com)와 [PowerApps](https://web.powerapps.com)에 가입합니다.
   
-    문제가 있는 경우 [Microsoft Flow](sign-up-sign-in.md) 및 [PowerApps](https://powerapps.microsoft.com/en-us/tutorials/signup-for-powerapps/)가 귀하 및 귀하의 조직이 가입을 차단하지 않은 계정 유형을 지원하는지 여부를 확인합니다.
+    문제가 있는 경우 [Microsoft Flow](sign-up-sign-in.md) 및 [PowerApps](https://powerapps.microsoft.com/tutorials/signup-for-powerapps/)가 귀하 및 귀하의 조직이 가입을 차단하지 않은 계정 유형을 지원하는지 여부를 확인합니다.
 * 이전에 Common Data Service를 사용하지 않은 경우 [powerapps.com](https://web.powerapps.com/#/entities)에서 **엔터티** 탭을 열고 **내 데이터베이스 만들기**를 클릭합니다.
 
 ## <a name="sign-in-to-your-environment"></a>사용자 환경에 로그인

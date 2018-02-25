@@ -1,6 +1,6 @@
 - name: Get started
   items:
-    - name: 시작
+    - name: Get started
       href: getting-started.md
     - name: 가입
       href: sign-up-sign-in.md
@@ -50,6 +50,8 @@
       href: sequential-modern-approvals.md
     - name: 병렬 승인
       href: parallel-modern-approvals.md
+    - name: 모든 사용자가 승인해야 합니다.
+      href: all-assigned-must-approve.md
     - name: 통합된 승인
       href: common-data-model-approve.md
 - name: 모바일 앱 사용

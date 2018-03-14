@@ -15,18 +15,18 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: fe05ce536b61887f52ea4e297457c71ead3e8bfd
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: f6fc61a25dadba50c4906310b0562d32c11f8e73
+ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 02/27/2018
 ---
 # <a name="create-and-test-an-approval-workflow-with-microsoft-flow"></a>Microsoft Flow를 사용하여 승인 워크플로를 만들고 테스트합니다.
-Microsoft Flow로 SharePoint, Dynamics CRM, Salesforce, 비즈니스용 OneDrive, Zendesk, 또는 WordPress를 포함한 여러 서버스에 걸쳐 문서 또는 프로세스의 승인을 관리할 수 있습니다.
+Microsoft Flow에서는 SharePoint, Dynamics CRM, Salesforce, 비즈니스용 OneDrive, Zendesk 또는 WordPress를 포함한 여러 서비스에서 문서 또는 프로세스의 승인을 관리할 수 있습니다.
 
 승인 워크플로를 만들려면 아무 흐름에 **승인 - 승인 시작** 작업을 추가합니다. 이 작업을 추가하면 흐름에서 문서 또는 프로세스의 승인을 관리할 수 있습니다. 예를 들어 송장, 작업 명령 또는 판매 견적을 승인하는 문서 승인 흐름을 만들 수 있습니다. 휴가 요청, 초과 근무 또는 여행 계획을 승인하는 프로세스 승인 흐름도 만들 수 있습니다.
 
-승인자는 자신의 전자 메일 수신함, Microsoft Flow 웹 사이트의 [승인 센터](https://flow.microsoft.com/manage/approvals/received/) 또는 Microsoft Flow 앱에서 요청을 관리합니다.
+승인자는 자신의 이메일 수신함, Microsoft Flow 웹 사이트의 [승인 센터](https://flow.microsoft.com/manage/approvals/received/) 또는 Microsoft Flow 앱에서 요청에 응답할 수 있습니다.
 
 ## <a name="create-an-approval-flow"></a>승인 흐름 만들기
 다음은 우리가 만들고 테스트할 흐름의 개요입니다.
@@ -129,4 +129,3 @@ SharePoint Online 목록의 이름 및 URL을 기록해 둡니다. 나중에 **S
 * [순차 승인 흐름](sequential-modern-approvals.md) 만들기.
 * [병렬 승인 흐름](parallel-modern-approvals.md) 만들기.
 * [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) 또는 [Windows Phone](https://aka.ms/flowmobilewindows)용 Microsoft Flow 모바일 앱 설치.
-

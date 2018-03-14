@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 3687266e84c06c37ac6ae0ee3d89aae0814158f3
-ms.sourcegitcommit: 28b6b09c9f3dd98a64492668d9a3b8c7bfbd6ce3
+ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
+ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/05/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -79,7 +79,7 @@ ms.lasthandoff: 02/12/2018
 ### <a name="release-2017-12-14"></a>릴리스 2017-12-14
 
 - **Outlook 커넥터 기능 향상** - 전자 메일을 ".eml" 파일로 저장하고, 일정 초대에 자동으로 응답하고, 전자 메일 스레드에 본인이 언급된 경우 흐름을 트리거할 수 있습니다.
-- **연결 기능 향상** - Microsoft Flow는 가장 최근에 사용된 연결을 기억하고 새로 추가된 커넥터를 모두 보여줍니다.
+- **연결 기능 향상** - Microsoft Flow는 가장 최근에 사용된 연결을 기억하고 새로 추가된 커넥터를 모두 보여 줍니다.
 - **5개의 새 커넥터** - Azure Container Instances, Azure Kusto, Metatask, Microsoft To-Do 및 Plumsail 문서가 추가되었습니다.
 - **HTTP 기능 향상** - 이제 HTTP 동작이 청크 분할 인코딩을 지원합니다.
 
@@ -121,7 +121,7 @@ ms.lasthandoff: 02/12/2018
 
 ### <a name="release-2017-10-19"></a>릴리스 2017-10-19
 
-- **각각에 중첩 적용** - 각각에 적용 작업을 추가하고, 다른 각각에 적용 컨테이너에서 필터링하고 선택할 수 있습니다.
+- **각각에 중첩 적용** - 각 작업에 적용을 추가하고, 각 컨테이너 작업에 다른 작업을 필터링하고 선택할 수 있습니다.
 - **날짜 시간 작업** - 현지 시간 가져오기, 시간 더하기/빼기/서식 지정을 위한 새로운 작업입니다.
 - **4개의 새 커넥터** - Content Moderator, Docparser, Microsoft Kaizala 및 Pitney Bowes Data Validation이 추가되었습니다.
 - **향상된 연결 환경** - 연결이 끊긴 경우 흐름 포털에 알림이 표시되고, 더욱 풍부한 연결 세부 정보가 제공됩니다.

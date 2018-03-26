@@ -1,13 +1,13 @@
 ---
-title: "질문과 대답 | Microsoft Docs"
-description: "Microsoft Flow와 관련한 몇 가지 일반적인 질문에 대한 답변"
-services: 
+title: 질문과 대답 | Microsoft Docs
+description: Microsoft Flow와 관련한 몇 가지 일반적인 질문에 대한 답변
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 5b8deda5f22bcc1fa7cfa37a0d4244f26c2004a4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 99a66520b5a922b4945c9d3c94c7a5c053df98ee
+ms.sourcegitcommit: a0435b92fa7f5dedff3b0ff806836c7a07309fd2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 03/15/2018
 ---
 # <a name="frequently-asked-questions"></a>질문과 대답
 ## <a name="audience-and-strategy"></a>대상 그룹 및 전략
@@ -99,10 +99,21 @@ Microsoft Flow는 최대 50개의 흐름을 제공합니다. 더 필요한 경�
 * [블로그](https://flow.microsoft.com)
 * [YouTube 채널](https://youtube.com/playlist?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF)
 * [토픽](getting-started.md)
-* [커뮤니티](http://powerusers.microsoft.com)
+* [커뮤니티](https://powerusers.microsoft.com)
 
 ### <a name="what-operating-systems-does-the-mobile-app-for-microsoft-flow-support"></a>Microsoft Flow용 모바일 앱에서 어떤 운영 체제를 지원합니까?
 Microsoft Flow 모바일 앱은 [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) 또는 [Windows Phone](https://aka.ms/flowmobilewindows)에서 사용할 수 있습니다.
+
+### <a name="can-flows-be-turned-off-or-disabled"></a>흐름을 끄거나 사용하지 않을 수 있나요?
+
+예, 각 흐름에는 흐름이 요청을 처리하지 않도록 중지할 수 있는 켜기/끄기 스위치가 있습니다.
+
+흐름을 다시 설정할 때 응답하는 방법을 이해하려면 다음 표를 참조하세요.
+
+트리거 형식|설명
+-------|--------
+**되풀이** 트리거와 같은 폴링|흐름을 다시 설정하는 경우 처리되지 않은/보류 중인 이벤트를 모두 처리합니다.
+Webhook|흐름을 다시 설정할 때 흐름을 설정한 후에만 생성되는 새로운 이벤트를 처리합니다.
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Microsoft Flow가 지원하는 지역과 언어는 무엇인가요?
 Microsoft Flow는 42개 언어로 [여섯 개 하위 지역](regions-overview.md)에서 사용할 수 있습니다.

@@ -1,13 +1,13 @@
 ---
-title: "릴리스 정보 | Microsoft Docs"
-description: "일반적인 문제 및 Microsoft Flow 릴리스의 새로운 기능"
-services: 
+title: 릴리스 정보 | Microsoft Docs
+description: 일반적인 문제 및 Microsoft Flow 릴리스의 새로운 기능
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 57a86fa86633e040cf788443d54bd60cfd340844
-ms.sourcegitcommit: 6308b1f4ec4ed18a8a7c89911a83cd2f12ed6dc4
+ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
+ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/23/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -391,7 +391,7 @@ Microsoft Flow는 이제 eSignature 및 DTM(Digital Transaction Management)을 �
 ### <a name="release-2016-11-23"></a>릴리스 2016-11-23
 * **Flow에서 Power BI 경고 지원** - Power BI 데이터 경고에서 흐름을 트리거하여 작업에 대한 통찰력을 높입니다.
 * **모바일 응용 프로그램 개선** - 템플릿을 사용하여 만든 기존 환경 외에도 비어 있는 새 흐름을 만들 수 있는 기능이 추가되었습니다. 또한 흐름을 표시하는 성능이 향상되었습니다.
-* **새로운 8개 서비스** - 이제 Azure Resource Manager, Azure Queues, Chatter, Disqus, Azure DocumentDB, Cognitive Services Face API, HipChat 및 Wordpress에 연결할 수 있습니다.
+* **새로운 8개 서비스** - 이제 Azure Resource Manager, Azure Queues, Chatter, Disqus, Azure Cosmos DB, Cognitive Services Face API, HipChat 및 Wordpress에 연결할 수 있습니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/power-bi-and-eight-other-services/).
 

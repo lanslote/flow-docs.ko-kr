@@ -1,13 +1,13 @@
 ---
-title: "제한 및 구성 | Microsoft Docs"
-description: "제한 및 구성"
-services: 
+title: 제한 및 구성 | Microsoft Docs
+description: 제한 및 구성
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 60caaba88e825e97a49c3cf65d0ecceff586046c
-ms.sourcegitcommit: b943fa83d7ca2d1a313c0c7b2cf0d7e4a9528b85
+ms.openlocfilehash: ee1ab187a4c5404ad0f0dd81d1894ddc8b1014b8
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -28,17 +28,20 @@ ms.lasthandoff: 02/05/2018
 단일 발신 요청에 대한 제한 사항입니다.
 
 ### <a name="timeout"></a>시간 초과
+
 | 이름 | 제한 |
 | --- | --- |
 | 요청 시간 초과 |120초 |
 
 ### <a name="message-size"></a>메시지 크기
+
 | 이름 | 제한 | 참고 |
 | --- | --- | --- |
 | 메시지 크기 |100MB |모든 API가 100MB를 전부 지원하는 것은 아닙니다. |
 | 식 평가 제한 |131,072자 |`@concat()`, `@base64()`, `string`은 이 제한을 초과할 수 없습니다. |
 
 ### <a name="retry-policy"></a>다시 시도 정책
+
 | 이름 | 제한 |
 | --- | --- |
 | 다시 시도 횟수 |4 |

@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: sunayv
-ms.openlocfilehash: 631c53aaa19e137e1df82f8070192f6f4271339e
-ms.sourcegitcommit: aee927ab32b5e28ee9b1880b4a292f9c15025f88
+ms.openlocfilehash: cf1a618b9e0ed76147eb4ede2aed42111c66b4a5
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="using-environments-within-microsoft-flow"></a>Microsoft Flow 내에서 환경 사용
 
@@ -79,18 +79,20 @@ ms.lasthandoff: 03/28/2018
 ## <a name="create-an-environment"></a>환경 만들기
 
 1. [Microsoft Flow 관리자 센터](https://admin.flow.microsoft.com)에서 **환경**을 선택합니다. 모든 기존 환경: ![환경](./media/environments-overview-admin/environments-list.png)이 표시됩니다.
-1. **새 환경**을 선택하고 필요한 정보를 제공합니다.
+2. **새 환경**을 선택하고 필요한 정보를 제공합니다.
 
-   | 속성 | 설명 |
-   | --- | --- |
-   | 환경 이름 |환경의 이름을 `Human Resources` 또는 `Europe flows` 등과 같이 입력합니다. |
-   | 지역 |사용자의 환경을 호스트할 위치를 선택합니다. 최고의 성능을 위해 사용자와 가장 가까운 지역을 사용합니다.|
-   |환경 유형 | 라이선스에 따라 환경 유형(프로덕션 또는 평가판)을 선택합니다.| 
+
+   |     속성     |                                                 설명                                                 |
+   |------------------|-------------------------------------------------------------------------------------------------------------|
+   | 환경 이름 |              환경의 이름을 `Human Resources` 또는 `Europe flows` 등과 같이 입력합니다.              |
+   |      지역      | 사용자의 환경을 호스트할 위치를 선택합니다. 최고의 성능을 위해 사용자와 가장 가까운 지역을 사용합니다. |
+   | 환경 유형 |                  라이선스에 따라 환경 유형(프로덕션 또는 평가판)을 선택합니다.                   |
+
      ![환경 설정](./media/environments-overview-admin/new-environment-dialog.png)
-1. **환경 만들기**를 클릭합니다.
-1. 이제 **데이터베이스 만들기** 또는 **건너뛰기** 옵션이 있습니다.
-1. **데이터베이스 만들기**를 선택하면 데이터베이스에 대한 **통화** 및 **언어**를 입력하라는 메시지가 표시됩니다. 샘플 앱 및 데이터 배포를 선택할 수도 있습니다.
-   
+3. **환경 만들기**를 클릭합니다.
+4. 이제 **데이터베이스 만들기** 또는 **건너뛰기** 옵션이 있습니다.
+5. **데이터베이스 만들기**를 선택하면 데이터베이스에 대한 **통화** 및 **언어**를 입력하라는 메시지가 표시됩니다. 샘플 앱 및 데이터 배포를 선택할 수도 있습니다.
+
    ![데이터베이스 구성 설정](./media/environments-overview-admin/create-database-dialog2.png)
 
 

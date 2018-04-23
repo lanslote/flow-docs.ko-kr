@@ -1,6 +1,7 @@
 [Microsoft Flow](https://flow.microsoft.com)를 통해 워크플로를 작성할 수 있는 [서비스](https://flow.microsoft.com/services)의 확장 목록을 사용하면 SharePoint 또는 Salesforce와 같은 엔터프라이즈 서비스에 저장된 중요한 비즈니스 데이터를 보호해야 할 수 있습니다. 조직에서 중요한 비즈니스 데이터가 소비자 서비스(예: Twitter 및 Facebook)에 게시되지 않도록 하는 정책을 만들어야 합니다. Microsoft Flow를 사용하면 사용자가 흐름을 만들 때 비즈니스 데이터를 공유할 수 있는 소비자 서비스를 엄격하게 제어하는 **DLP(데이터 손실 방지)** 정책을 쉽게 만들 수 있습니다.  
 
 ## <a name="terms-you-should-get-familiar-with"></a>용어 설명
+
 | 용어 | 설명 |
 | --- | --- |
 | **DLP** |Data Loss Prevention(데이터 손실 방지)의 약어입니다. **서비스** 사이의 데이터 공유를 관리하는 DLP 정책을 만듭니다. |

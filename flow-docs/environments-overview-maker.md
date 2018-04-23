@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Flow 환경에 대해 알아보기| Microsoft Docs"
-description: "환경을 사용하여 흐름을 격리하는 방법 알아보기"
-services: 
+title: Microsoft Flow 환경에 대해 알아보기| Microsoft Docs
+description: 환경을 사용하여 흐름을 격리하는 방법 알아보기
+services: ''
 suite: flow
 documentationcenter: na
 author: sunaysv
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/27/2017
 ms.author: sunayv
-ms.openlocfilehash: 202167f833c6f5e1a8105db8bd44addc24dfdc3e
-ms.sourcegitcommit: 7bf01167913038b3ad3527592013eefdd3ee9200
+ms.openlocfilehash: e6667c1c1999c36177d40d52fa657edadd063516
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="choosing-an-environment"></a>환경 선택
 
@@ -73,7 +73,7 @@ Microsoft Flow를 사용하면 손쉽게 환경 사이를 전환할 수 있습�
 흐름을 만들기 전에 흐름 및 해당 리소스를 추가할 환경을 선택합니다.
 
 > [!NOTE]
-잘못된 환경에 흐름을 만들 경우 삭제한 후 올바른 환경에 만들어야 합니다.
+> 잘못된 환경에 흐름을 만들 경우 삭제한 후 올바른 환경에 만들어야 합니다.
 
 흐름을 호스팅할 환경을 선택할 때는 다음 요소를 고려합니다.
 
@@ -82,7 +82,7 @@ Microsoft Flow를 사용하면 손쉽게 환경 사이를 전환할 수 있습�
 * 리소스를 편집할 수 있는 모든 환경이 표시됩니다. 그러나 흐름을 만들려는 모든 환경에 본인을 작성자로 추가해 달라고 관리자에게 요청해야 합니다.
 
 > [!NOTE]
-항상 기본 환경에 흐름을 만들 수 있습니다.
+> 항상 기본 환경에 흐름을 만들 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

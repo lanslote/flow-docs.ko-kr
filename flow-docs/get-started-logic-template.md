@@ -1,13 +1,13 @@
 ---
-title: "템플릿에서 흐름 만들기 | Microsoft Docs"
-description: "여러 기본 제공 템플릿으로부터 흐름을 만듭니다."
-services: 
+title: 템플릿에서 흐름 만들기 | Microsoft Docs
+description: 여러 기본 제공 템플릿으로부터 흐름을 만듭니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: aftowen
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: 876723b62274f3a306c0a8472095b131e223408b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Microsoft Flow 템플릿에서 흐름 만들기
 상사가 Office 365에서 전자 메일을 보내면 Slack 메시지를 보내는 것과 같이, 여러 기본 제공 템플릿에서 흐름을 만들 수 있습니다.
@@ -54,7 +54,7 @@ ms.lasthandoff: 10/15/2017
 1. 이벤트의 제목 표시줄을 선택하여 확장한 다음 사용자 지정합니다(예: 나와 관련이 있는 전자 메일에 대해 필터 지정).
 2. 사용자 입력이 필요한 동작은 자동으로 확장됩니다.
    
-    예를 들어 **메시지 게시** 작업은 *@username* 등의 채널을 입력해야 하므로 확장됩니다. 메시지 콘텐츠를 사용자 지정할 수도 있습니다. 기본적으로 메시지는 제목만 포함하지만 다른 정보도 넣을 수 있습니다.
+    예를 들어 **메시지 게시** 동작은 *\@username* 등의 채널을 입력해야 하므로 확장됩니다. 메시지 콘텐츠를 사용자 지정할 수도 있습니다. 기본적으로 메시지는 제목만 포함하지만 다른 정보도 넣을 수 있습니다.
    
     ![Slack에 대한 채널 지정](./media/get-started-logic-template/specify-keyword.png)
 3. 화면 상단에서 흐름의 이름을 지정한 다음 **흐름 만들기**를 선택합니다.

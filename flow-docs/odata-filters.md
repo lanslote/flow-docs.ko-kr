@@ -1,13 +1,13 @@
 ---
-title: "데이터 필터링 및 복사 | Microsoft Docs"
-description: "Microsoft Flow를 사용하여 원본에서 대상으로 데이터를 필터링하고 복사하는 방법을 알아봅니다."
-services: 
+title: 데이터 필터링 및 복사 | Microsoft Docs
+description: Microsoft Flow를 사용하여 원본에서 대상으로 데이터를 필터링하고 복사하는 방법을 알아봅니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
-ms.openlocfilehash: b266a953785b79c0dbc5e2d483330b239a7bf17f
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow에서 데이터 필터링 및 복사
 이 연습에서는 새롭거나 변경된 항목에 대한 원본을 모니터링하고 해당 변경 내용을 대상에 복사하는 흐름을 만드는 방법을 보여줍니다. 사용자가 한 위치에서 데이터를 입력하지만 팀에서 다른 위치 또는 형식이 필요한 경우 이와 같은 흐름을 만들 수 있습니다.
@@ -76,7 +76,7 @@ Microsoft Flow에 익숙해지면 다음과 같은 빠른 단계를 사용하여
 1. **새 단계** > **작업 추가**를 선택합니다.
 2. **행 가져오기**를 검색하고, **SQL Server - 행 가져오기**를 선택하고, **테이블 이름** 목록에서 모니터링하려는 테이블을 선택합니다.
 3. **고급 옵션 표시**를 선택합니다.
-4. **쿼리 필터** 상자에 **Title eq '**를 입력하고, 동적 콘텐츠 목록에서 **제목** 토큰을 선택하고, **'**를 입력합니다.
+4. **쿼리 필터** 상자에 **Title eq '** 를 입력하고, 동적 콘텐츠 목록에서 **제목** 토큰을 선택하고, **'** 를 입력합니다.
    
     이전 단계에서는 원본과 대상에서 행의 제목이 일치한다고 가정합니다.
    
@@ -106,7 +106,7 @@ Microsoft Flow에 익숙해지면 다음과 같은 빠른 단계를 사용하여
     ![조건 구성](media/odata-filters/configure-condition.png)
 5. **고급 모드에서 편집**을 선택합니다.
    
-    고급 모드를 열면 상자에서 **@equals(body('Get_rows')?['value'], 0)** 식이 표시됩니다. **body('Get_items')?['value']** 함수 주변에 **length()**를 추가하여 이 식을 편집합니다. 이제 전체 식은 다음과 같이 표시됩니다. **@equals(length(body('Get_rows')?['value']), 0)**
+    고급 모드를 열면 상자에 **\@equals(body('Get_rows')?['value'], 0)** 식이 표시됩니다. **body('Get_items')?['value']** 함수 주변에 **length()** 를 추가하여 이 식을 편집합니다. 이제 전체 식은 다음과 같이 표시됩니다. **@equals(length(body('Get_rows')?['value']), 0)**
    
     이제 **조건** 카드는 이 이미지와 유사합니다.
    

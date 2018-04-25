@@ -54,7 +54,7 @@
 12. **ApprovalStatus**를 선택하고 값을 **예**로 설정한 다음 **ApproverComments**를 선택하고 값을 동적 콘텐츠 목록의 **주석**으로 설정합니다. 
     
      ![상태 및 설명](./media/learning-approval-center/approver-status.png)
-13. **아니요이면 *아무 것도 안 함*** 상자의 아래쪽 가까이에서 **작업 추가**를 선택합니다.
+13. **아니요이면 아무 것도 안 함** 상자의 아래쪽 가까이에서 **작업 추가**를 선택합니다.
     
      ![아무 작업도 추가하지 않음](./media/learning-approval-center/add-a-no-action.png)
 14. **예인 경우** 구성에 사용한 동일한 단계를 사용하여 **SharePoint - 업데이트 항목** 작업을 만들고 **ApprovalStatus**를 **아니요**로 설정을 제외하고 동일한 값으로 필드를 구성합니다. 

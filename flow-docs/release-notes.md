@@ -13,13 +13,13 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 02/12/2018
+ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: 4d88b0baee16fb0aeea24e2f2c84806595f21662
-ms.sourcegitcommit: 753d52fa29d04f2eb774f7bec29b8d5793ccbb93
+ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
+ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/16/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -44,6 +44,39 @@ ms.lasthandoff: 03/23/2018
 3. 선택한 폴더의 중첩된 폴더 내에 추가되는 파일에 대해 파일 트리거가 발생하지 않습니다.
 
 ## <a name="whats-new"></a>새로운 기능
+
+### <a name="release-2018-04-12"></a>릴리스 2018-04-12
+
+- **흐름에서 PowerApps로 데이터 반환** - PowerApps를 사용하여 작성한 앱에서 호출할 수 있는 흐름을 작성한 후 해당 앱에 데이터를 다시 반환합니다. 시각적 끌어서 놓기 흐름 디자이너를 사용하여 앱에 필요한 논리를 작성합니다. 
+- **배열 입력에 여러 레코드 추가** - 여러 첨부 파일을 이메일에 추가하는 등의 작업에 사용할 수 있는 목록 작성기가 Microsoft Flow에 추가되었습니다.
+- **이전 실행 데이터로 흐름 테스트** - 이전 흐름 실행의 트리거 데이터를 사용하여 흐름을 테스트할 수 있는 새로운 흐름 테스트 단추가 디자이너에 추가되었습니다.
+- **새 workflow() 필드** - 이제 workflow() 식을 사용하여 환경 이름 및 흐름 표시 이름에 액세스할 수 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/return-data-to-powerapps/).
+
+### <a name="release-2018-04-04"></a>릴리스 2018-04-04
+
+- **Common Data Service에 대한 승인** - 앱용 Common Data Service의 최신 버전에 대한 최신 승인이 빌드되었습니다. 따라서 CDS 커넥터를 사용하여 보내거나 받는 승인의 상태를 읽는 흐름을 만들 수 있습니다.
+- **Apply to each(각각에 적용)에서 오류 찾기** - 루프에 수백 개의 항목이 있는 경 우에도 흐름 실행 보기에서 루프의 오류로 바로 점프합니다.
+- **승인 재할당** - 받는 모든 승인을 조직 내의 다른 사람에게 할당하여 승인을 위임할 수 있습니다. 
+- **회의실 목록** - Office 365 Outlook 커넥터에 조직 내 회의실 데이터를 가져올 수 있는 작업이 추가되었습니다.
+- **흐름 단추에 대한 세부 정보 참조** - 사용자와 공유되는 흐름을 실행하면 이제 사용자가 해당 흐름이 사용하는 모든 작업을 볼 수 있습니다.
+- **영국 지역** - 이제 해당 데이터를 영국에 저장하도록 환경을 만들 수 있습니다.
+- **두 개의 새로운 커넥터** - AtBot 관리자 및 마케팅 콘텐츠 허브에 대한 지원이 추가되었습니다.
+- **새로운 설명서 방문 페이지** - 초보자, 중간 사용자 또는 전문가별로 콘텐츠가 그룹화되도록 설명서 방문 페이지가 업데이트되었습니다. 
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/approvals-in-cds-and-seven-updates/).
+
+### <a name="release-2018-03-13"></a>릴리스 2018-03-13
+
+- **승인 기록** - 응답, 전송된 주석 및 발생한 정확한 시간을 포함하여 사용자가 전송한 승인 요청을 확인할 수 있습니다.
+- **4개의 새로운 커넥터** - Excel Online(Business), Excel Online(OneDrive), Azure SQL Data Warehouse 및 Pitney Bowes Tax Calculator가 추가되었습니다.
+- **동적 콘텐츠 도구 설명** - 동적 콘텐츠 위로 마우스를 이동하면 전체 식 편집기를 열지 않고도 작업 내부에서 해당 콘텐츠 위치를 확인하고 식을 미리 볼 수 있습니다.
+- **동시성 제어** - 지정된 흐름이 한 번에 하나의 실행만 갖도록 동시성 제어를 설정합니다.
+- **지수 재시도** - 시간이 지남에 따라 기하급수적으로 재시도 간격이 넓어지는 새로운 유형의 재시도 정책입니다.
+- **접근성 규칙** - Microsoft Flow가 접근성 표준을 충족하는 방법을 설명하는 새로운 규칙 문서가 릴리스되었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/approval-history-accessibility/).
 
 ### <a name="release-2018-02-09"></a>릴리스 2018-02-09
 

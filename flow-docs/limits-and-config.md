@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: ee1ab187a4c5404ad0f0dd81d1894ddc8b1014b8
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -123,4 +123,5 @@ graph.microsoft.com </br>graph.windows.net</br>|https|프로필 사진 같은 �
 *.flow.microsoft.com|https|Microsoft Flow 사이트에 액세스합니다.
 *.powerapps.com|https|PowerApps 사이트에 액세스합니다.
 psux.azureedge.net|https|Microsoft Flow CDN에 액세스합니다.
+nps.onyx.azure.net|https|NPS(Net Promoter Score)에 액세스합니다.
 

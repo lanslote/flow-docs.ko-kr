@@ -1,13 +1,13 @@
 ---
-title: "온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs"
-description: "온-프레미스 데이터 게이트웨이에 대한 참고, 설치 및 문제 해결 정보"
-services: 
+title: 온-프레미스 데이터 게이트웨이 이해 | Microsoft Docs
+description: 온-프레미스 데이터 게이트웨이에 대한 참고, 설치 및 문제 해결 정보
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
-manager: anneta
-editor: 
-tags: 
+manager: KFile
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73567d4d553ceac1d2cee46feb07ad9a6e7ade33
-ms.sourcegitcommit: 0b7964058416fd8d5e355913eea27172f1c61992
+ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
+ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/09/2018
+ms.lasthandoff: 04/26/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow의 온-프레미스 데이터 게이트웨이 이해
 Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보안 연결을 설정하려면 Microsoft Flow와 함께 온-프레미스 데이터 게이트웨이를 사용합니다.
@@ -141,6 +141,10 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 온-프레미스 데이터 게이트웨이는 Windows 서비스 로그온 자격 증명에 *NT SERVICE\PBIEgwService* 를 사용하도록 구성됩니다. 기본적으로 서비스 형태의 로그온 권한이 있습니다. 이것은 게이트웨이를 설치하는 컴퓨터의 컨텍스트에 해당합니다.
 
 온-프레미스 데이터 원본이나 클라우드 서비스에 로그인한 직장 또는 학교 계정에 연결하는 데 사용되는 계정이 아닙니다.
+
+## <a name="tenant-level-administration"></a>테넌트 수준 관리
+
+다른 사용자가 설치 및 구성한 모든 게이트웨이를 테넌트 관리자가 관리할 수 있는 단일 위치는 현재 없습니다.  테넌트 관리자인 경우 조직의 사용자에게 설치하는 모든 게이트웨이에 관리자로 추가하도록 요청하는 것이 좋습니다. 이렇게 하면 게이트웨이 설정 페이지 또는 [PowerShell 명령](https://docs.microsoft.com/power-bi/service-gateway-high-availability-clusters#powershell-support-for-gateway-clusters)을 통해 조직의 모든 게이트웨이를 관리할 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 ### <a name="general-questions"></a>일반적인 질문

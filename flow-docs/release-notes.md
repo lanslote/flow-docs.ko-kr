@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/12/2018
 ms.author: stepsic
-ms.openlocfilehash: ef14fd29dbf0b227acf4d5fef6233837514d4ab0
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
+ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 05/08/2018
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -44,6 +44,14 @@ ms.lasthandoff: 04/16/2018
 3. 선택한 폴더의 중첩된 폴더 내에 추가되는 파일에 대해 파일 트리거가 발생하지 않습니다.
 
 ## <a name="whats-new"></a>새로운 기능
+
+### <a name="release-2014-05-01"></a>릴리스 2014-05-01
+
+- **승인 메시지의 서식 있는 텍스트** - Markdown을 사용하여 보내는 승인 세부 정보 형식을 지정합니다.
+- **여러 선택 영역이 있는 단추** - 여러 선택 영역 목록을 사용하여 한 번에 둘 이상의 값을 수집하는 흐름 단추를 작성합니다.
+- **더 넓은 흐름 사용** - Microsoft Flow 모바일 앱에서 가로 보기를 지원하고, 웹 디자이너에는 가로 스크롤 막대가 있습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/rich-approvals-text-and-multiselect/).
 
 ### <a name="release-2018-04-12"></a>릴리스 2018-04-12
 

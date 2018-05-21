@@ -8,3 +8,5 @@
    
     ![빈 값에서 만들기](media/modern-approvals/blank-template.png)
 
+4. **빈 페이지에서 만들기** 단추를 선택합니다.
+

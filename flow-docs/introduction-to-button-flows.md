@@ -1,13 +1,13 @@
 ---
-title: "단추 흐름을 사용하여 반복적인 작업을 자동화하고 실행하는 방법 알아보기 | Microsoft Docs"
-description: "단추 흐름 소개입니다."
-services: 
+title: 단추 흐름을 사용하여 반복적인 작업을 자동화하고 실행하는 방법 알아보기 | Microsoft Docs
+description: 단추 흐름 소개입니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 01/30/2017
 ms.author: deonhe
 ms.openlocfilehash: 558570733819e1fde6c1845ed5ca9debe9232c88
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="introducing-button-flows"></a>단추 흐름 소개
 ## <a name="what-are-button-flows"></a>단추 흐름이란?

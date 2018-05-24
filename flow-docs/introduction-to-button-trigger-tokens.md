@@ -1,13 +1,13 @@
 ---
-title: "단추 트리거 토큰 소개 | Microsoft Docs"
-description: "Microsoft 단추 흐름에 대한 단추 트리거 토큰을 소개합니다."
-services: 
+title: 단추 트리거 토큰 소개 | Microsoft Docs
+description: Microsoft 단추 흐름에 대한 단추 트리거 토큰을 소개합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 12/12/2016
 ms.author: deonhe
-ms.openlocfilehash: 4b0e6d7187d12c7257bce4715c3549caf19ce093
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: c3231811e5318b1fe941e005012c2890c83f6e76
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>단추 트리거 토큰으로 시작
 ## <a name="what-are-button-trigger-tokens"></a>단추 트리거 토큰이란 무엇인가요?
@@ -92,5 +92,5 @@ ms.lasthandoff: 10/15/2017
 ## <a name="next-steps"></a>다음 단계
 * [단추 흐름 공유](share-buttons.md)
 * [단추 흐름에 대해 알아보기](introduction-to-button-flows.md)  
-* [흐름에 대해 알아보기](guided-learning/learning-introducing-flow.md)
+* [흐름에 대해 알아보기](guided-learning/get-started.yml?tutorial-step=1)
 

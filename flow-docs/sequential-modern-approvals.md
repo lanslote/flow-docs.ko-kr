@@ -1,13 +1,13 @@
 ---
-title: "여러 승인자를 사용하여 최신 승인 워크플로 만들기 | Microsoft Docs"
-description: "여러 승인자를 사용하여 최신 승인 워크플로 만들기 "
-services: 
+title: 여러 승인자를 사용하여 최신 승인 워크플로 만들기 | Microsoft Docs
+description: '여러 승인자를 사용하여 최신 승인 워크플로 만들기 '
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Microsoft Flow를 사용하여 순차적 승인 관리
 일부 워크플로는 최종 승인자를 로그오프하기 전에 사전 승인이 필요합니다. 예를 들어 재무 부서에서 $1000.00가 넘는 송장을 승인하기 전에 회사에는 이에 대한 사전 승인이 필요한 순차적 승인 정책이 있을 수 있습니다.

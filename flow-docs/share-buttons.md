@@ -1,13 +1,13 @@
 ---
-title: "단추를 다른 사용자와 공유합니다. | Microsoft Docs"
-description: "다른 사람이 사용자의 단추를 사용하여 시간을 절약할 수 있도록 단추를 다른 사용자와 공유하세요."
-services: 
+title: 단추를 다른 사용자와 공유합니다. | Microsoft Docs
+description: 다른 사람이 사용자의 단추를 사용하여 시간을 절약할 수 있도록 단추를 다른 사용자와 공유하세요.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Microsoft Flow에서 단추 흐름 공유
 Microsoft Flow 모바일 앱에서 조직의 다른 사용자 또는 그룹과 [단추 흐름](introduction-to-button-flows.md)(단추)을 공유할 수 있습니다. 단추를 공유하면 사용자가 단추를 공유한 개인 또는 그룹이 사용자의 단추를 실행할 수 있고, 마찬가지로 자신의 단추도 실행할 수 있습니다. 다른 사용자가 공유한 단추에 대한 [링크를 공유](share-buttons.md#re-share-a-button)할 수도 있습니다. 언제든지 단추 [공유를 중지](share-buttons.md#stop-sharing-a-button)할 수 있습니다.
@@ -117,7 +117,7 @@ Microsoft Flow 모바일 앱의 **단추** 탭에서 단추를 공유할 수 있
 ## <a name="re-share-a-button"></a>단추 다시 공유
 사용자와 공유한 단추에 대한 링크를 공유할 수 있습니다.
 
-1. 공유하려는 단추 옆의 **...**를 선택합니다.
+1. 공유하려는 단추 옆의 **...** 를 선택합니다.
 2. **공유 단추 링크**를 선택합니다.
    
     ![다시 공유 단추 링크](./media/share-buttons/re-share-button.png)
@@ -126,7 +126,7 @@ Microsoft Flow 모바일 앱의 **단추** 탭에서 단추를 공유할 수 있
 ## <a name="stop-using-a-shared-button"></a>공유된 단추 사용 중지
 사용자와 공유된 단추를 더 이상 사용하지 않으려는 경우 다음 단계를 수행하여 **단추** 탭에서 해당 단추를 제거합니다.
 
-1. **단추** 탭에서 더 이상 사용하지 않으려는 단추 옆에 있는 **...**를 누릅니다.
+1. **단추** 탭에서 더 이상 사용하지 않으려는 단추 옆에 있는 **...** 를 누릅니다.
    
     ![단추 제거](./media/share-buttons/share-button-flows-added-shared-button.png)
 2. 이때 나타나는 메뉴에서 **제거**를 누릅니다.

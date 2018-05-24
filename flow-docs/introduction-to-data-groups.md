@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Flow에 대한 데이터 그룹 | Microsoft Docs"
-description: "Microsoft PowerApps 및 Microsoft Flow에 대한 데이터 그룹 소개"
-services: 
+title: Microsoft Flow에 대한 데이터 그룹 | Microsoft Docs
+description: Microsoft PowerApps 및 Microsoft Flow에 대한 데이터 그룹 소개
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 10/26/2016
 ms.author: deonhe
 ms.openlocfilehash: fd76c12d1879c9b613ba833d9ef2211cd4aab702
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="learn-all-about-data-groups"></a>데이터 그룹에 관한 모든 것 알아보기
 ## <a name="what-is-a-data-group"></a>데이터 그룹이란?
@@ -52,7 +52,7 @@ ms.lasthandoff: 10/15/2017
 
 **중요** 흐름에 추가되는 새로운 서비스는 지정된 *기본* 그룹에 배치됩니다. 이러한 이유로 **비즈니스 데이터 허용 안됨**을 기본 그룹으로 유지하고 서비스를 수동으로 **비즈니스 데이터 전용** 그룹에 추가하는 것이 좋습니다.
 
-1. 데이터 그룹의 오른쪽 위 모서리에 있는, 기본 데이터 그룹으로 지정 하려는 **...**를 선택합니다.    
+1. 데이터 그룹의 오른쪽 위 모서리에 있는, 기본 데이터 그룹으로 지정 하려는 **...** 를 선택합니다.    
    ![기본 그룹 변경](./media/introduction-to-data-groups/default-data-group-0.png)  
 2. **기본 그룹으로 설정**을 선택합니다.  
    ![기본 그룹 변경](./media/introduction-to-data-groups/default-data-group-1.png)   

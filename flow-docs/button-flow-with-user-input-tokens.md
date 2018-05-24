@@ -1,13 +1,13 @@
 ---
-title: "사용자 입력을 받는 단추 흐름을 사용하여 반복적인 작업을 자동화하는 방법 알아보기 | Microsoft Docs"
-description: "Microsoft Flow를 사용하면 반복적인 작업을 쉽게 자동화할 수 있습니다. 반복적인 작업을 실행할 때 흐름에서 사용자 입력을 받을 수도 있습니다."
-services: 
+title: 사용자 입력을 받는 단추 흐름을 사용하여 반복적인 작업을 자동화하는 방법 알아보기 | Microsoft Docs
+description: Microsoft Flow를 사용하면 반복적인 작업을 쉽게 자동화할 수 있습니다. 반복적인 작업을 실행할 때 흐름에서 사용자 입력을 받을 수도 있습니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 73feb90b3907ee8a7a192f16bc29c5893d0be4bb
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
+ms.sourcegitcommit: 8bf92483780a5682777dd9fb73be8c2fb0e78dc4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/19/2018
 ---
 # <a name="introducing-button-flows-with-user-input"></a>사용자 입력을 사용하는 단추 흐름 소개
 간단히 단추를 눌러 일상적인 작업을 실행하는 단추 흐름을 만듭니다. 사용자가 흐름이 실행될 때 사용되는 특정 세부 정보를 제공할 수 있도록 하여 흐름을 사용자 지정할 수 있습니다. 이 토픽은 사용자의 입력을 받는 단추 흐름을 만든 다음 단추 흐름을 실행하고 사용자 입력을 제공하는 방법을 강조하는 일련의 과정을 연습합니다.
@@ -116,7 +116,7 @@ Microsoft Flow 웹 사이트 또는 Microsoft Flow용 모바일 앱에서 단추
 
 ## <a name="next-steps"></a>다음 단계
 * [단추 흐름 공유](share-buttons.md)
-* [흐름에 대해 알아보기](guided-learning/learning-introducing-flow.md)  
+* [흐름에 대해 알아보기](guided-learning/get-started.yml?tutorial-step=1)  
 * [단추 흐름에 대해 알아보기](introduction-to-button-flows.md)  
 * [트리거 토큰을 사용하는 단추 흐름에 대해 알아보기](introduction-to-button-trigger-tokens.md)  
 

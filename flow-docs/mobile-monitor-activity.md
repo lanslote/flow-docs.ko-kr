@@ -1,13 +1,13 @@
 ---
-title: "전화에서 활동 모니터링 | Microsoft Docs"
-description: "각 흐름이 성공 또는 실패한 횟수, 각 실행이 발생한 시점, 진행 시간을 확인합니다."
-services: 
+title: 전화에서 활동 모니터링 | Microsoft Docs
+description: 각 흐름이 성공 또는 실패한 횟수, 각 실행이 발생한 시점, 진행 시간을 확인합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>휴대폰에서 Microsoft Flow 활동 모니터링
 오늘, 어제 및 과거에 각 흐름이 성공 또는 실패한 횟수의 요약을 확인합니다. 실행 시기, 각 단계의 진행 시간, 실패한 경우 실패 사유 등, 각 실행에 대한 상세 정보를 살펴봅니다.

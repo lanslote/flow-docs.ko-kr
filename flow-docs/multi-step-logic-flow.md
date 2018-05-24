@@ -1,13 +1,13 @@
 ---
-title: "고급 옵션 및 여러 동작 추가 | Microsoft Docs"
-description: "전자 메일을 높은 우선 순위로 설정하고 같은 이벤트에 다른 작업을 추가하는 등, 흐름을 확장하여 고급 옵션을 포함합니다."
-services: 
+title: 고급 옵션 및 여러 동작 추가 | Microsoft Docs
+description: 전자 메일을 높은 우선 순위로 설정하고 같은 이벤트에 다른 작업을 추가하는 등, 흐름을 확장하여 고급 옵션을 포함합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,10 @@ ms.workload: na
 ms.date: 04/20/2017
 ms.author: stepsic
 ms.openlocfilehash: f6c936cbf5a2bd481adb52ec9b01545fb9ba7b0b
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="add-multiple-actions-and-advanced-options-to-a-flow"></a>흐름에 여러 동작 및 고급 옵션 추가
 동일한 트리거에 대해 하나 이상의 고급 옵션과 여러 동작을 추가하여 흐름을 사용자 지정합니다. 예를 들어, 전자 메일 메시지를 높은 우선 순위로 보내는 고급 옵션을 추가합니다. 항목이 SharePoint 목록에 추가되면 메일을 보내는 것 외에도 Dropbox에 동일한 정보가 담긴 파일을 만듭니다.

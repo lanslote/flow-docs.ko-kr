@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365(온라인)로 흐름 만들기 | Microsoft Docs"
-description: "Dynamics 365 연결 및 Microsoft Flow를 사용하여 유용한 워크플로 만들기"
-services: 
+title: Dynamics 365(온라인)로 흐름 만들기 | Microsoft Docs
+description: Dynamics 365 연결 및 Microsoft Flow를 사용하여 유용한 워크플로 만들기
+services: ''
 suite: flow
 documentationcenter: na
 author: Mattp123
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 5ef3de417b1557644ce9bfcd935353e017ceb676
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365(온라인)를 사용하여 흐름 만들기
 Dynamics 365 커넥터를 사용하여 Dynamics 365 또는 몇몇 다른 서비스에 이벤트가 발생할 때 시작한 다음 Dynamics 365 또는 몇몇 다른 서비스에서 작업을 수행하는 흐름을 만들 수 있습니다. 
@@ -73,7 +73,7 @@ Microsoft Flow에서 자주 사용하는 앱과 서비스 사이에 자동화된
 12. **흐름 만들기**를 클릭하거나 누릅니다.
 
 ## <a name="create-a-wunderlist-task-from-a-dynamics-365-task"></a>Dynamics 365 작업에서 Wunderlist 작업 만들기
-이 연습에서는 Dynamics 365에서 작업이 만들어질 때마다 [Wunderlist](http://www.wunderlist.com)에서 작업을 만드는 방법을 보여 줍니다. Wunderlist는 작업 목록 만들기, 알림 추가 또는 볼일 추적을 만드는 데 사용할 수 있는 인터넷 기반 서비스입니다.
+이 연습에서는 Dynamics 365에서 작업이 만들어질 때마다 [Wunderlist](https://www.wunderlist.com)에서 작업을 만드는 방법을 보여 줍니다. Wunderlist는 작업 목록 만들기, 알림 추가 또는 볼일 추적을 만드는 데 사용할 수 있는 인터넷 기반 서비스입니다.
 
 1. [Microsoft Flow 웹 사이트](https://flow.microsoft.com/)에 로그인합니다.
 2. **내 흐름**을 클릭하거나 누른 다음 **처음부터 만들기**를 클릭하거나 누릅니다.
@@ -129,7 +129,7 @@ Microsoft Flow에서 자주 사용하는 앱과 서비스 사이에 자동화된
 
   ![흐름 레코드 ID 및 형식 사용자](./media/connection-dynamics365/flow-recordid-user.png)
 
-레코드의 ID를 찾으려면 이 토픽의 뒷부분에 나오는 [레코드 ID 찾기](#find-the-record-id)를 참조하세요.
+레코드의 ID를 찾으려면 이 토픽의 뒷부분에 나오는 [레코드 ID 찾기](#find-the-records-id)를 참조하세요.
 
 > **중요:** 필드에 "내부 사용 전용"이라는 설명이 있는 경우 값을 포함하지 않아야 합니다. 이러한 필드는 **횡단 경로**, **추가 매개 변수** 및 **표준 시간대 규칙 버전 번호** 를 포함합니다.
 > 

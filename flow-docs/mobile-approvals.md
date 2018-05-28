@@ -1,13 +1,13 @@
 ---
-title: "모바일 장치에서 요청 승인 | Microsoft Docs"
-description: "모바일 장치를 사용하여 Microsoft Flow에서 생성된 요청을 승인하세요."
-services: 
+title: 모바일 장치에서 요청 승인 | Microsoft Docs
+description: 모바일 장치를 사용하여 Microsoft Flow에서 생성된 요청을 승인하세요.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
-ms.openlocfilehash: 18546c044dc823d703544c48f5cda76a3581e99f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Microsoft Flow를 사용하여 모바일 장치에서 요청 승인
 흐름에서 사용자를 승인자로 식별하고 사용자가 Microsoft Flow용 모바일 앱을 설치한 경우 승인이 요청될 때마다 사용자가 푸시 알림을 받습니다.
@@ -52,11 +52,11 @@ ms.lasthandoff: 10/15/2017
 보류 중인 승인 요청이 없다면 만들기는 [승인 흐름](modern-approvals.md)을 만들고 자신을 승인자로 설정한 후 흐름을 트리거하세요. 흐름이 트리거되고 승인 요청을 보내면 몇 초 후 승인 센터에 승인 요청이 나타납니다.
 
 ## <a name="approve-requests-and-leave-an-optional-comment"></a>요청 승인 및 주석(선택 사항) 입력
-1. 아직 그렇게 하지 않은 경우 앞의 단계를 따라 [모든 보류 중인 승인 요청을 표시](mobile-approvals.md#view-pending-approval-requests)합니다.
+1. 아직 그렇게 하지 않은 경우 앞의 단계를 따라 [보류 중인 요청을 확인](mobile-approvals.md#view-pending-requests)합니다.
 2. 승인하려는 요청에 **승인**을 선택합니다.
    
     ![승인 선택](./media/mobile-approvals/select-approve.png)
-3. (선택 사항) **주석 추가(선택 사항)**를 선택합니다.
+3. (선택 사항) **주석 추가(선택 사항)** 를 선택합니다.
    
     ![주석 추가 선택](./media/mobile-approvals/select-add-comment.png)
    
@@ -74,6 +74,6 @@ ms.lasthandoff: 10/15/2017
 ## <a name="reject-requests-and-leave-an-optional-comment"></a>요청 거부 및 주석(선택 사항) 입력
 [요청 승인 단계](mobile-approvals.md#approve-requests-and-leave-an-optional-comment)를 따르되, 두 번째 단계에서 **거부**를 선택합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 [최신 승인 흐름 만들기](modern-approvals.md).
 

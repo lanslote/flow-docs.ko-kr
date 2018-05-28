@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 01/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 06e327963a44f74141492ec14f2bef7cab802b79
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 9b2447ce0a7c9bc353e47ee1edb4bea55f2c49f4
+ms.sourcegitcommit: f9be24c533003146d75e5a7fa6e40356d4ce47d7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/25/2018
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -31,7 +31,8 @@ ms.lasthandoff: 04/26/2018
 
 | 이름 | 제한 |
 | --- | --- |
-| 요청 시간 초과 |120초 |
+| 동기 호출에 대한 요청 시간 초과 |120초 |
+| 비동기 호출에 대한 요청 시간 초과|구성할 수 있습니다. 최대 기간은 30일입니다. |
 
 ### <a name="message-size"></a>메시지 크기
 
@@ -55,6 +56,7 @@ ms.lasthandoff: 04/26/2018
 | 저장소 보존 기간 |30일 |실행 시작 시간입니다. |
 | 최소 되풀이 간격 |1분 | |
 | 최대 되풀이 간격 |500일 | |
+| 최대 실행 기록 보존 기간 |GDPR 규칙에 따라 28일입니다. | |
 
 ## <a name="looping-and-debatching-limits"></a>반복 및 분리 제한
 단일 흐름 실행에 대한 제한 사항입니다.

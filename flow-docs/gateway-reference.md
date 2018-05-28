@@ -15,11 +15,11 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 09/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 3ff4148f88c145df1db5e8ec8468138fe7413a6a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: fc69517beb24d50432c1cbed216f28cfc0f862fb
+ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 05/23/2018
 ---
 # <a name="understand-on-premises-data-gateways-for-microsoft-flow"></a>Microsoft Flow의 온-프레미스 데이터 게이트웨이 이해
 Microsoft SQL Server와 같은 온-프레미스 데이터 원본에 대한 보안 연결을 설정하려면 Microsoft Flow와 함께 온-프레미스 데이터 게이트웨이를 사용합니다.
@@ -192,7 +192,7 @@ Test-NetConnection -ComputerName watchdog.servicebus.windows.net -Port 9350
 
 ### <a name="high-availabilitydisaster-recovery"></a>고가용성/재해 복구
 **질문:** 게이트웨이에서 고가용성 시나리오에 맞는 계획이 있나요?
-**대답:** 로드맵에는 있지만 현재는 제공되지 않습니다.
+**답변:** 네, 고가용성은 [현재 사용할 수 있습니다](https://flow.microsoft.com/blog/gateway-ha-increased-apply-to-each).
 
 **질문:** 재해 복구에 어떤 옵션을 사용할 수 있나요?
 **대답:** 복구 키를 사용하여 게이트웨이를 복원 또는 이동할 수 있습니다.

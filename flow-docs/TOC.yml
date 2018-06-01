@@ -122,6 +122,18 @@
       href: gdpr-dsr-export.md
     - name: 삭제 요청
       href: gdpr-dsr-delete.md
+- name: Microsoft 계정에 대한 DSR 요청
+  items:
+    - name: 요약
+      href: gdpr-dsr-summary-msa.md
+    - name: 검색 요청
+      href: gdpr-dsr-discovery-msa.md
+    - name: 내보내기 요청
+      href: gdpr-dsr-export-msa.md
+    - name: 삭제 요청
+      href: gdpr-dsr-delete-msa.md
+    - name: 닫기 요청
+      href: gdpr-dsr-accountclose-msa.md
 - name: 참조
   items:
     - name: 지역 개요

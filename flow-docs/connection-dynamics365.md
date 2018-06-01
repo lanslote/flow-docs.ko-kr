@@ -15,16 +15,20 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 923fd1fc573586871d506a66aaa2b09d5b5dc9da
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
+ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/01/2018
+ms.locfileid: "34689379"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365(온라인)를 사용하여 흐름 만들기
 Dynamics 365 커넥터를 사용하여 Dynamics 365 또는 몇몇 다른 서비스에 이벤트가 발생할 때 시작한 다음 Dynamics 365 또는 몇몇 다른 서비스에서 작업을 수행하는 흐름을 만들 수 있습니다. 
 
 Microsoft Flow에서 자주 사용하는 앱과 서비스 사이에 자동화된 워크플로를 설정하여 파일 동기화, 알림 수신, 데이터 수집 등의 작업을 수행할 수 있습니다. 자세한 내용은 [Microsoft Flow 시작](getting-started.md)을 참조하세요.
+
+> [!IMPORTANT] 
+> 흐름 트리거를 호출하려면 흐름과 함께 사용되는 Dynamics 365 고객 참여 엔터티에 **변경 내용 추적**이 활성화되어 있어야 합니다. 자세한 내용: [변경 내용 추적을 활성화하여 데이터 동기화 제어](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization) 
 
 ## <a name="create-a-flow-from-a-template"></a>템플릿에서 흐름 만들기
 다음 예제와 같이 사용 가능한 많은 템플릿 중 하나를 사용하여 흐름을 만들 수 있습니다.

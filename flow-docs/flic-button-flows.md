@@ -1,13 +1,13 @@
 ---
-title: "Flic 단추를 사용하여 흐름 시작 | Microsoft Docs"
-description: "바로 가기 실습에서 Flic의 실제 단추를 사용하여 쉽게 단추 흐름을 시작합니다."
-services: 
+title: Flic 단추를 사용하여 흐름 시작 | Microsoft Docs
+description: 바로 가기 실습에서 Flic의 실제 단추를 사용하여 쉽게 단추 흐름을 시작합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/19/2017
 ms.author: deonhe
 ms.openlocfilehash: 518834103c1a17ef2f5af218eae43ccab4e5fda2
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440841"
 ---
 # <a name="run-your-flows-by-pressing-a-flic-smart-button-preview"></a>Flic 스마트 단추(미리 보기)를 눌러 흐름을 실행합니다.
 바로 가기 실습에서는 Flic이라고 하는 실제 단추를 눌러 흐름을 트리거합니다. 예를 들어 Flic 키를 눌러 작업 시간을 추적하거나 일정을 차단하거나 이벤트 시 방문자를 세거나 지리적 위치를 저장합니다.

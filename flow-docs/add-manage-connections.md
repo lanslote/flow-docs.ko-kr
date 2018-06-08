@@ -1,13 +1,13 @@
 ---
-title: "연결 및 온-프레미스 데이터 게이트웨이를 사용하여 데이터에 연결하는 방법 알아보기 | Microsoft Docs"
-description: "SharePoint, SQL Server, OneDrive for Business, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Google Drive 등에 대한 연결 추가 또는 관리"
-services: 
+title: 연결 및 온-프레미스 데이터 게이트웨이를 사용하여 데이터에 연결하는 방법 알아보기 | Microsoft Docs
+description: SharePoint, SQL Server, OneDrive for Business, Salesforce, Office 365, OneDrive, Dropbox, Twitter, Google Drive 등에 대한 연결 추가 또는 관리
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2017
 ms.author: stepsic
 ms.openlocfilehash: c0e115732e26bdeb0d7e4c3c60e1aa6c63e0ffc1
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439779"
 ---
 # <a name="manage-connections-in-microsoft-flow"></a>Microsoft Flow의 연결 관리
 Microsoft Flow에서 연결을 만들면 흐름을 작성하는 동안 간편하게 데이터에 액세스할 수 있습니다. Microsoft Flow에는 SharePoint, SQL Server, Office 365, OneDrive for Business, Salesforce, Excel, Dropbox, Twitter 등, 일반적으로 사용되는 연결이 포함됩니다. 연결은 PowerApps와 공유하므로 한 제품에서 연결을 만들면 다른 제품에 해당 연결이 표시됩니다.

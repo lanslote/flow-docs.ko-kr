@@ -1,13 +1,13 @@
 ---
-title: "전자 메일 속성에 따라 흐름을 실행합니다. | Microsoft Docs"
-description: "주소의 주체 이름이나 전자 메일의 받는 사람과 같은 속성에 따라 흐름을 시작합니다."
-services: 
+title: 전자 메일 속성에 따라 흐름을 실행합니다. | Microsoft Docs
+description: 주소의 주체 이름이나 전자 메일의 받는 사람과 같은 속성에 따라 흐름을 시작합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 395cb9bc1d58e50e5ac8ebac9afaed544f3261ec
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440013"
 ---
 # <a name="trigger-a-flow-based-on-email-properties"></a>전자 메일 속성에 따라 흐름 트리거
 **새 전자 메일이 도착하는 경우** 트리거를 사용하여 하나 이상의 전자 메일 속성이 제공한 조건과 일치할 때 실행되는 흐름을 만듭니다.

@@ -1,13 +1,13 @@
 ---
-title: "모든 사용자가 승인해야 하는 승인 흐름 만들기 | Microsoft Docs"
-description: "모든 사용자가 승인해야 하거나 한 명의 사용자가 요청을 거부해야 하는 승인 흐름을 만듭니다."
-services: 
+title: 모든 사용자가 승인해야 하는 승인 흐름 만들기 | Microsoft Docs
+description: 모든 사용자가 승인해야 하거나 한 명의 사용자가 요청을 거부해야 하는 승인 흐름을 만듭니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/27/2018
 ms.author: deonhe
 ms.openlocfilehash: b7cf57ad343433f50a918e3a09710fbb1e3325de
-ms.sourcegitcommit: 79fc1e439640c6329bac884085eb66e71f63ab63
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29681298"
 ---
 # <a name="create-an-approval-flow-that-requires-everyone-to-approve"></a>모든 사용자가 승인해야 하는 승인 흐름 만들기
 

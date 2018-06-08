@@ -1,13 +1,13 @@
 ---
 title: Common Data Service | Microsoft Docs
-description: "Common Data Service로 데이터를 가져오거나, 내보내거나, 승인을 구성하는 흐름을 만듭니다."
-services: 
+description: Common Data Service로 데이터를 가져오거나, 내보내거나, 승인을 구성하는 흐름을 만듭니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
 ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351305"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service를 사용하는 흐름 만들기
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/)를 사용하는 흐름을 만들어 비즈니스 데이터의 통합 보기를 통해 운영 효율성을 증대합니다. 조직 내에 잘 구성된 표준 비즈니스 엔티티(예: 영업, 구매, 고객 서비스, 생산성 등)로 구성된 이 안전한 비즈니스 데이터베이스를 배치합니다. Microsoft Excel 및 Salesforce 등과 같은 외부 데이터 원본에서 여러 이점을 제공하는 하나 이상의 [사용자 지정 엔터티](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)에 조직 데이터를 저장합니다.

@@ -1,13 +1,13 @@
 ---
-title: "데이터 작업 이해 | Microsoft Docs"
-description: "HTML 테이블 만들기, CSV 테이블 만들기, Microsoft Flow로 배열 작성, 조인, 선택 및 필터링하기 등과 같은 작업 수행에 대해 알아봅니다."
-services: 
+title: 데이터 작업 이해 | Microsoft Docs
+description: HTML 테이블 만들기, CSV 테이블 만들기, Microsoft Flow로 배열 작성, 조인, 선택 및 필터링하기 등과 같은 작업 수행에 대해 알아봅니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/02/2017
 ms.author: deonhe
 ms.openlocfilehash: aa3f61d09cb5e9b8d07124838883da9b5b9794ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440913"
 ---
 # <a name="use-data-operations-with-microsoft-flow"></a>Microsoft Flow로 데이터 작업 사용하기
 이 연습에서는 배열 작성, 조인, 선택, 필터링, 테이블 만들기, 흐름을 만들 때 데이터를 조작하기 위해 사용할 수 있는 JSON 구문 분석과 같이 많이 사용하는 Microsoft Flow의 일부 데이터 작업에 대해 알아봅니다.

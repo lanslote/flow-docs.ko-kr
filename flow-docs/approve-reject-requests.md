@@ -1,13 +1,13 @@
 ---
-title: "승인 요청을 보거나, 승인하거나 또는 거부합니다. | Microsoft Docs"
-description: "Microsoft Flow의 승인 요청을 보거나, 승인하거나 또는 거부하는 방법을 알아봅니다."
-services: 
+title: 승인 요청을 보거나, 승인하거나 또는 거부합니다. | Microsoft Docs
+description: Microsoft Flow의 승인 요청을 보거나, 승인하거나 또는 거부하는 방법을 알아봅니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/15/2017
 ms.author: deonhe
 ms.openlocfilehash: 016673948ffaeaf98e81cc2c561d9ff9f5f627e4
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439527"
 ---
 # <a name="manage-approval-requests-in-microsoft-flow"></a>Microsoft Flow의 승인 요청 관리하기
 Microsoft Flow을 사용하면 [승인 워크플로 프로세스](modern-approvals.md)를 자동화하기 쉽습니다. 이 연습에서는 Microsoft Flow에서 보낸 승인 요청을 보거나, 승인하거나, 거부하는 방법을 알아봅니다.

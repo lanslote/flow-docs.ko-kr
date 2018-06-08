@@ -1,13 +1,13 @@
 ---
-title: "흐름 만들기를 통한 작업 자동화 | Microsoft Docs"
-description: "누군가 SharePoint 목록에 행을 추가하는 등의 이벤트가 발생하는 경우 이메일 보내기와 같은 하나 이상의 작업을 자동으로 수행하는 흐름을 만듭니다."
-services: 
+title: 흐름 만들기를 통한 작업 자동화 | Microsoft Docs
+description: 누군가 SharePoint 목록에 행을 추가하는 등의 이벤트가 발생하는 경우 이메일 보내기와 같은 하나 이상의 작업을 자동으로 수행하는 흐름을 만듭니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: get-started-article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/28/2018
 ms.author: deonhe
 ms.openlocfilehash: 911be014dd6f57a80be7c65d87cb2d5d475c88e1
-ms.sourcegitcommit: 2dcb94f85c0029f920329c861b6a0f1f8972c191
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29716279"
 ---
 # <a name="create-a-flow-in-microsoft-flow"></a>Microsoft Flow에서 흐름 만들기
 
@@ -65,7 +66,7 @@ ms.lasthandoff: 03/01/2018
 1. 표시되는 양식에서 전자 메일 주소를 **받는 사람** 상자에 입력 또는 붙여 넣은 다음, 표시되는 연락처 목록에서 이름을 선택합니다.
 
     ![빈 전자 메일 메시지](./media/get-started-logic-flow/blank-email.png)
-1. **제목** 입력란에서 **새 트윗 출처:**를 입력하거나 붙여 넣은 다음, 공백을 입력합니다.
+1. **제목** 입력란에서 **새 트윗 출처:** 를 입력하거나 붙여 넣은 다음, 공백을 입력합니다.
 
     ![자리 표시자가 있는 제목줄](./media/get-started-logic-flow/message-token.png)
 1. 토큰 목록에서 **트윗됨** 토큰을 선택하여 해당 자리 표시자를 추가합니다.

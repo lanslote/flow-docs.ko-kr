@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 7c182328c341043ffc155a679f39bcbc2130a0bc
-ms.sourcegitcommit: d00c10759d4afb54517a0b1032f8d0a509006d5b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "31008073"
 ---
 # <a name="filter-and-copy-data-with-microsoft-flow"></a>Microsoft Flow에서 데이터 필터링 및 복사
 이 연습에서는 새롭거나 변경된 항목에 대한 원본을 모니터링하고 해당 변경 내용을 대상에 복사하는 흐름을 만드는 방법을 보여줍니다. 사용자가 한 위치에서 데이터를 입력하지만 팀에서 다른 위치 또는 형식이 필요한 경우 이와 같은 흐름을 만들 수 있습니다.

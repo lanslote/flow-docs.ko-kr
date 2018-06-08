@@ -1,13 +1,13 @@
 ---
-title: "흐름에 다른 소유자를 추가하고 팀 흐름을 만드는 방법 알아보기 | Microsoft Docs"
-description: "Microsoft Flow를 사용하면 반복적인 작업을 쉽게 자동화할 수 있습니다. 소유자로 사용자 또는 그룹을 추가하고 공동 작업을 수행하여 흐름을 디자인하고 관리할 수 있습니다."
-services: 
+title: 흐름에 다른 소유자를 추가하고 팀 흐름을 만드는 방법 알아보기 | Microsoft Docs
+description: Microsoft Flow를 사용하면 반복적인 작업을 쉽게 자동화할 수 있습니다. 소유자로 사용자 또는 그룹을 추가하고 공동 작업을 수행하여 흐름을 디자인하고 관리할 수 있습니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
 ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23439689"
 ---
 # <a name="create-team-flows"></a>팀 흐름 만들기
 소유자로 조직의 다른 사용자를 추가하여 팀 흐름을 만듭니다. 팀 흐름의 모든 소유자는 다음 작업을 수행할 수 있습니다.

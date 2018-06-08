@@ -1,13 +1,13 @@
 ---
-title: "흐름에서 승인 대기 | Microsoft Docs"
-description: "흐름은 결정에 대한 알림을 보내는 등의 동작을 수행하기에 앞서, 사용자가 변경 내용 승인 또는 거부 등과 같은 외부 이벤트의 발생을 대기할 수 있습니다."
-services: 
+title: 흐름에서 승인 대기 | Microsoft Docs
+description: 흐름은 결정에 대한 알림을 보내는 등의 동작을 수행하기에 앞서, 사용자가 변경 내용 승인 또는 거부 등과 같은 외부 이벤트의 발생을 대기할 수 있습니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: merwanhade
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 02/15/2018
 ms.author: merwanhade
 ms.openlocfilehash: b75cacf14da7d1b339e8a2f9e35eece389c2a6f7
-ms.sourcegitcommit: 22a883c30c859b6193fc2a619e753d71247f5e15
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29563161"
 ---
 # <a name="wait-for-approval-in-microsoft-flow"></a>Microsoft Flow에서 승인 대기
 

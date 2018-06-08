@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/21/2017
 ms.author: deonhe
 ms.openlocfilehash: 2804c683defb94f87c40452a27382bc143c11f10
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442263"
 ---
 # <a name="share-button-flows-in-microsoft-flow"></a>Microsoft Flow에서 단추 흐름 공유
 Microsoft Flow 모바일 앱에서 조직의 다른 사용자 또는 그룹과 [단추 흐름](introduction-to-button-flows.md)(단추)을 공유할 수 있습니다. 단추를 공유하면 사용자가 단추를 공유한 개인 또는 그룹이 사용자의 단추를 실행할 수 있고, 마찬가지로 자신의 단추도 실행할 수 있습니다. 다른 사용자가 공유한 단추에 대한 [링크를 공유](share-buttons.md#re-share-a-button)할 수도 있습니다. 언제든지 단추 [공유를 중지](share-buttons.md#stop-sharing-a-button)할 수 있습니다.

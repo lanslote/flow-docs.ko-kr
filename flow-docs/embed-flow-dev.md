@@ -1,13 +1,13 @@
 ---
-title: "웹 사이트 및 앱과 Microsoft Flow 통합 | Microsoft Docs"
-description: "웹 사이트나 앱에 Microsoft Flow 경험을 포함합니다."
-services: 
+title: 웹 사이트 및 앱과 Microsoft Flow 통합 | Microsoft Docs
+description: 웹 사이트나 앱에 Microsoft Flow 경험을 포함합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: bbarath
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: barathb
-ms.openlocfilehash: 12664286a9e7d88fb5e24607d600b42f95398cee
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.openlocfilehash: af03ee70b09ba5ee1164a9a7ea5019b13c19eec6
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440049"
 ---
 # <a name="integrate-microsoft-flow-with-websites-and-apps"></a>웹 사이트 및 앱과 Microsoft Flow 통합
 Microsoft Flow를 올바르게 앱이나 웹 사이트에 포함하면 사용자가 개인 또는 업무 작업을 간단히 자동화하게 할 수 있습니다.
@@ -33,7 +34,7 @@ Microsoft Flow를 올바르게 앱이나 웹 사이트에 포함하면 사용자
 ## <a name="show-templates-for-your-scenarios"></a>시나리오에 대한 템플릿 표시
 시작하려면 이 코드를 추가하여 웹 사이트에 직접 흐름 템플릿을 표시합니다.
 
-```
+```html
 <iframe src="https://flow.microsoft.com/{locale}/widgets/templates/?q={search term}
 &pagesize={number of templates}&destination={destination}"></iframe>
 ```
@@ -59,7 +60,7 @@ Microsoft Flow를 올바르게 앱이나 웹 사이트에 포함하면 사용자
 ### <a name="full-sample"></a>전체 샘플
 독일어로 Wunderlist에 대한 상위 4개 템플릿을 표시하고 **myCoolList**로 사용자를 시작하려면:
 
-```
+```html
 <iframe src="https://flow.microsoft.com/de-de/widgets/templates/?q=wunderlist
 &pagesize=4&destination=details&parameters.listName=myCoolList"></iframe>
 ```
@@ -75,20 +76,20 @@ Microsoft Flow를 올바르게 앱이나 웹 사이트에 포함하면 사용자
 ### <a name="include-the-javascript-for-the-authenticated-sdk"></a>인증된 SDK에 대한 JavaScript 포함
 이 예제에 따라 HTML 코드에 SDK를 포함합니다. SDK를 다운로드 및 축소하여 제품과 함께 패키징할 수도 있습니다.
 
-```
+```javascript
 <script src="https://flow.microsoft.com/content/msflowsdk-1.1.js" async defer></script>
 ```
 
 ### <a name="create-a-container-to-contain-the-view"></a>보기를 포함하는 컨테이너 만들기
 HTML div 추가:
 
-```
+```html
 <div id="flowDiv" class="flowContainer"></div>
 ```
 
 환경에서 적합한 치수로 표시될 수 있게 이 컨테이너의 스타일을 권장합니다.
 
-```
+```html
 <head>
     <style>
         .flowContainer iframe {
@@ -106,7 +107,7 @@ HTML div 추가:
 ### <a name="authentication-against-the-sdk"></a>SDK에 대한 인증
 사용자에게 이미 권한이 있는 흐름을 열거하고 템플릿에서 흐름을 만들려면 AAD에서 authToken을 제공합니다.
 
-```
+```javascript
 <script>
     window.msFlowSdkLoaded = function() {
         var sdk = new MsFlowSdk({
@@ -132,7 +133,7 @@ HTML div 추가:
 
 액세스를 갖는 환경 사용자 목록을 반환하는 다음 API를 호출하여 `environmentId`를 찾을 수 있습니다.
 
-```
+```http
 GET https://management.azure.com/providers/Microsoft.ProcessSimple/environments
 ?api-version=2016-11-01 
 ```
@@ -141,7 +142,7 @@ GET https://management.azure.com/providers/Microsoft.ProcessSimple/environments
 
 이 예제에서는 `requestParam`이 다음과 같이 정의됩니다.
 
-```
+```javascript
 export interface IRpcRequestParam {
     callInfo: IRpcCallInfo,
     data?: any;
@@ -150,7 +151,7 @@ export interface IRpcRequestParam {
 
 다음으로, `widgetDoneCallback`은 호스트에 토큰이 있을 때 호출해야 하는 콜백 함수입니다. 토큰 획득은 비동기 프로세스일 가능성이 크므로 이 작업이 수행됩니다. 이 함수를 호출하는 경우에 전달되어야 하는 매개 변수는 `(errorResult: any, successResult: any)`입니다. successResult는 콜백 유형에 따라 달라집니다. `GetAccessToken`의 경우 유형은 다음과 같습니다.
 
-```
+```javascript
 export interface IGetAccessTokenResult {
     token: string;
 }

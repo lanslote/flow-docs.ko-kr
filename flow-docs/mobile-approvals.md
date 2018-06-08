@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 07/20/2017
 ms.author: deonhe
 ms.openlocfilehash: 2b856dfa75e0acb7eb83525c4d64d070315b5735
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440193"
 ---
 # <a name="approve-requests-on-your-mobile-device-by-using-microsoft-flow"></a>Microsoft Flow를 사용하여 모바일 장치에서 요청 승인
 흐름에서 사용자를 승인자로 식별하고 사용자가 Microsoft Flow용 모바일 앱을 설치한 경우 승인이 요청될 때마다 사용자가 푸시 알림을 받습니다.

@@ -1,13 +1,13 @@
 ---
-title: "항목의 배열을 통해 반복하도록 각 작업에 적용을 사용합니다. | Microsoft Docs"
-description: "항목의 배열을 통해 반복하도록 Microsoft Flow를 사용하여 여러 조건을 확인하고 해당 조건에 따라 작업을 수행합니다."
-services: 
+title: 항목의 배열을 통해 반복하도록 각 작업에 적용을 사용합니다. | Microsoft Docs
+description: 항목의 배열을 통해 반복하도록 Microsoft Flow를 사용하여 여러 조건을 확인하고 해당 조건에 따라 작업을 수행합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 03/16/2017
 ms.author: deonhe
 ms.openlocfilehash: 37f1ce939db23694bcd92e7f1af75bf6c474be91
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440463"
 ---
 # <a name="use-the-apply-to-each-action-in-microsoft-flow-to-process-a-list-of-items-periodically"></a>Microsoft Flow에서 각 작업에 적용을 사용하여 항목의 목록을 주기적으로 처리
 많은 트리거는 새 전자 메일이 받은 편지함에 도착하는 경우와 같은 이벤트에 따라 흐름을 바로 시작할 수 있습니다. 이러한 트리거는 유용하지만 때로는 데이터 원본에 있는 항목의 속성에 따라 특정 작업을 수행하는, 미리 정의된 일정에 따라 데이터 원본을 쿼리하는 흐름을 실행하려고 합니다. 이를 수행하기 위해 흐름은 일정(예: 하루에 한 번)에 따라 시작될 수 있으며 **각각에 적용**과 같은 루프 작업을 사용하여 항목의 목록을 처리할 수 있습니다. 예를 들어 **각각에 적용**을 사용하여 데이터베이스의 레코드 또는 Microsoft SharePoint에서 항목의 목록을 업데이트합니다.

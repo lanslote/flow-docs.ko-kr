@@ -1,13 +1,13 @@
 ---
-title: "엔터프라이즈 개발자, ISV 및 파트너를 위한 Microsoft Flow | Microsoft Docs"
-description: "Microsoft Flow에 대한 솔루션 개발을 소개합니다."
-services: 
+title: 엔터프라이즈 개발자, ISV 및 파트너를 위한 Microsoft Flow | Microsoft Docs
+description: Microsoft Flow에 대한 솔루션 개발을 소개합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: mgblythe
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 01/31/2018
 ms.author: mblythe
 ms.openlocfilehash: d8886f0828ca3b8ccf7ae1ce9c46f6e9b8fcc766
-ms.sourcegitcommit: f3261717768177e03e825c0dd2e3ba736dc9b94d
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "29351287"
 ---
 # <a name="microsoft-flow-for-enterprise-developers-isvs-and-partners"></a>엔터프라이즈 개발자, ISV 및 파트너를 위한 Microsoft Flow
 

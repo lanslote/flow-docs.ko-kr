@@ -1,13 +1,13 @@
 ---
-title: "bttns를 사용하여 흐름 시작 | Microsoft Docs"
-description: "bttn을 사용하여 흐름을 시작하는 방법 알아보기"
-services: 
+title: bttns를 사용하여 흐름 시작 | Microsoft Docs
+description: bttn을 사용하여 흐름을 시작하는 방법 알아보기
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 05/30/2017
 ms.author: deonhe
 ms.openlocfilehash: c4010f95ad2db3c4f3b97b39f0b45934c7b69c48
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440319"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Button Corporation(미리 보기)에서 실제 단추(bttns)를 사용하여 흐름 실행
 [Button Corporation](https://my.bt.tn/)에서 만든 실제 단추인 bttn을 눌러 흐름을 트리거합니다. 예를 들어 다음과 같은 작업을 수행하기 위해 흐름을 트리거하는 bttn을 누를 수 있습니다.

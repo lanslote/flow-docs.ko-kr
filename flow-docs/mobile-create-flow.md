@@ -1,13 +1,13 @@
 ---
-title: "전화에서 흐름 만들기 | Microsoft Docs"
-description: "사용자가 지정한 주소에서 메일을 받으면 알림을 푸시하는 것처럼, 템플릿에서 흐름을 만들 수 있습니다."
-services: 
+title: 전화에서 흐름 만들기 | Microsoft Docs
+description: 사용자가 지정한 주소에서 메일을 받으면 알림을 푸시하는 것처럼, 템플릿에서 흐름을 만들 수 있습니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: adiregev
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/18/2016
 ms.author: adiregev
 ms.openlocfilehash: 27a2001e3fa154f9354ef5ad888e194f30b3d6ab
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440301"
 ---
 # <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Microsoft Flow를 사용하여 전화에서 흐름 만들기
 서비스 목록 검색, 카테고리 탐색 또는 키워드 지정을 통해 찾을 수 있는 템플릿을 사용하여 전화에서 흐름을 만듭니다. 이 토픽의 단계에 따라, 상사에게 메일을 받으면 전화로 푸시 알림을 보내는 흐름을 만듭니다.

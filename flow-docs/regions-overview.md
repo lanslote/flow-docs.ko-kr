@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Flow의 지역 개요 | Microsoft Docs"
-description: "Microsoft Flow의 지역에 대한 질문 및 대답 개요"
-services: 
+title: Microsoft Flow의 지역 개요 | Microsoft Docs
+description: Microsoft Flow의 지역에 대한 질문 및 대답 개요
+services: ''
 suite: flow
 documentationcenter: na
 author: MSFTMan
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 08/28/2017
 ms.author: deonhe
 ms.openlocfilehash: ec9b72e570c562c091aefd370f73d6862ff56f18
-ms.sourcegitcommit: 4f2cb27d392f46aa1d8680d6278876780ed3871b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442083"
 ---
 # <a name="faq-for-regions-in-microsoft-flow"></a>Microsoft Flow의 지역에 대한 FAQ
 이 문서에서는 Microsoft Flow에 대한 질문 및 대답 목록을 제공합니다.

@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
 ms.openlocfilehash: a9318a1571d46635babbb0b061ff65734ad172fe
-ms.sourcegitcommit: f0202f74ba9a2282a670a1751462f598a5ea0ce5
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23440157"
 ---
 # <a name="monitor-activity-in-microsoft-flow-from-your-phone"></a>휴대폰에서 Microsoft Flow 활동 모니터링
 오늘, 어제 및 과거에 각 흐름이 성공 또는 실패한 횟수의 요약을 확인합니다. 실행 시기, 각 단계의 진행 시간, 실패한 경우 실패 사유 등, 각 실행에 대한 상세 정보를 살펴봅니다.

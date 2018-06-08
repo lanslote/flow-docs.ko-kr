@@ -1,12 +1,12 @@
 ---
-title: "사용자 지정 커넥터 콘텐츠 링크 | Microsoft Docs"
-description: "사용자 지정 커넥터를 생성, 사용, 공유 및 인증하기 위한 콘텐츠에 대한 링크입니다."
-services: 
+title: 사용자 지정 커넥터 콘텐츠 링크 | Microsoft Docs
+description: 사용자 지정 커넥터를 생성, 사용, 공유 및 인증하기 위한 콘텐츠에 대한 링크입니다.
+services: ''
 suite: flow
-documentationcenter: 
+documentationcenter: ''
 author: sunaysv
 manager: anneta
-editor: 
+editor: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -15,10 +15,11 @@ ms.workload: na
 ms.date: 01/29/2018
 ms.author: sunayv
 ms.openlocfilehash: 045ae7c50cae1cf62782b33d3a6465fab89d033f
-ms.sourcegitcommit: 2d6cd915a666e9032882871f70aadaea4f877c6f
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "28892023"
 ---
 # <a name="custom-connectors-in-microsoft-flow"></a>Microsoft Flow의 사용자 지정 커넥터
 

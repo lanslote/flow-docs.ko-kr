@@ -1,13 +1,13 @@
 ---
-title: "일정에 따라 흐름 실행| Microsoft Docs"
-description: "매일 또는 매시간 등, 일정에 따라 흐름을 실행하도록 반복 작업을 자동화합니다."
-services: 
+title: 일정에 따라 흐름 실행| Microsoft Docs
+description: 매일 또는 매시간 등, 일정에 따라 흐름을 실행하도록 반복 작업을 자동화합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 09/14/2017
 ms.author: stepsic
 ms.openlocfilehash: eaeaf62da694daf7f8e6d876c3d225337fdbe592
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981252"
 ---
 # <a name="run-flows-on-a-schedule"></a>일정에 따라 흐름 실행
 하나 이상의 작업(예: 전자 메일로 보고서 보내기)을 수행하는 흐름을 만듭니다.
@@ -63,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 1. [Microsoft Flow](https://flow.microsoft.com)에 로그인하고 상단 탐색 모음에서 **내 흐름**을 선택합니다.
    
     ![빈 값에서 흐름 만들기 ](./media/run-scheduled-tasks/create-flow.png)
-2. **빈 값에서 만들기**를 선택합니다.
+2. **빈값에서 만들기**를 선택합니다.
    
     ![빈 값에서 흐름 만들기 ](./media/run-scheduled-tasks/create-from-blank.png)
 3. [처음부터 새로 흐름 만들기](get-started-logic-flow.md)에서 설명한 대로 이벤트를 지정합니다.

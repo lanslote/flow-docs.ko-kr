@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 4/17/2018
+ms.date: 4/24/2018
 ms.author: keweare
-ms.openlocfilehash: 1e1fe346ba6ffb264985da0115714246a621ef5a
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: 5b813bbd8ba9b4e5a778d9fa424704b61ed6dd31
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34552068"
 ---
 # <a name="responding-to-gdpr-data-subject-export-requests-for-microsoft-flow"></a>Microsoft Flow에 대한 GDPR 데이터 주체 내보내기 요청에 응답
 
@@ -39,16 +40,15 @@ Microsoft Flow는 특정 사용자에 대한 개인 데이터를 찾거나 내�
 |-----------------|------------------|-------------------|
 |시스템 생성 로그|[Office 365 Service Trust Portal](https://servicetrust.microsoft.com/)|
 |실행 기록|Microsoft Flow 작성자 포털||
-|사용자 작업|| |
 |흐름|Microsoft Flow 작성자 포털||
 |흐름 권한| Microsoft Flow 작성자 포털 및 Microsoft Flow 관리 센터||
-|사용자 세부 정보|| |
-|연결|Microsoft Flow 작성자 포털| |
-|연결 권한|Microsoft Flow 작성자 포털| |
-|사용자 지정 커넥터|Microsoft Flow 작성자 포털| |
-|사용자 지정 커넥터 권한|Microsoft Flow 작성자 포털| |
-|게이트웨이|Microsoft Flow 작성자 포털|온-프레미스 게이트웨이 PowerShell cmdlet|
-|게이트웨이 권한|Microsoft Flow 작성자 포털|
+|사용자 세부 정보||PowerApps cmdlet|
+|연결|Microsoft Flow 작성자 포털|PowerApps cmdlet |
+|연결 권한|Microsoft Flow 작성자 포털|PowerApps cmdlet |
+|사용자 지정 커넥터|Microsoft Flow 작성자 포털|PowerApps cmdlet |
+|사용자 지정 커넥터 권한|Microsoft Flow 작성자 포털|PowerApps cmdlet |
+|게이트웨이|Microsoft Flow 작성자 포털|온-프레미스 데이터 게이트웨이 PowerShell cmdlet|
+|게이트웨이 권한|Microsoft Flow 작성자 포털|온-프레미스 데이터 게이트웨이 PowerShell cmdlet|
 
 ## <a name="export-a-flow"></a>흐름 내보내기
 
@@ -105,10 +105,35 @@ Microsoft Flow 관리 센터를 통해 흐름에 대한 액세스 권한이 부�
     ![연결 표시](./media/gdpr-dsr-export/show-connections.png)
 1. 결과를 복사한 다음, Microsoft Word 같은 문서 편집기에 붙여넣습니다.
 
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connections for the user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnection -CreateBy $userId | ConvertTo-Json |Out-File -FilePath "UserConnections.txt"
+```
+
 ## <a name="export-a-list-of-a-users-connection-permissions"></a>사용자의 연결 권한 목록 내보내기
 
 사용자는 [PowerApps PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 Get-ConnectionRoleAssignment 함수를 통해 액세스 권한이 있는 모든 연결에 대한 연결 역할 할당을 내보낼 수 있습니다.
-![연결 권한 내보내기](./media/gdpr-dsr-export/export-connection-permissions.png)
+
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectionRoleAssignment | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt"
+```
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "ConnectionPermissions.txt" 
+```
 
 ## <a name="export-a-users-custom-connectors"></a>사용자의 사용자 지정 커넥터 내보내기
 
@@ -125,13 +150,41 @@ Microsoft Flow 관리 센터를 통해 흐름에 대한 액세스 권한이 부�
 
 Microsoft Flow에서 제공하는 환경 외에도 [PowerApps PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)의 Get-Connector 함수를 사용하여 모든 사용자 지정 커넥터를 내보낼 수 있습니다.
 
-![사용자 지정 커넥터 내보내기 powershell](./media/gdpr-dsr-export/export-custom-connectors-powershell.png)
+~~~~
+Add-PowerAppsAccount
+Get-Connector -FilterNonCustomConnectors | ConvertTo-Json | Out-File -FilePath "CustomConnectors.txt"
+~~~~
+
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all custom connectors for user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnector -CreatedBy $userId | ConvertTo-Json | Out-File -FilePath "UserCustomConnectors.txt"  
+```
 
 ## <a name="export-a-users-custom-connector-permissions"></a>사용자의 사용자 지정 커넥터 권한 내보내기
 
 사용자는 [PowerApps PowerShell cdmlet](https://go.microsoft.com/fwlink/?linkid=871804)의 Get-ConnectorRoleAssignment 함수를 통해 자신이 만든 모든 사용자 지정 커넥터 권한을 내보낼 수 있습니다.
 
-![사용자 지정 커넥터 권한 내보내기 powershell](./media/gdpr-dsr-export/export-connector-permissions.png)
+```PowerShell
+Add-PowerAppsAccount
+Get-ConnectorRoleAssignment | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"
+```
+
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+#Retrieves all connection permissions for the specified user 
+Add-PowerAppsAccount
+$userId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $userId | ConvertTo-Json | Out-File -FilePath "CustomConnectorPermissions.txt"   
+```
 
 ## <a name="export-approval-history"></a>승인 기록 내보내기
 
@@ -144,3 +197,18 @@ Microsoft Flow 승인 기록은 사용자에 대해 받거나 보낸 승인의 �
 1. 목록에는 사용자가 받은 승인이 표시됩니다. 사용자는 **받음** 옆에 있는 아래쪽 화살표를 선택한 다음, **보냄**을 선택하여 보낸 승인을 표시할 수 있습니다.
 
     ![받은 승인 보기](./media/gdpr-dsr-export/view-received-approvals.png)
+
+## <a name="export-user-details"></a>사용자 세부 정보 내보내기
+사용자 세부 정보는 사용자와 특정 테넌트 간의 연결을 제공합니다. 관리자는 **Get-AdminFlowUserDetails** cmdlet을 호출하고 사용자의 개체 ID를 전달하여 이 정보를 내보낼 수 있습니다.
+
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+Get-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+## <a name="export-gateway-settings"></a>게이트웨이 설정 내보내기
+온-프레미스 데이터 게이트웨이의 데이터 주체 내보내기 요청에 응답하는 작업은 [여기](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)에서 찾을 수 있습니다.
+

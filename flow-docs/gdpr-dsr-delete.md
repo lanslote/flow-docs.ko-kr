@@ -15,11 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: d750ee2bc672d08bff940341349663b4721f9a57
-ms.sourcegitcommit: 12fbfe22fedd780d42ef1d2febfd7a0769b4902e
+ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34561313"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow에 대한 GDPR 데이터 주체 삭제 요청에 응답
 
@@ -33,17 +34,17 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
 |------|------|
 |환경*|시스템 생성 로그|
 |환경 권한**|실행 기록|
-|흐름|사용자 작업|
+|흐름|작업 피드|
 |흐름 권한|게이트웨이 |
-|사용자 세부 정보|게이트웨이 권한 |
+|사용자 세부 정보|게이트웨이 권한|
 |연결*||
 |연결 권한||
 |사용자 지정 커넥터*||
 |사용자 지정 커넥터 권한||
 
-* 이러한 각 리소스에는 개인 데이터를 포함하는 “만든 사람” 및 “수정한 사람” 레코드가 있습니다. 보안상의 이유로 이러한 레코드는 리소스가 삭제될 때까지 보존됩니다.
+이러한 각 리소스에는 개인 데이터를 포함하는 “만든 사람” 및 “수정한 사람” 레코드가 있습니다. 보안상의 이유로 이러한 레코드는 리소스가 삭제될 때까지 보존됩니다.
 
-* 앱용 Common Data Service 데이터베이스를 포함하는 환경의 경우 환경 권한(예: 환경 작성자 및 관리자 역할에 할당된 사용자)은 Common Data Service 데이터베이스에 레코드로 저장됩니다. Common Data Service를 사용하는 사용자의 DSR에 응답하는 방법에 대한 자세한 내용은 [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251)(Common Data Service 고객 데이터에 대해 DSR 실행)를 참조하세요.
+**앱용 Common Data Service 데이터베이스를 포함하는 환경의 경우 환경 권한(예: 환경 작성자 및 관리자 역할에 할당된 사용자)은 Common Data Service 데이터베이스에 레코드로 저장됩니다. Common Data Service를 사용하는 사용자의 DSR에 응답하는 방법에 대한 자세한 내용은 [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251)(Common Data Service 고객 데이터에 대해 DSR 실행)를 참조하세요.
 
 수동 검토가 필요한 데이터 및 리소스의 경우 Microsoft Flow는 특정 사용자에 대한 개인 데이터를 찾거나 변경하기 위한 다음과 같은 환경을 제공합니다.
 
@@ -59,11 +60,11 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
 |환경|Microsoft Flow 관리 센터|PowerApps cmdlet||
 |환경 권한*|Microsoft Flow 관리 센터|PowerApps cmdlet||
 |실행 기록||| 28일 보존 정책을 통해 삭제됨|
-|작업 피드 ||PowerApps cmdlet||
+|작업 피드 |||28일 보존 정책을 통해 삭제됨|
 |사용자 작업|| ||
 |흐름|Microsoft Flow 작성자 포털**|||
 |흐름 권한|Microsoft Flow 작성자 포털|||
-|사용자 세부 정보|| ||
+|사용자 세부 정보||PowerApps cmdlet||
 |연결|Microsoft Flow 작성자 포털| ||
 |연결 권한|Microsoft Flow 작성자 포털| ||
 |사용자 지정 커넥터|Microsoft Flow 작성자 포털| ||
@@ -76,7 +77,7 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
 
 ## <a name="manage-delete-requests"></a>삭제 요청 관리
 
-아래 단계에서는 GDPR에 대한 삭제 요청을 처리하기 위해 관리 기능이 존재하는 방식을 설명합니다.
+아래 단계에서는 GDPR에 대한 삭제 요청을 처리하기 위해 관리 기능이 존재하는 방식을 설명합니다. 이러한 단계는 아래에 설명한 순서로 수행되어야 합니다.
 
 > [!IMPORTANT]
 > 데이터 손상을 방지하려면 다음 단계를 순서대로 수행합니다.
@@ -124,6 +125,7 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
     ![흐름 삭제 확인](./media/gdpr-dsr-delete/delete-flow-confirmation.png)
 
 1. **내 흐름**를 연 다음, 토글 컨트롤을 **켜기**로 전환하여 흐름 복사본을 사용하도록 설정합니다.
+
     ![흐름 사용](./media/gdpr-dsr-delete/toggle-on.png)
 
 1. 이제 복사본이 원래 버전과 동일한 워크플로 논리를 수행합니다.
@@ -142,6 +144,7 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
 
 Common Data Service를 사용하는 사용자의 DSR에 응답하는 방법에 대한 자세한 내용은 [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251)(Common Data Service 고객 데이터에 대해 DSR 실행)를 참조하세요.
 
+
 ## <a name="delete-connections-created-by-a-user"></a>사용자가 만든 연결 삭제
 
 연결을 커넥터와 함께 사용하여 다른 API 및 SaaS 시스템에 대한 연결을 설정합니다.  연결에는 연결을 만든 사용자에 대한 참조가 포함되므로 연결을 삭제하면 사용자에 대한 모든 참조를 제거할 수 있습니다.
@@ -159,8 +162,14 @@ Get-Connection | Remove-Connection
 
 PowerApps 관리자 PowerShell cmdlet
 
-사용할 수 없습니다.
+```PowerShell
+Add-PowerAppsAccount
 
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all connections for the DSR user and deletes them 
+Get-AdminConnection -CreatedBy $deleteDsrUserId | Remove-AdminConnection 
+
+```
 ## <a name="delete-the-users-permissions-to-shared-connections"></a>공유 연결에 대한 사용자 권한 삭제
 
 PowerApps 작성자 PowerShell cmdlet
@@ -174,14 +183,20 @@ Add-PowerAppsAccount
 Get-ConnectionRoleAssignment | Remove-ConnectionRoleAssignment
 ```
 
+PowerApps 관리자 PowerShell cmdlet
+
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all shared connections for the DSR user and deletes their permissions 
+Get-AdminConnectionRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectionRoleAssignment  
+
+```
 > [!NOTE]
 > 소유자 역할 할당을 삭제하려면 연결 리소스를 삭제해야 합니다.
 >
 >
-
-PowerApps 관리자 PowerShell cmdlet
-
-사용할 수 없습니다.
 
 ## <a name="delete-custom-connectors-created-by-the-user"></a>사용자가 만든 사용자 지정 커넥터 삭제
 
@@ -199,8 +214,14 @@ Get-Connector -FilterNonCustomConnectors | Remove-Connector
 ```
 
 PowerApps 관리자 PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
 
-사용할 수 없습니다.
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connectors created by the DSR user and deletes them 
+Get-AdminConnector -CreatedBy $deleteDsrUserId | Remove-AdminConnector  
+
+```
 
 ## <a name="delete-the-users-permissions-to-shared-custom-connectors"></a>공유된 사용자 지정 커넥터에 대한 사용자 권한 삭제
 
@@ -215,14 +236,21 @@ Add-PowerAppsAccount
 Get-ConnectorRoleAssignment | Remove-ConnectorRoleAssignment
 ```
 
+PowerApps 관리자 PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
+
+$deleteDsrUserId = "7822bb68-7c24-49ce-90ce-1ec8deab99a7"
+#Retrieves all custom connector role assignments for the DSR user and deletes them 
+Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-AdminConnectorRoleAssignment  
+
+```
+
 > [!NOTE]
 > 소유자 역할 할당을 삭제하려면 연결 리소스를 삭제해야 합니다.
 >
 >
 
-PowerApps 관리자 PowerShell cmdlet
-
-사용할 수 없습니다.
 
 ## <a name="delete-or-reassign-all-environments-created-by-the-user"></a>사용자가 만든 모든 환경 삭제 또는 다시 할당
 
@@ -246,3 +274,43 @@ Microsoft Flow 서비스에 “역할 할당”으로 저장된 특정 환경의
 앱용 Common Data Service가 소개되면서 데이터베이스가 환경 내에서 만들어지는 경우 이러한 “역할 할당”은 앱용 Common Data Service 데이터베이스 인스턴스 내에 레코드로 저장됩니다.
 
 환경에서 사용자 권한을 제거하는 방법에 대한 자세한 내용은 [Microsoft Flow 내에서 환경 사용](https://docs.microsoft.com/flow/environments-overview-admin)을 참조하세요.
+
+## <a name="delete-gateway-settings"></a>게이트웨이 설정 삭제
+온-프레미스 데이터 게이트웨이의 데이터 주체 삭제 요청에 응답하는 작업은 [여기](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)에서 찾을 수 있습니다.
+
+## <a name="delete-user-details"></a>사용자 세부 정보 삭제
+사용자 세부 정보는 사용자와 특정 테넌트 간의 연결을 제공합니다. 이 명령을 실행하기 전에 이 사용자에 대한 모든 흐름이 다시 할당되거나 삭제되었는지를 확인합니다. 작업이 완료되면 관리자는 **Remove-AdminFlowUserDetails** cmdlet을 호출하고 사용자에 대한 개체 ID를 전달하여 사용자 세부 정보를 삭제할 수 있습니다.
+
+
+PowerApps 관리자 PowerShell cmdlet
+```PowerShell
+Add-PowerAppsAccount
+Remove-AdminFlowUserDetails -UserId 1b6759b9-bbea-43b6-9f3e-1af6206e0e80
+```
+
+> [!IMPORTANT]
+> 사용자가 개인 또는 팀 흐름을 소유하는 경우 이 명령은 오류를 반환합니다. 이를 해결하려면 이 사용자에 대한 나머지 모든 흐름 또는 팀 흐름을 삭제하고 명령을 다시 실행합니다.
+>
+>
+## <a name="delete-the-user-from-azure-active-directory"></a>Azure Active Directory에서 사용자 삭제
+위의 단계를 모두 완료하면 마지막 단계는 [Office 365 서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/GDPRDSR)에서 찾을 수 있는 Azure 데이터 주체 요청 GDPR 설명서에 설명한 단계를 수행하여 Azure Active Directory에 대한 사용자의 계정을 삭제하는 것입니다.
+
+## <a name="delete-the-user-from-unmanaged-tenant"></a>관리되지 않는 테넌트에서 사용자 삭제
+관리되지 않는 테넌트의 멤버인 경우 [직장 및 학교 개인 정보 포털](https://go.microsoft.com/fwlink/?linkid=873123)에서 **계정 종료** 작업을 수행해야 합니다.
+
+관리 또는 관리되지 않는 테넌트의 사용자인지를 확인하려면 다음 작업을 수행합니다.
+1. 브라우저에서 다음과 같은 URL([ https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1](https://login.windows.net/common/userrealm/foobar@contoso.com?api-version=2.1))을 열고, URL에서 이메일 주소를 바꿉니다.
+1. **관리되지 않는 테넌트**의 멤버인 경우 응답에서 `"IsViral": true`이 표시됩니다.
+
+    {
+
+     "Login": "foobar@unmanagedcontoso.com",
+
+    "DomainName": "unmanagedcontoso.com",
+
+    "IsViral": **true**,
+    
+    }
+
+1. 그렇지 않은 경우 관리 테넌트에 속해 있습니다.
+

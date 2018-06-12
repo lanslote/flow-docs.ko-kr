@@ -13,13 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 04/12/2018
+ms.date: 06/04/2018
 ms.author: stepsic
-ms.openlocfilehash: bae4991754de37ca9483d540891431e216ee74cd
-ms.sourcegitcommit: b6ac1562b3ed6601401d23f4009b7528c1ce8925
+ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
+ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "34755578"
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -45,7 +46,17 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="whats-new"></a>새로운 기능
 
-### <a name="release-2014-05-01"></a>릴리스 2014-05-01
+### <a name="release-2018-05-21"></a>릴리스 2018-05-21
+
+- **SharePoint 목록 및 라이브러리에서 "소유한" 흐름** - SharePoint 목록 및 라이브러리를 사용하는 흐름을 해당 목록이나 라이브러리와 공유할 수 있습니다. 따라서 개인이나 그룹이 아니라 목록에 액세스할 수 있는 모든 사용자와 공유합니다. 사용자가 목록 또는 라이브러리에 추가되거나 제거되면 해당 멤버 자격이 자동으로 적절하게 변경됩니다.
+- **오류 세부 정보 분석** - 흐름 내에서 발생하는 모든 오류에 대한 정보를 제공하는 새로 포함된 보고서입니다.
+- **Office 365 그룹과 흐름 공유** - Office 365 최신 그룹을 흐름의 소유자로 만들고, 그룹의 모든 사용자가 흐름을 실행할 수 있도록 Office 365 그룹과 단추 흐름을 공유할 수 있습니다.
+- **SharePoint 커넥터 개선 사항** - 두 가지 새 SharePoint 커넥터 기능이 있습니다. 여기서는 항목이나 파일이 삭제될 때 흐름을 트리거하고 SharePoint REST API를 지원하는 모든 HTTP 끝점을 호출합니다.
+- **두 개의 새 커넥터** - Azure Data Factory 및 MailParser에 대한 지원이 추가되었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/).
+
+### <a name="release-2018-05-01"></a>릴리스 2018-05-01
 
 - **승인 메시지의 서식 있는 텍스트** - Markdown을 사용하여 보내는 승인 세부 정보 형식을 지정합니다.
 - **여러 선택 영역이 있는 단추** - 여러 선택 영역 목록을 사용하여 한 번에 둘 이상의 값을 수집하는 흐름 단추를 작성합니다.

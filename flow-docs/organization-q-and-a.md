@@ -1,13 +1,13 @@
 ---
-title: "조직에서 Microsoft Flow 등록 관련 질문 및 답변 | Microsoft Docs"
-description: "라이선스, 관리 및 Office 365 테넌트에서 Microsoft Flow에 등록하는 사용자에 관한 일반적인 질문과 답변"
-services: 
+title: 조직에서 Microsoft Flow 등록 관련 질문 및 답변 | Microsoft Docs
+description: 라이선스, 관리 및 Office 365 테넌트에서 Microsoft Flow에 등록하는 사용자에 관한 일반적인 질문과 답변
+services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
 manager: erikre
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 12/05/2016
 ms.author: stepsic
 ms.openlocfilehash: f8807ca0941761018c92a385c26f427e69ededcb
-ms.sourcegitcommit: 56d69fadcbc9169feb2e1a68d9e9361709084cf4
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23442497"
 ---
 # <a name="flow-in-your-organization-qa"></a>조직의 Microsoft Flow 관련 Q & A
 이 토픽에는 조직에서 Microsoft Flow를 사용하는 방법과 Microsoft Flow 서비스를 컨트롤하는 방법을 설명합니다.

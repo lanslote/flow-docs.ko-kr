@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: d34cfd6632ca0e8c560c5af199877b13b210a64a
-ms.sourcegitcommit: a378fb36722ae4be9909fb453efa81808b509255
+ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
+ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/01/2018
-ms.locfileid: "34689379"
+ms.lasthandoff: 06/05/2018
+ms.locfileid: "34799674"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365(온라인)를 사용하여 흐름 만들기
 Dynamics 365 커넥터를 사용하여 Dynamics 365 또는 몇몇 다른 서비스에 이벤트가 발생할 때 시작한 다음 Dynamics 365 또는 몇몇 다른 서비스에서 작업을 수행하는 흐름을 만들 수 있습니다. 
@@ -91,6 +91,11 @@ Microsoft Flow에서 자주 사용하는 앱과 서비스 사이에 자동화된
 8. **목록 ID** 아래에서 **받은 편지함**을 선택합니다.
 9. **제목** 아래에서 동적 콘텐츠 창의 **주제**를 선택합니다.
 10. **흐름 만들기**를 클릭하거나 누릅니다.  
+
+## <a name="trigger-based-logic"></a>트리거 기반 논리
+**레코드를 만드는 경우**, **레코드를 업데이트하는 경우** 및 **레코드를 삭제하는 경우**와 같은 트리거는 이벤트가 발생하고 몇 분 안에 흐름을 시작합니다.  드물게 흐름을 트리거하는 데 최대 2시간이 걸릴 수 있습니다.
+
+트리거가 발생하면 흐름은 알림을 받지만 흐름은 작업이 실행되는 시점에 존재하는 데이터에서 실행됩니다.  예를 들어 흐름이 새 레코드를 만들 때 트리거되고, 흐름이 실행되기 전에 두 번 레코드를 업데이트하는 경우 흐름은 최신 데이터를 사용하여 한 번만 실행됩니다.
 
 ## <a name="specify-advanced-options"></a>고급 옵션 지정
 흐름에 단계를 추가할 때 **고급 옵션 표시**를 클릭하거나 눌러 흐름에서 데이터가 필터링되는 방법을 제어하는 필터 또는 order by 쿼리를 추가할 수 있습니다.

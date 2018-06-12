@@ -1,13 +1,13 @@
 ---
-title: "관리 센터를 사용하여 환경 및 데이터 정책을 관리합니다. | Microsoft Docs"
-description: "Microsoft Flow 관리 센터는 테넌트 및 환경 관리자가 Microsoft Flow 배포에 대한 데이터 정책 및 환경을 관리하는 데 사용합니다."
-services: 
+title: 관리 센터를 사용하여 환경 및 데이터 정책을 관리합니다. | Microsoft Docs
+description: Microsoft Flow 관리 센터는 테넌트 및 환경 관리자가 Microsoft Flow 배포에 대한 데이터 정책 및 환경을 관리하는 데 사용합니다.
+services: ''
 suite: flow
 documentationcenter: na
 author: msftman
 manager: anneta
-editor: 
-tags: 
+editor: ''
+tags: ''
 ms.service: flow
 ms.devlang: na
 ms.topic: article
@@ -16,10 +16,11 @@ ms.workload: na
 ms.date: 10/31/2017
 ms.author: deonhe
 ms.openlocfilehash: 368b208a6f1d47f76a6f195edcd8055a03c06800
-ms.sourcegitcommit: 01325305b9d2cf964acac9feb6cca0af66db7440
+ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 06/04/2018
+ms.locfileid: "23981324"
 ---
 # <a name="the-admin-center"></a>관리 센터
 
@@ -29,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="access-the-admin-center"></a>관리 센터에 액세스
 
-* https://admin.flow.microsoft.com으로 이동하여 Microsoft Flow 관리 센터에 액세스합니다.
+* https://admin.flow.microsoft.com로 이동하여 Microsoft Flow 관리 센터에 액세스합니다.
 
 ## <a name="environments"></a>환경
 

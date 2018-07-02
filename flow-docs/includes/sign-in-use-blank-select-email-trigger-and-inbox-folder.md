@@ -1,4 +1,4 @@
-1. [Microsoft Flow](https://flow.microsoft.com)에 로그인한 다음 **내 흐름** 탭을 선택합니다.
+1. [Microsoft Flow](https://flow.microsoft.com)에 로그인한 다음, **내 흐름** 탭을 선택합니다.
 2. **빈값에서 만들기**를 선택합니다.
    
     ![빈 흐름](media/email-triggers/email-triggers-create-blank.png)

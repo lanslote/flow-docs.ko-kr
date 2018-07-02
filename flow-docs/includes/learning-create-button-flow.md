@@ -2,7 +2,7 @@
 
 단추 흐름은 팀에 **전자 메일을 보내**고 수행할 **작업을 경고**하는 데 사용될 수 있습니다. 흐름의 **소유권**은 팀에서 한 명의 작업자에게 **할당**되거나 여러 구성원에서 **공유**될 수 있습니다.  
 
-1. 먼저 [Microsoft Flow 웹 사이트](https://ms.flow.microsoft.com)으로 이동하고 로그인합니다.
+1. 먼저 [Microsoft Flow 웹 사이트](https://ms.flow.microsoft.com)로 이동하고 로그인합니다.
 2. 로그인이 완료되면 **내 흐름**, **빈 페이지에서 만들기**를 차례로 선택합니다.
    
     ![빈 페이지에서 만들기](./media/learning-create-button-flow/2-create-from-blank.png)

@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 06/08/2017
 ms.author: deonhe
 ms.openlocfilehash: 8620cd49f9e19f6641909fcab3103568d148e565
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442317"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949544"
 ---
 # <a name="manage-sequential-approvals-with-microsoft-flow"></a>Microsoft Flow를 사용하여 순차적 승인 관리
 일부 워크플로는 최종 승인자를 로그오프하기 전에 사전 승인이 필요합니다. 예를 들어 재무 부서에서 $1000.00가 넘는 송장을 승인하기 전에 회사에는 이에 대한 사전 승인이 필요한 순차적 승인 정책이 있을 수 있습니다.

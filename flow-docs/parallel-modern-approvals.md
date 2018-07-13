@@ -16,11 +16,11 @@ ms.workload: na
 ms.date: 05/09/2018
 ms.author: deonhe
 ms.openlocfilehash: 43b748332a649e5f8d8db5fbe11f53522ce8bb79
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34051389"
+ms.lasthandoff: 07/11/2018
+ms.locfileid: "38949749"
 ---
 # <a name="create-parallel-approval-workflows-with-microsoft-flow"></a>Microsoft Flow를 사용하여 병렬 승인 워크플로 만들기
 

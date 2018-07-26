@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: f7ceaa76ddf4e1980ad8144a6152fc8211c3880b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 70206e0ed6c2b59d0dfffa0c4608ba47e0fac1dc
+ms.sourcegitcommit: ca875127f607034d7ef6a3fe270fc48e4f7eeee6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34561313"
+ms.lasthandoff: 07/20/2018
+ms.locfileid: "39175135"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow에 대한 GDPR 데이터 주체 삭제 요청에 응답
 
@@ -258,10 +258,10 @@ Get-AdminConnectorRoleAssignment -PrincipalObjectId $deleteDsrUserId | Remove-Ad
 
 1. 조직의 다른 사용자가 환경을 사용하고 있지 않음을 확인하면 해당 환경을 삭제할 수 있습니다.
 1. 환경이 여전히 필요하다고 판단되는 경우 환경을 삭제하지 않도록 선택하고 자신(또는 조직의 다른 사용자)을 환경 관리자로 추가할 수 있습니다.
-    > [!IMPORTANT]
-    > 환경을 삭제하면 모든 앱, 흐름, 연결 등을 포함한 환경 내의 모든 리소스가 영구적으로 삭제되므로 삭제하기 전에 환경의 콘텐츠를 검토하세요.
-    >
-    >
+> [!IMPORTANT]
+> 환경을 삭제하면 모든 앱, 흐름, 연결 등을 포함한 환경 내의 모든 리소스가 영구적으로 삭제되므로 삭제하기 전에 환경의 콘텐츠를 검토하세요.
+>
+>
 
 ## <a name="give-access-to-a-users-environments-from-the-microsoft-flow-admin-center"></a>Microsoft Flow 관리 센터에서 사용자 환경에 대한 액세스 권한 부여
 

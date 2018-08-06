@@ -73,7 +73,7 @@ Microsoft Flow를 통해 사용자는 조직의 일상 업무에 중요한 부�
 
 * 앱용 Common Data Service가 소개되면서 데이터베이스가 환경 내에서 만들어지는 경우 환경 권한 및 모델 기반 앱 권한은 앱용 Common Data Service 데이터베이스 인스턴스 내에 레코드로 저장됩니다. Common Data Service를 사용하는 사용자의 DSR에 응답하는 방법에 대한 자세한 내용은 [Executing DSRs against Common Data Service Customer Data](https://go.microsoft.com/fwlink/?linkid=872251)(Common Data Service 고객 데이터에 대해 DSR 실행)를 참조하세요.
 
-** 관리자는 Microsoft Flow 관리 센터에서 액세스 권한을 할당받은 경우에만 Microsoft Flow 작성자 포털에서 이러한 리소스에 액세스할 수 있습니다.
+\*\*관리자는 Microsoft Flow 관리 센터에서 액세스 권한을 할당받은 경우에만 Microsoft Flow 작성자 포털에서 이러한 리소스에 액세스할 수 있습니다.
 
 ## <a name="manage-delete-requests"></a>삭제 요청 관리
 

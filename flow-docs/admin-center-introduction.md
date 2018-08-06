@@ -30,7 +30,7 @@ ms.locfileid: "23981324"
 
 ## <a name="access-the-admin-center"></a>관리 센터에 액세스
 
-* https://admin.flow.microsoft.com로 이동하여 Microsoft Flow 관리 센터에 액세스합니다.
+* 로 이동하여 Microsoft Flow https://admin.flow.microsoft.com 관리 센터에 액세스합니다.
 
 ## <a name="environments"></a>환경
 

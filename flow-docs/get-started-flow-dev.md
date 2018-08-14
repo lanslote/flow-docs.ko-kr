@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 11/22/2017
 ms.author: barathb
-ms.openlocfilehash: a3f1e21cfbf00749a0ef09c0363da162f0419f42
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: 1bcdbf3772ab2481b15bd224523dff74afc53101
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439707"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718284"
 ---
 # <a name="start-to-build-with-microsoft-flow"></a>Microsoft Flow를 통한 작성 시작
 
@@ -56,11 +56,11 @@ Microsoft Flow에서 연결하려는 웹 서비스가 있는 경우 먼저 사�
 
 ## <a name="embed-the-flow-experience-into-your-website-or-app"></a>웹 사이트 또는 앱에 흐름 환경 포함
 
-앱 내에 Microsoft Flow를 [포함](embed-flow-dev.md)하여 앱과 Microsoft Flow가 지원하는 모든 다른 서비스 간에 심층적인 컨텍스트 통합을 활성화할 수 있습니다. 예를 들어, 다음을 수행할 수 있습니다.
+앱 내에 Microsoft Flow를 [포함](developer/embed-flow-dev.md)하여 앱과 Microsoft Flow가 지원하는 모든 다른 서비스 간에 심층적인 컨텍스트 통합을 활성화할 수 있습니다. 예를 들어, 다음을 수행할 수 있습니다.
 
 * 서비스와 관련한 모든 템플릿을 탐색하고 사용자가 템플릿을 선택하게 합니다.
 * 사용자가 앱과 연결한 흐름을 관리합니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-앱에 Microsoft Flow를 [포함](embed-flow-dev.md)하는 방법을 알아보세요.
+앱에 Microsoft Flow를 [포함](developer/embed-flow-dev.md)하는 방법을 알아보세요.

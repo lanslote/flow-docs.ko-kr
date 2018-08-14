@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: 4fa6af7557fdbae46db5eb74a82a9d30a991e93b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
+ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34453311"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39718307"
 ---
 # <a name="frequently-asked-questions"></a>질문과 대답
 ## <a name="audience-and-strategy"></a>대상 그룹 및 전략
@@ -80,7 +80,7 @@ Microsoft Flow는 기본적으로 100개가 넘는 데이터 원본에 연결하
 Microsoft 및 타사에서 제공하는 Office 365, Twitter, SharePoint, OneDrive, Dropbox, SQL Server 등과 같은 100개가 넘는 표준 서비스에 연결할 수 있습니다. 또한 PowerApps용 Common Data Service 및 Salesforce와 같은 프리미엄 서비스에 연결할 수 있습니다.
 
 ### <a name="how-do-i-connect-to-a-rest-api-in-my-flow"></a>내 흐름에서 REST API에 어떻게 연결하나요?
-[사용자 지정 커넥터](register-custom-api.md)를 만들면 JSON을 사용하고 10가지 이상의 인증 방법 중 최소 1가지 방법을 지원하는 모든 REST API에 연결할 수 있습니다.
+[사용자 지정 커넥터](developer/register-custom-api.md)를 만들면 JSON을 사용하고 10가지 이상의 인증 방법 중 최소 1가지 방법을 지원하는 모든 REST API에 연결할 수 있습니다.
 
 ### <a name="how-do-i-connect-to-sql-server-and-other-on-premises-data-sources"></a>SQL Server 및 기타 온-프레미스 데이터 원본에는 어떻게 연결하나요?
 [온-프레미스 데이터 게이트웨이](gateway-manage.md)를 사용하여 로컬 네트워크의 서비스에 연결할 수 있습니다.
@@ -129,7 +129,7 @@ Microsoft Flow는 승인, 문서 검토, 온보딩/오프보딩 등 여러 공�
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>Microsoft Flow는 계속 무료 또는 평가판 옵션이 있나요?
 예. 제한된 사용자 권한으로 무료 제품을 사용하거나 Microsoft Flow 90일 무료 평가판에 등록할 수 있습니다. 평가판을 사용하는 동안 언제든지 구독을 활성화할 수 있습니다.
 
-### <a name="what-pricing-plans-do-you-offer"></a>가격 계획은 어떻게 되나요?
+### <a name="what-pricing-plans-do-you-offer"></a>가격 플랜은 어떻게 되나요?
 Microsoft Flow는 무료와 유료 서비스 수준을 모두 제공합니다. [가격 책정에 대해 자세히 살펴보세요](billing-questions.md).
 
 ## <a name="learn-more"></a>자세한 정보

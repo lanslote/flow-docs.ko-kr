@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/06/2017
 ms.author: matp
-ms.openlocfilehash: 2db995eafaf8e73af7cd29b8a2469d4abaab2356
-ms.sourcegitcommit: 7d04ee86361fe5d70ee89cde06d01754ada757b5
+ms.openlocfilehash: ffce0a2fcc77d2bf2ff132e589410cc032bf63fd
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/05/2018
-ms.locfileid: "34799674"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39519896"
 ---
 # <a name="create-a-flow-by-using-dynamics-365-online"></a>Dynamics 365(온라인)를 사용하여 흐름 만들기
 Dynamics 365 커넥터를 사용하여 Dynamics 365 또는 몇몇 다른 서비스에 이벤트가 발생할 때 시작한 다음 Dynamics 365 또는 몇몇 다른 서비스에서 작업을 수행하는 흐름을 만들 수 있습니다. 
@@ -56,6 +56,8 @@ Microsoft Flow에서 자주 사용하는 앱과 서비스 사이에 자동화된
      이 연습의 경우 **잠재 고객**을 선택합니다.
    
     ![흐름 세부 정보](./media/connection-dynamics365/flow-details.png)
+    > [중요] 흐름을 Dynamics 365 엔터티에서 트리거하려면 엔터티 정의는 변경 추적을 사용하도록 설정되어야 합니다. [변경 내용 추적을 활성화하여 데이터 동기화 제어](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization)를 참조하세요.
+    
 7. **새 단계**를 클릭하거나 누른 다음 **동작 추가**를 클릭하거나 누릅니다.
 8. **Dynamics 365 – 새 레코드 만들기**를 클릭하거나 누릅니다.
 9. **조직 이름** 아래에서 흐름이 레코드를 만들게 하려는 Dynamics 365 인스턴스를 선택합니다. 참고로 이 인스턴스는 이벤트가 트리거되는 것과 같은 인스턴스일 필요가 없습니다.

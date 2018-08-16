@@ -15,12 +15,12 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 04/21/2017
 ms.author: deonhe
-ms.openlocfilehash: d4e8de2f9f67c07861297e079948a5336ff66e7f
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+ms.openlocfilehash: ec7801f249ce4f3a1e33a6092726a6574a2e6d4c
+ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439689"
+ms.lasthandoff: 08/06/2018
+ms.locfileid: "39520011"
 ---
 # <a name="create-team-flows"></a>팀 흐름 만들기
 소유자로 조직의 다른 사용자를 추가하여 팀 흐름을 만듭니다. 팀 흐름의 모든 소유자는 다음 작업을 수행할 수 있습니다.
@@ -64,6 +64,10 @@ ms.locfileid: "23439689"
     ![새 소유자](./media/create-team-flows/addowner4.png)
    
      &mdash;, 축하합니다. 팀 흐름을 만들었습니다.
+
+##<a name="add-a-list-as-a-co-owner"></a>목록을 공동 소유자로 추가
+
+목록에 대한 편집 액세스 권한이 있는 모든 사용자가 자동으로 흐름에 대한 편집 액세스 권한을 갖도록 SharePoint 목록을 흐름에 대한 공동 소유자로 추가할 수 있습니다. 흐름이 공유되면 이에 대한 링크를 간단히 배포할 수 있습니다.
 
 ## <a name="remove-an-owner"></a>소유자 제거
 > [!IMPORTANT]

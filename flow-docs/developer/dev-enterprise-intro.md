@@ -78,8 +78,7 @@ REST API를 호출하고 인증된 UI를 포함하려면 응용 프로그램이 
 
 고객에게 Office 365 또는 Dynamics 365가 이미 설치되어 있고 이러한 라이선스가 Azure AD에 로그인하는 사용자 ID와 연결되어 있는 경우 추가 라이선스가 요구되지 않습니다. 그러나 고객이 Office 365 또는 Dynamics 365를 사용하지 않는 경우 Microsoft Flow 대신 해당 프로그램에 대한 권한을 취득해야 합니다. 그러면 응용 프로그램에서 포함된 해당 구성 요소를 활용하도록 허가를 받게 됩니다.
 
-
-  [Microsoft 클라우드 솔루션 공급자](https://partner.microsoft.com/cloud-solution-provider) 프로그램을 제공하여 고객 대신 라이선스를 취득합니다. Microsoft Flow에 사용할 수 있는 두 개의 [가격 책정 계획](https://flow.microsoft.com/pricing/)이 있습니다. 여기서는 계획 및 기능 세부 정보를 확인해야 합니다.
+[Microsoft 클라우드 솔루션 공급자](https://partner.microsoft.com/cloud-solution-provider) 프로그램을 제공하여 고객 대신 라이선스를 취득합니다. Microsoft Flow에 사용할 수 있는 두 개의 [가격 책정 계획](https://flow.microsoft.com/pricing/)이 있습니다. 여기서는 계획 및 기능 세부 정보를 확인해야 합니다.
 
 ### <a name="7-list-on-appsource"></a>7. AppSource에 등록
 

@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 06/04/2018
+ms.date: 07/21/2018
 ms.author: stepsic
-ms.openlocfilehash: 61c6382a35a55ca18dbfbce5b5b6fe38dc6ee0f2
-ms.sourcegitcommit: 3f7f5a941466485cd16e78239fcfd89d71f501e0
+ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34755578"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774235"
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -46,12 +46,41 @@ ms.locfileid: "34755578"
 
 ## <a name="whats-new"></a>새로운 기능
 
+### <a name="release-2018-07-23"></a>릴리스 2018-07-23
+
+- **Excel에서 흐름 빌드 및 실행** - 새 **Flow** 단추(리본의 **데이터** 탭에서 액세스함)를 사용하여 Flow에서 Excel의 표 데이터에 대한 자동화를 만들고 트리거할 수 있습니다. 데이터 처리 또는 데이터의 복사/가져오기를 자동화합니다.
+- **비즈니스 프로세스 흐름 만들기** - 비즈니스 프로세스 흐름은 앱용 Common Data Service를 기반으로 한 새로운 형식의 대화형 상태 저장 흐름입니다. 이러한 새로운 흐름을 사용하여 사용자가 따르도록 할 일련의 스테이지 및 단계를 정의합니다. 이러한 스테이지 및 단계는 필요에 따라 앞으로 및 뒤로 이동할 수 있습니다.
+- **Outlook Web App에서 Microsoft To-Do에 대한 흐름 만들기** - 누군가가 Outlook Web App에서 \@멘션된 경우 해당 사용자에게 흐름을 만드는 바로 가기가 표시됩니다. 이 흐름은 메일 내용에 따라 Microsoft To-Do에서 \@멘션된 사람에 대한 작업을 자동으로 만듭니다.
+- **SharePoint 보기 지원** - 이제 SharePoint 커넥터는 트리거 및 작업에서 특정 SharePoint 보기 선택을 지원합니다. 이 선택을 할 경우 열이 선택한 보기에 있는 필드만으로 필터링됩니다.
+- **네 개의 새 커넥터** - 확장성이 뛰어난 IoT SaaS(Software as a Service) 솔루션인 Azure IoT Central, Survey 123, LMS365 및 ProjectWise Design Integration이 추가되었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/excel-bpf-todo-and-more/).
+
+### <a name="release-2018-06-29"></a>릴리스 2018-06-29
+
+- **SharePoint에 기본 제공되는 로그오프에 대한 요청 흐름** - SharePoint에서 파일 또는 항목을 선택하면 새로운 **로그오프에 대한 요청** 흐름이 표시됩니다. 이 흐름에는 구성 또는 설정이 필요하지 않으며 이 흐름은 한 번 클릭으로 로그오프 요청을 보냅니다.
+- **두 개의 새 커넥터** - Cloud Connect Studio 및 PoliteMail이 추가되었습니다.
+- **기록 및 만들기 페이지 개선 사항** - 실행 기록 목록에는 정확한 실행 시간이 포함되고 만들기 페이지에는 새 연습 동영상이 추가되는 등 새로워졌습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/request-sign-off-four-connectors/).
+
+### <a name="release-2018-06-08"></a>릴리스 2018-06-08
+
+- **PowerShell Cmdlet** - 흐름 작성자와 테넌트 관리자 모두 이제 PowerShell을 사용하여 흐름을 프로그래밍 방식으로 관리할 수 있습니다.
+- **Teams Flow 봇에 대한 개선 사항** - Microsoft Teams의 Flow 봇은 흐름 단추를 실행하고 흐름을 설명할 수 있습니다.
+- **세 개의 새 커넥터** - Marketo, ElasticOCR 및 DynamicSignal에 대한 지원이 추가되었습니다. 
+- **추가 공유 정보** - 다른 사용자가 받게 되는 권한을 정확히 알 수 있도록, 흐름을 공유하거나 공유 흐름을 실행할 때 정보가 더 추가되었습니다.
+- **SharePoint URL 자동 잘라내기** - 브라우저에서 SharePoint URL을 복사하여 붙여넣을 때 사이트 이면의 추가 텍스트가 포함될 수 있는데, 사이트에만 연결할 수 있도록 이 텍스트가 자동으로 제거됩니다.
+- **GDPR 요청에 대한 설명서** - 엔터프라이즈 조직이 Data Subject Rights 요청을 처리할 수 있도록 포괄적인 가이드 및 도구 집합을 만들었습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/powershell-flow-bot-marketo/).
+
 ### <a name="release-2018-05-21"></a>릴리스 2018-05-21
 
 - **SharePoint 목록 및 라이브러리에서 "소유한" 흐름** - SharePoint 목록 및 라이브러리를 사용하는 흐름을 해당 목록이나 라이브러리와 공유할 수 있습니다. 따라서 개인이나 그룹이 아니라 목록에 액세스할 수 있는 모든 사용자와 공유합니다. 사용자가 목록 또는 라이브러리에 추가되거나 제거되면 해당 멤버 자격이 자동으로 적절하게 변경됩니다.
 - **오류 세부 정보 분석** - 흐름 내에서 발생하는 모든 오류에 대한 정보를 제공하는 새로 포함된 보고서입니다.
 - **Office 365 그룹과 흐름 공유** - Office 365 최신 그룹을 흐름의 소유자로 만들고, 그룹의 모든 사용자가 흐름을 실행할 수 있도록 Office 365 그룹과 단추 흐름을 공유할 수 있습니다.
-- **SharePoint 커넥터 개선 사항** - 두 가지 새 SharePoint 커넥터 기능이 있습니다. 여기서는 항목이나 파일이 삭제될 때 흐름을 트리거하고 SharePoint REST API를 지원하는 모든 HTTP 끝점을 호출합니다.
+- **SharePoint 커넥터 개선 사항** - 두 가지 새 SharePoint 커넥터 기능이 있습니다. 여기서는 항목이나 파일이 삭제될 때 흐름을 트리거하고 SharePoint REST API를 지원하는 모든 HTTP 엔드포인트를 호출합니다.
 - **두 개의 새 커넥터** - Azure Data Factory 및 MailParser에 대한 지원이 추가되었습니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/share-with-sharepoint-office-365/).
@@ -205,7 +234,7 @@ ms.locfileid: "34755578"
 - **첫 번째 릴리스의 감사 로깅** - Office 365 Security and Compliance Center에 첫 번째 릴리스 테넌트에 대한 모든 흐름 관리 이벤트가 로깅됩니다.
 - **6개의 새로운 커넥터** - LinkedIn, Office 365 그룹, 비즈니스용 Skype, Adobe Sign, Bizzy 및 Azure Log Analytics Data Collection이 추가되었습니다.
 - **SQL 트리거** - SQL 테이블에서 새 행이 추가되거나 행이 업데이트될 때 흐름을 실행합니다.
-- **온-프레미스 사용자 지정 커넥터** - 사용자 지정 커넥터는 이제 온-프레미스 데이터 게이트웨이를 사용하여 네트워크의 내부 끝점에 연결할 수 있습니다.
+- **온-프레미스 사용자 지정 커넥터** - 사용자 지정 커넥터는 이제 온-프레미스 데이터 게이트웨이를 사용하여 네트워크의 내부 엔드포인트에 연결할 수 있습니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/q3-2017-update/).
 
@@ -243,7 +272,7 @@ ms.locfileid: "34755578"
 * **Azure Logic Apps로 축적** - 흐름을 Visual Studio나 Azure Portal을 통해 배포할 수 있는 Azure Logic Apps 리소스로 저장합니다.
 * **관리자 가시성** - 흐름이 어디에 어떻게 사용되는지 정확히 이해하기 위해 Microsoft Flow 사용법을 테넌트에 다운로드합니다.
 * **Dynamics 365에서의 흐름** - 작업 및 금융, Business Edition에 대해 흐름을 Dynamics 365 내에서 사용합니다.
-* **시나리오를 보다 쉽게 찾기** - 커넥터가 수행할 수 있는 모든 것을 검색한 다음 흐름을 빌드하기 위한 출발점으로 트리거를 사용합니다.
+* **시나리오를 보다 쉽게 찾기** - 커넥터가 수행할 수 있는 모든 것을 검색한 다음, 흐름을 빌드하기 위한 출발점으로 트리거를 사용합니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/q2-2017-update/).
 
@@ -382,7 +411,7 @@ ms.locfileid: "34755578"
 
 ### <a name="release-2017-02-16"></a>릴리스 2017-02-16
 * **다섯 가지 새로운 서비스** - Azure Data Lake, Bitbucket(GIT 개정판 제어를 사용하는 프로젝트용 웹 기반 호스팅 서비스), Eventbrite, Infusionsoft 및 Pipedrive 지원이 추가되었습니다.
-* **사용자 지정 HTTP 인증** - 흐름 디버거에서 이제 사용자 지정 HTTP 끝점에 인증을 사용할 수 있습니다.
+* **사용자 지정 HTTP 인증** - 흐름 디버거에서 이제 사용자 지정 HTTP 엔드포인트에 인증을 사용할 수 있습니다.
 * **JSON 메시지 구문 분석** - HTTP 요청 트리거에서 오는 JSON 데이터 또는 HTTP 작업에서 반환된 데이터를 구문 분석할 수 있습니다.
 * **흐름 실행 필터링** - 실행 중인 흐름 또는 취소된 실행을 보는 기능을 포함하여 더 구체적인 옵션으로 흐름 실행에 대한 필터링이 향상되었습니다.
 
@@ -436,7 +465,7 @@ Microsoft Flow는 이제 eSignature 및 DTM(Digital Transaction Management)을 �
 ### <a name="release-2016-12-06"></a>릴리스 2016-12-06
 * **단계별 학습 소개** - Microsoft Flow의 광범위하고 강력한 기능을 이해하는 데 도움을 주기 위해 동영상과 설명서가 짝을 이루어 일련의 학습 과정을 시작합니다.
 * **새로운 두 가지 서비스** - Flow에서 이제 Freshdesk 고객 지원 솔루션과 GoToMeeting 온라인 모임 도구를 사용할 수 있습니다.
-* **HTTP 웹후크 지원** - 흐름은 이제 웹후크의 끝점으로 자동으로 등록되고 해제됩니다.
+* **HTTP 웹후크 지원** - 흐름은 이제 웹후크의 엔드포인트로 자동으로 등록되고 해제됩니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/guided-learning-and-two-services/).
 
@@ -488,7 +517,7 @@ Microsoft Flow는 이제 eSignature 및 DTM(Digital Transaction Management)을 �
 
 ### <a name="release-2016-09-14"></a>릴리스 2016-09-14
 * **웹 사이트 또는 앱에 포함** - 개발자가 앱 또는 웹 사이트에 직접 Microsoft Flow를 포함하여 사용자에게 개인용 또는 전문가용 작업을 자동화하는 간단한 방법을 제공할 수 있습니다.
-* **HTTP 끝점으로 흐름 사용하기** - 이제 HTTP API로 흐름 자체를 사용할 수 있습니다. 흐름 내에서 요청을 호출하는 트리거가 있으며 응답 카드를 추가하여 들어오는 요청에 응답하도록 선택할 수 있습니다.
+* **HTTP 엔드포인트로 흐름 사용하기** - 이제 HTTP API로 흐름 자체를 사용할 수 있습니다. 흐름 내에서 요청을 호출하는 트리거가 있으며 응답 카드를 추가하여 들어오는 요청에 응답하도록 선택할 수 있습니다.
 * **Todoist 지원** - Todoist는 회사와 집에서의 모든 프로젝트에 대한 관점을 제공합니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/extend-web-site-application/).

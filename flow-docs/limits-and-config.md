@@ -13,14 +13,14 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 01/31/2018
+ms.date: 06/19/2018
 ms.author: stepsic
-ms.openlocfilehash: 0595fa9113d85c6517392149f510a3a11df36061
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+ms.openlocfilehash: dcdd82b358737867372c1adece907158fa2ee77b
+ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39519873"
+ms.lasthandoff: 08/16/2018
+ms.locfileid: "43774251"
 ---
 # <a name="limits-and-configuration-in-microsoft-flow"></a>Microsoft Flow의 제한 및 구성
 이 항목에는 흐름의 현재 제한 및 구성 세부 정보에 대한 내용이 포함됩니다.
@@ -46,7 +46,9 @@ ms.locfileid: "39519873"
 
 | 이름 | 제한 |
 | --- | --- |
-| 다시 시도 횟수 |4 |
+| 다시 시도 횟수 |90 | 기본값은 4입니다. 기본 사용 작업 설정을 변경하려면 | 
+| 다시 시도 최대 지연 |1일 | |
+| 다시 시도 최소 지연 |5초 | |
 
 ## <a name="run-duration-and-retention"></a>실행 지속 시간 및 보존 기간
 단일 흐름 실행에 대한 제한 사항입니다.
@@ -64,10 +66,12 @@ ms.locfileid: "39519873"
 
 | 이름 | 제한 | 참고 |
 | --- | --- | --- |
-| ForEach 항목 |5,000 |필터 작업을 사용하여 필요에 따라 더 큰 배열을 필터링할 수 있습니다. |
+| 각 항목에 적용 |100,000 |100,000은 프리미엄 플랜에만 사용할 수 있습니다. 그 외에는 5,000으로 제한됩니다. 필터 작업을 사용하여 필요에 따라 더 큰 배열을 필터링할 수 있습니다. |
 | 반복 때까지 |5,000 | |
-| SplitOn 항목 |5,000 | |
-| ForEach 병렬 처리 |1 | |
+| SplitOn 항목 |100,000 |각 항목에 적용과 마찬가지로, 프리미엄 플랜을 이용하는 경우 외에는 제한이 5,000입니다. |
+| 각 병렬 처리에 적용 |50 |기본적으로 루프는 시퀀스에서 실행됩니다(기본적으로 병렬 처리는 1임). 최대 50개를 병렬로 구성할 수 있습니다. |
+| 5분마다 실행 작업 | 100,000 | 또한 필요에 따라 둘 이상의 흐름에 워크로드를 분산할 수 있습니다. |
+| 나가는 동시 호출 작업 | ~2,500 | 필요에 따라 동시 요청 수를 줄이거나 지속 시간을 줄입니다. | 
 
 ## <a name="definition-limits"></a>정의 제한
 단일 흐름에 대한 제한 사항입니다.

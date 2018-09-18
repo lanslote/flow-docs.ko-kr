@@ -15,12 +15,16 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/09/2017
 ms.author: litran
-ms.openlocfilehash: 41d53a6f7382365dfcabbc98a2fa362d465720fa
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- developer
+ms.openlocfilehash: ac71b9b2d991496121d910e9e74b83e69d74c098
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39720072"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689505"
 ---
 # <a name="let-customers-test-drive-your-flows-on-appsource"></a>고객이 AppSource에서 흐름을 시험 사용하도록 함
 Microsoft Flow와 앱을 통합하는 방법을 보여주려고 합니까? 이제 고객과 Microsoft Flow 통합을 공유하는 방법으로 [AppSource.com](https://appsource.microsoft.com)에서 시험 사용 솔루션을 가지며 비즈니스를 위한 잠재 고객을 생성합니다.

@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 07/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 016673948ffaeaf98e81cc2c561d9ff9f5f627e4
-ms.sourcegitcommit: 4a8d11e1768cd0ca96a60b6f5548a68c0c8999e5
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 0197d117f2e7a7e22dbe77e64111b21dc890f83b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2018
-ms.locfileid: "38949445"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44688999"
 ---
 # <a name="manage-approval-requests-in-microsoft-flow"></a>Microsoft Flow의 승인 요청 관리하기
 Microsoft Flow을 사용하면 [승인 워크플로 프로세스](modern-approvals.md)를 자동화하기 쉽습니다. 이 연습에서는 Microsoft Flow에서 보낸 승인 요청을 보거나, 승인하거나, 거부하는 방법을 알아봅니다.

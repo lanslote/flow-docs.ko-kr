@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: f56b109cc0263c8464d6d7475421ab32af8888d5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 6c48d79138dfdafa94e56380343840d6aa0fcbb5
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "29351341"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690880"
 ---
 # <a name="build-an-approval-loop-by-using-microsoft-flow-and-the-microsoft-common-data-service"></a>Microsoft Flow 및 Microsoft Common Data Service를 사용하여 승인 루프 작성
 Common Data Service를 사용하면 흐름과 독립적인 데이터베이스에 저장된 정보를 갖는 흐름을 작성할 수 있습니다. 가장 좋은 예로 승인을 들 수 있습니다. 엔터티에 승인 상태를 저장할 경우 흐름이 이를 기반으로 작업할 수 있습니다.

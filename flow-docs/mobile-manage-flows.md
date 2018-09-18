@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/11/2016
 ms.author: adiregev
-ms.openlocfilehash: 4a04fec70ae70ff17ddf6e1f93e6461ec432e8d2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 4a35166ec57e81b957f7659e0e670e80bbf510ca
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23440103"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689551"
 ---
 # <a name="manage-flows-in-microsoft-flow-from-your-phone"></a>휴대폰에서 Microsoft Flow 흐름 관리
 만든 모든 흐름의 목록을 보고, 각 흐름에 대해 해당 이벤트와 동작을 확인하며 흐름을 활성화 또는 비활성화하고 실행 기록을 탐색합니다.

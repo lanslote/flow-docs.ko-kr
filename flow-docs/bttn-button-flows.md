@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 05/30/2017
 ms.author: deonhe
-ms.openlocfilehash: 3387cc29bb088348634c4d97699f56a4a69ac434
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 813ad16dbc9514975daadac456b73d98fc30db79
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39718215"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689068"
 ---
 # <a name="run-your-flows-with-physical-buttons-bttns-from-the-button-corporation-preview"></a>Button Corporation(미리 보기)에서 실제 단추(bttns)를 사용하여 흐름 실행
 [Button Corporation](https://my.bt.tn/)에서 만든 실제 단추인 bttn을 눌러 흐름을 트리거합니다. 예를 들어 다음과 같은 작업을 수행하기 위해 흐름을 트리거하는 bttn을 누를 수 있습니다.

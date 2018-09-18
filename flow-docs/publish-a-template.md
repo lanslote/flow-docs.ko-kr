@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 06/10/2017
 ms.author: sunayv
-ms.openlocfilehash: c265556631d19cb3c9179454bcf3b8a26e88651b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 7aac8dbc1b3488ce6fd3fb6990f258cb3a5052d7
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23442047"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689436"
 ---
 # <a name="submit-a-template-to-the-microsoft-flow-gallery"></a>Microsoft Flow 갤러리에 템플릿 제출
 Microsoft Flow 템플릿 갤러리에 흐름 템플릿을 제출합니다. 템플릿은 사람들이 흐름을 보다 쉽게 만들 뿐 아니라 흐름을 유용하게 사용할 수 있는 추가 시나리오를 상상하는 데 도움을 줍니다. 

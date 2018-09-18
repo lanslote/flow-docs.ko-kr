@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/15/2017
 ms.author: deonhe
-ms.openlocfilehash: 483837a013b5fa0c8dfa27d2ed3a1e3481c36c5b
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34308720"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689965"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>사용자 입력을 사용하는 단추 흐름 소개
 간단히 단추를 눌러 일상적인 작업을 실행하는 단추 흐름을 만듭니다. 사용자가 흐름이 실행될 때 사용되는 특정 세부 정보를 제공할 수 있도록 하여 흐름을 사용자 지정할 수 있습니다. 이 토픽은 사용자의 입력을 받는 단추 흐름을 만든 다음 단추 흐름을 실행하고 사용자 입력을 제공하는 방법을 강조하는 일련의 과정을 연습합니다.

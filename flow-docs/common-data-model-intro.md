@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/22/2016
 ms.author: stepsic
-ms.openlocfilehash: e4e92bfdcf1ea65de272233b2056523641010cf2
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: b2cf6c52a2cbaf06fc638fe8fc898689e6d523c4
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "29351305"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44690824"
 ---
 # <a name="create-a-flow-that-uses-the-common-data-service"></a>Common Data Service를 사용하는 흐름 만들기
 [Common Data Service](https://powerapps.microsoft.com/tutorials/data-platform-intro/)를 사용하는 흐름을 만들어 비즈니스 데이터의 통합 보기를 통해 운영 효율성을 증대합니다. 조직 내에 잘 구성된 표준 비즈니스 엔티티(예: 영업, 구매, 고객 서비스, 생산성 등)로 구성된 이 안전한 비즈니스 데이터베이스를 배치합니다. Microsoft Excel 및 Salesforce 등과 같은 외부 데이터 원본에서 여러 이점을 제공하는 하나 이상의 [사용자 지정 엔터티](https://powerapps.microsoft.com/tutorials/data-platform-create-entity/)에 조직 데이터를 저장합니다.

@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 02/07/2017
 ms.author: anneta
-ms.openlocfilehash: b755d9abe70740a97ad85aaa60b8a3f4685a7b26
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 52aae570f65eaae537f548e686f437592eb5ef03
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31008383"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689459"
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Microsoft Flow 템플릿에서 흐름 만들기
 상사가 Office 365에서 전자 메일을 보내면 Slack 메시지를 보내는 것과 같이, 여러 기본 제공 템플릿에서 흐름을 만들 수 있습니다.

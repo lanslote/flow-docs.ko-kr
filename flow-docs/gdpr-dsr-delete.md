@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 4/17/2018
 ms.author: keweare
-ms.openlocfilehash: 532d3c1affe899da3125e9f512b21bf3e39ca25e
-ms.sourcegitcommit: cd3cdcff3accb9a54f002fdc33d33935b4276249
+search.app:
+- Flow
+- Powerplatform
+search.audienceType:
+- admin
+ms.openlocfilehash: 77ce6e368c8cb54d360ebeaa32f1f649e30aa297
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/06/2018
-ms.locfileid: "39520080"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727185"
 ---
 # <a name="responding-to-gdpr-data-subject-delete-requests-for-microsoft-flow"></a>Microsoft Flow에 대한 GDPR 데이터 주체 삭제 요청에 응답
 
@@ -276,7 +281,7 @@ Microsoft Flow 서비스에 “역할 할당”으로 저장된 특정 환경의
 환경에서 사용자 권한을 제거하는 방법에 대한 자세한 내용은 [Microsoft Flow 내에서 환경 사용](https://docs.microsoft.com/flow/environments-overview-admin)을 참조하세요.
 
 ## <a name="delete-gateway-settings"></a>게이트웨이 설정 삭제
-온-프레미스 데이터 게이트웨이의 데이터 주체 삭제 요청에 응답하는 작업은 [여기](https://docs.microsoft.com/en-us/power-bi/service-gateway-onprem#tenant-level-administration)에서 찾을 수 있습니다.
+온-프레미스 데이터 게이트웨이의 데이터 주체 삭제 요청에 응답하는 작업은 [여기](https://docs.microsoft.com/power-bi/service-gateway-onprem#tenant-level-administration)에서 찾을 수 있습니다.
 
 ## <a name="delete-user-details"></a>사용자 세부 정보 삭제
 사용자 세부 정보는 사용자와 특정 테넌트 간의 연결을 제공합니다. 이 명령을 실행하기 전에 이 사용자에 대한 모든 흐름이 다시 할당되거나 삭제되었는지를 확인합니다. 작업이 완료되면 관리자는 **Remove-AdminFlowUserDetails** cmdlet을 호출하고 사용자에 대한 개체 ID를 전달하여 사용자 세부 정보를 삭제할 수 있습니다.

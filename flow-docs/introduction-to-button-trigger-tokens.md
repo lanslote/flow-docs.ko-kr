@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 4746fa74911126f3e23ed009dd109a2766dae12a
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: dc1b93553938221c3f1c995b63b984cfff913c06
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690931"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711614"
 ---
 # <a name="get-started-with-button-trigger-tokens"></a>단추 트리거 토큰으로 시작
 ## <a name="what-are-button-trigger-tokens"></a>단추 트리거 토큰이란 무엇인가요?
@@ -97,6 +97,4 @@ ms.locfileid: "44690931"
 
 ## <a name="next-steps"></a>다음 단계
 * [단추 흐름 공유](share-buttons.md)
-* [단추 흐름에 대해 알아보기](introduction-to-button-flows.md)  
-* [흐름에 대해 알아보기](guided-learning/get-started.yml?tutorial-step=1)
-
+* [단추 흐름에 대해 알아보기](introduction-to-button-flows.md)

@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: f0e075a63331a70c32fd87a25ad0b3fdb7cf043b
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: f87b0d93b912799a4977f347d89b12421cf42e70
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689965"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711568"
 ---
 # <a name="introducing-button-flows-with-user-input"></a>사용자 입력을 사용하는 단추 흐름 소개
 간단히 단추를 눌러 일상적인 작업을 실행하는 단추 흐름을 만듭니다. 사용자가 흐름이 실행될 때 사용되는 특정 세부 정보를 제공할 수 있도록 하여 흐름을 사용자 지정할 수 있습니다. 이 토픽은 사용자의 입력을 받는 단추 흐름을 만든 다음 단추 흐름을 실행하고 사용자 입력을 제공하는 방법을 강조하는 일련의 과정을 연습합니다.
@@ -122,7 +122,6 @@ Microsoft Flow 웹 사이트 또는 Microsoft Flow용 모바일 앱에서 단추
 
 ## <a name="next-steps"></a>다음 단계
 * [단추 흐름 공유](share-buttons.md)
-* [흐름에 대해 알아보기](guided-learning/get-started.yml?tutorial-step=1)  
 * [단추 흐름에 대해 알아보기](introduction-to-button-flows.md)  
 * [트리거 토큰을 사용하는 단추 흐름에 대해 알아보기](introduction-to-button-trigger-tokens.md)  
 

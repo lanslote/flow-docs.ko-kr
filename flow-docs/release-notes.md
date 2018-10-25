@@ -13,14 +13,19 @@ ms.devlang: na
 ms.topic: article
 ms.tgt_pltfrm: na
 ms.workload: na
-ms.date: 07/21/2018
+ms.date: 08/31/2018
 ms.author: stepsic
-ms.openlocfilehash: 063fd316f1c4e1679935fb7a83560441d2704701
-ms.sourcegitcommit: 4489d9587bfb1ef197df7f4c0253a3ab4ecb1d1d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 244f3f072dd0250d4c9c4a8c62760009f54a6a45
+ms.sourcegitcommit: 44bc9de9f06b64615731ceb60a4f46cfcd45b167
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/16/2018
-ms.locfileid: "43774235"
+ms.lasthandoff: 09/17/2018
+ms.locfileid: "45727254"
 ---
 # <a name="release-notes"></a>릴리스 정보
 ## <a name="top-questions"></a>주요 질문
@@ -45,6 +50,29 @@ ms.locfileid: "43774235"
 3. 선택한 폴더의 중첩된 폴더 내에 추가되는 파일에 대해 파일 트리거가 발생하지 않습니다.
 
 ## <a name="whats-new"></a>새로운 기능
+
+### <a name="release-2018-08-31"></a>릴리스 2018-08-31
+
+- **예제 데이터를 사용하여 흐름 테스트** - 커넥터에서 예제 데이터를 사용하여 Microsoft Flow 디자이너 내에서 흐름을 빌드할 때 흐름을 테스트합니다. 예제 데이터를 사용하여 흐름을 테스트하는 경우 프로덕션 환경에 배포될 때 흐름이 예상대로 실행되는지 확인합니다.
+- **5개의 새 커넥터** - 4개의 새 관리 커넥터인 앱 작성자용 PowerApps, 관리자용 Power 플랫폼, 관리자용 PowerApps, 관리자용 Microsoft Flow 및 Microsoft School Data Sync를 추가했습니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/test-data-management-connectors/).
+
+### <a name="release-2018-08-24"></a>릴리스 2018-08-24
+
+- **새 일정 동기화 템플릿** - Google 캘린더와 Office 365 또는 Outlook.com 간에 이벤트를 복사하는 새로운 일정 템플릿입니다.
+- **SharePoint의 다중 값 지원** - SharePoint의 다중 값 필드(선택, 개인 또는 조회 형식)에 대한 읽기 및 쓰기입니다.
+- **조직의 다른 사용자 대신 승인 보내기** - 조직의 다른 사용자 대신 승인을 보냅니다(예: 흐름을 만든 사용자 대신 SharePoint 목록에서 파일을 업로드한 사용자).
+- **추가 단추 입력 형식** - 단추에는 두 개의 새 입력 형식(숫자 및 예/아니요)이 있습니다.
+- **커넥터 업데이트** - 새로운 NetDocuments 커넥터, Azure 커넥터 등 개선.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/button-types-more/).
+
+### <a name="release-2018-08-02"></a>릴리스 2018-08-02
+
+Microsoft Flow 미리 보기 프로그램은 Microsoft Flow의 예정된 기능 및 업데이트에 조기에 액세스할 수 있는 방법입니다. 최신 기능에 조기에 액세스하려면 미리 보기 지역에 환경을 만든 후 사용하면 됩니다.
+
+이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/flow-preview-program/).
 
 ### <a name="release-2018-07-23"></a>릴리스 2018-07-23
 
@@ -272,7 +300,7 @@ ms.locfileid: "43774235"
 * **Azure Logic Apps로 축적** - 흐름을 Visual Studio나 Azure Portal을 통해 배포할 수 있는 Azure Logic Apps 리소스로 저장합니다.
 * **관리자 가시성** - 흐름이 어디에 어떻게 사용되는지 정확히 이해하기 위해 Microsoft Flow 사용법을 테넌트에 다운로드합니다.
 * **Dynamics 365에서의 흐름** - 작업 및 금융, Business Edition에 대해 흐름을 Dynamics 365 내에서 사용합니다.
-* **시나리오를 보다 쉽게 찾기** - 커넥터가 수행할 수 있는 모든 것을 검색한 다음, 흐름을 빌드하기 위한 출발점으로 트리거를 사용합니다.
+* **시나리오를 보다 쉽게 찾기** - 커넥터가 수행할 수 있는 모든 것을 검색한 다음 흐름을 빌드하기 위한 출발점으로 트리거를 사용합니다.
 
 이 릴리스에 대한 [자세한 내용 보기 및 질문하기](https://flow.microsoft.com/blog/q2-2017-update/).
 

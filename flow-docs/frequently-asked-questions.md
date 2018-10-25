@@ -15,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 03/15/2017
 ms.author: stepsic
-ms.openlocfilehash: af179e30c3b8b7c6d4200f10f122f0d928526f1b
-ms.sourcegitcommit: 77aae180d972373d1f251fa6a5c8f484f08ffc15
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 15f7a58f6cee58d588cf10976cabf55b800f28ce
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/08/2018
-ms.locfileid: "39718307"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711660"
 ---
 # <a name="frequently-asked-questions"></a>질문과 대답
 ## <a name="audience-and-strategy"></a>대상 그룹 및 전략
@@ -43,8 +48,23 @@ Microsoft Flow는 PowerApps, Common Data Service, Dynamics 365 및 Office 365를
 ### <a name="what-do-i-need-to-use-microsoft-flow"></a>Microsoft Flow를 사용하려면 무엇이 필요한가요?
 Microsoft Flow를 사용하기 위해 웹 브라우저와 전자 메일 주소만 있으면 됩니다.
 
-### <a name="what-browsers-does-microsoft-flow-support"></a>Microsoft Flow는 어떤 브라우저를 지원하나요?
-Microsoft Flow는 Microsoft Edge와 Chrome 및 Safari 최신 버전을 지원합니다.
+### <a name="what-browsers-and-devices-can-i-use-with-microsoft-flow"></a>Microsoft Flow에 사용할 수 있는 브라우저와 장치는 무엇인가요?
+
+모든 최신 장치와 브라우저에서 Microsoft Flow를 실행할 수 있습니다.
+
+#### <a name="supported-devices"></a>지원되는 장치
+
+Microsoft Flow는 최신 장치에서 잘 실행됩니다. 모바일 장치에서 Microsoft Flow를 관리해야 하는 경우 [iPhone](https://itunes.apple.com/app/microsoft-flow/id1094928825?ls=1&mt=8), [Android](https://play.google.com/store/apps/details?id=com.microsoft.flow) 및 [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84?rtc=1#activetab=pivot:overviewtab)에서 사용할 수 있는 Microsoft Flow 모바일 앱을 사용해 보세요.
+
+#### <a name="supported-browsers"></a>지원되는 브라우저
+
+운영 체제와 호환되는 최신 브라우저를 사용하는 것이 좋습니다. 다음 브라우저를 지원합니다.
+
+* Microsoft Edge
+* Internet Explorer 11
+* Safari
+* Chrome
+* Firefox
 
 ### <a name="which-email-addresses-are-supported"></a>어떤 전자 메일 주소를 지원하나요?
 Microsoft Flow는 .gov 및 .mil로 끝나는 주소를 제외하고는 모든 전자 메일 주소를 지원합니다.  
@@ -125,6 +145,10 @@ Microsoft Flow는 승인, 문서 검토, 온보딩/오프보딩 등 여러 공�
 ### <a name="how-does-microsoft-flow-ensure-that-corporate-data-isnt-accidentally-released-to-social-media-services"></a>Microsoft Flow는 어떻게 회사 데이터를 실수로 소셜 미디어 서비스에 공개되지 않도록 할 수 있나요?
 관리자가 Microsoft Flow에서 [데이터 손실 방지 정책](prevent-data-loss.md)을 만들어 사용 권한이 승인된 서비스만 사용하도록 할 수 있습니다.
 
+### <a name="does-microsoft-flow-support-service-accounts"></a>Microsoft Flow는 서비스 계정을 지원하나요?
+
+서비스 계정으로 흐름을 만들 수는 있지만 서비스 계정의 자격 증명이 공유되는 경우에는 사용하지 않는 것이 좋습니다.
+
 ## <a name="licensing"></a>라이선스
 ### <a name="will-microsoft-flow-still-have-a-free-or-trial-option"></a>Microsoft Flow는 계속 무료 또는 평가판 옵션이 있나요?
 예. 제한된 사용자 권한으로 무료 제품을 사용하거나 Microsoft Flow 90일 무료 평가판에 등록할 수 있습니다. 평가판을 사용하는 동안 언제든지 구독을 활성화할 수 있습니다.
@@ -134,5 +158,5 @@ Microsoft Flow는 무료와 유료 서비스 수준을 모두 제공합니다. [
 
 ## <a name="learn-more"></a>자세한 정보
 
-* Microsoft Flow의 [단계별 학습 둘러보기](guided-learning/index.yml) 살펴보기
+* Microsoft Flow의 [단계별 학습 둘러보기](https://docs.microsoft.com/learn/paths/automate-process-using-flow) 살펴보기
 * [시작 가이드](getting-started.md)에서 Microsoft Flow의 기본 사항 알아보기

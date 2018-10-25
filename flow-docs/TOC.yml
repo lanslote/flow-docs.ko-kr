@@ -1,49 +1,101 @@
-- name: Get started
+items:
+- name: 개요
   items:
-    - name: Get started
-      href: getting-started.md
-    - name: 가입
-      href: sign-up-sign-in.md
-    - name: 템플릿에서 흐름 만들기
-      href: get-started-logic-template.md
-    - name: 처음부터 흐름 만들기
-      href: get-started-logic-flow.md
-    - name: 팀 흐름 만들기
-      href: create-team-flows.md
-    - name: 환경 개요
-      href: environments-overview-maker.md
-    - name: 질문과 대답
-      href: frequently-asked-questions.md
-- name: 흐름 빌드
+  - name: 가입
+    href: sign-up-sign-in.md
+  - name: Get started
+    href: getting-started.md
+  - name: 단계별 학습
+    href: https://docs.microsoft.com/learn/paths/automate-process-using-flow
+  - name: 브라우저에서 흐름 만들기
+    href: get-started-logic-template.md
+  - name: 휴대폰에서 흐름 만들기
+    href: mobile-create-flow.md
+  - name: 팀 흐름 만들기
+    href: create-team-flows.md
+  - name: Common Data Service를 사용하는 흐름 만들기
+    href: common-data-model-intro.md
+- name: 자동화된 흐름
   items:
-    - name: 동작 추가
-      href: multi-step-logic-flow.md
-    - name: 조건 추가
-      href: add-condition.md
-    - name: 일정에 따라 흐름 실행
-      href: run-scheduled-tasks.md
-    - name: 전자 메일을 사용하여 흐름 트리거
-      href: email-triggers.md
-    - name: 항목 목록 처리
-      href: apply-to-each.md
-    - name: 데이터 작업 사용
-      href: data-operations.md
-    - name: 데이터 필터링 및 복사
-      href: odata-filters.md
-    - name: 조건에 식 사용
-      href: use-expressions-in-conditions.md
-    - name: Dynamics 365을 사용하여 흐름 만들기
-      href: connection-dynamics365.md
-    - name: Common Data Service에 데이터 추가
-      href: common-data-model-intro.md
-    - name: 흐름 보기
-      href: see-a-flow-run.md
-    - name: 템플릿 게시
-      href: publish-a-template.md
-    - name: 흐름 문제 해결
-      href: fix-flow-failures.md
-- name: 승인 흐름 만들기
+  - name: 처음부터 흐름 만들기
+    href: get-started-logic-flow.md
+  - name: 전자 메일을 사용하여 흐름 트리거
+    href: email-triggers.md
+  - name: Dynamics 365을 사용하여 흐름 만들기
+    href: connection-dynamics365.md
+  - name: 데이터 필터링 및 복사
+    href: odata-filters.md
+  - name: Flic 사용
+    href: flic-button-flows.md
+  - name: bttn 사용
+    href: bttn-button-flows.md
+- name: 단추 흐름
   items:
+  - name: 단추 흐름 만들기
+    href: introduction-to-button-flows.md
+  - name: 트리거 토큰을 사용하여 단추 흐름 만들기
+    href: introduction-to-button-trigger-tokens.md
+  - name: 사용자 입력을 사용하는 단추 흐름 만들기
+    href: button-flow-with-user-input-tokens.md
+  - name: 단추 공유
+    href: share-buttons.md
+- name: 예약된 흐름
+  items:
+  - name: 일정에 따라 흐름 실행
+    href: run-scheduled-tasks.md
+  - name: 항목 목록 처리
+    href: apply-to-each.md
+- name: 비즈니스 프로세스 흐름
+  items:
+  - name: 비즈니스 프로세스 흐름 개요
+    href: business-process-flows-overview.md
+  - name: 프로세스를 표준화하는 비즈니스 프로세스 흐름 만들기
+    href: create-business-process-flow.md
+  - name: 분기를 사용하여 비즈니스 프로세스 흐름 향상
+    href: enhance-business-process-flows-branching.md
+- name: 앱용 CDS(Common Data Service)
+  items:
+  - name: 클래식 앱용 CDS 워크플로
+    href: workflow-processes.md
+    items:
+    - name: 워크플로 스테이지 및 단계 구성
+      href: configure-workflow-steps.md
+    - name: 워크플로 프로세스 모니터링 및 관리
+      href: monitor-manage-processes.md
+    - name: 워크플로 프로세스의 모범 사례
+      href: best-practices-workflow-processes.md
+  - name: 클래식 앱용 CDS 작업
+    items:
+    - name: 작업 사용
+      href: actions.md
+    - name: 사용자 지정 작업 만들기
+      href: create-actions.md
+    - name: 워크플로에서 사용자 지정 작업 구성
+      href: configure-actions.md
+    - name: 워크플로에서 사용자 지정 작업 호출
+      href: invoke-custom-actions-workflow-dialog.md
+  - name: 클래식 앱용 CDS 작업 흐름
+    items:
+    - name: 모바일 작업 흐름 만들기
+      href: create-mobile-task-flow.md
+  - name: 클래식 앱용 CDS 대화 상자
+    items:
+    - name: 클래식 앱용 CDS 대화 상자 사용
+      href: use-cds-for-apps-dialogs.md
+    - name: 클래식 앱용 CDS 대화 상자 바꾸기
+      href: replace-dialogs.md
+- name: 방법
+  items:
+  - name: 동작 추가
+    href: multi-step-logic-flow.md
+  - name: 조건 추가
+    href: add-condition.md
+  - name: 데이터 작업 사용
+    href: data-operations.md
+  - name: 조건에 식 사용
+    href: use-expressions-in-conditions.md
+  - name: 승인 흐름
+    items:
     - name: 단일 승인
       href: modern-approvals.md
     - name: 순차적 승인
@@ -56,64 +108,61 @@
       href: common-data-model-approve.md
     - name: 서식 승인 요청
       href: approvals-markdown-support.md
-- name: 모바일 앱 사용
+  - name: 휴대폰에서 흐름 관리
+    href: mobile-manage-flows.md
+  - name: 템플릿 게시
+    href: publish-a-template.md
+- name: 문제 해결
   items:
-    - name: 흐름 만들기
-      href: mobile-create-flow.md
-    - name: 단추 흐름 만들기
-      href: introduction-to-button-flows.md
-    - name: 트리거 토큰을 사용하여 단추 흐름 만들기
-      href: introduction-to-button-trigger-tokens.md
-    - name: 사용자 입력을 사용하는 단추 흐름 만들기
-      href: button-flow-with-user-input-tokens.md
-    - name: 단추 공유
-      href: share-buttons.md
-    - name: 흐름 작업 모니터링
-      href: mobile-monitor-activity.md
-    - name: 흐름 관리
-      href: mobile-manage-flows.md
-- name: 물리적 장치 사용
+  - name: 흐름 보기
+    href: see-a-flow-run.md
+  - name: 휴대폰에서 흐름 활동 모니터링
+    href: mobile-monitor-activity.md
+  - name: 흐름 문제 해결
+    href: fix-flow-failures.md
+- name: 데이터에 연결
   items:
-    - name: Flic 사용
-      href: flic-button-flows.md
-    - name: bttn 사용
-      href: bttn-button-flows.md
-- name: 연결
+  - name: 사용 가능한 연결
+    href: https://go.microsoft.com/fwlink/?linkid=832211
+  - name: 연결 관리
+    href: add-manage-connections.md
+  - name: 게이트웨이 관리
+    href: gateway-manage.md
+  - name: 게이트웨이 이해
+    href: gateway-reference.md
+- name: '개발자:'
   items:
-    - name: 사용 가능한 연결
-      href: 'https://go.microsoft.com/fwlink/?linkid=832211'
-    - name: 연결 관리
-      href: add-manage-connections.md
-    - name: 게이트웨이 관리
-      href: gateway-manage.md
-    - name: 게이트웨이 이해
-      href: gateway-reference.md
-- name: Microsoft Flow용 개발
-  items:
-    - name: '엔터프라이즈 개발자, 파트너 및 ISV를 위한 Microsoft Flow'
-      href: dev-enterprise-intro.md
-    - name: 사용자 지정 커넥터 빌드 및 인증
-      href: register-custom-api.md
-    - name: 웹 사이트 및 기타 기술 통합
-      href: embed-flow-dev.md
-    - name: 고객이 흐름을 시험 사용하도록 함
-      href: dev-appsource-test-drive.md
+  - name: 엔터프라이즈 개발자, 파트너 및 ISV를 위한 Microsoft Flow
+    href: ./developer/dev-enterprise-intro.md
+  - name: 사용자 지정 커넥터 빌드 및 인증
+    href: ./developer/register-custom-api.md
+  - name: 웹 사이트 및 기타 기술 통합
+    href: ./developer/embed-flow-dev.md
+  - name: 고객이 흐름을 시험 사용하도록 함
+    href: ./developer/dev-appsource-test-drive.md
+  - name: 코드를 사용하여 비즈니스 프로세스 흐름 작업
+    href: ./developer/business-process-flows-code.md
+    items:
+    - name: '샘플: 비즈니스 프로세스 흐름 작업'
+      href: ./developer/sample-work-business-process-flows.md
+  - name: 앱용 CDS 사용자 지정 워크플로 활동
+    href: ./developer/custom-cds-for-apps-workflow-activities.md
 - name: 관리
   items:
-    - name: 조직의 Microsoft Flow 관련 Q&A
-      href: organization-q-and-a.md
-    - name: 가격 책정
-      href: billing-questions.md
-    - name: 관리 센터에 대한 소개
-      href: admin-center-introduction.md
-    - name: 환경 관리
-      href: environments-overview-admin.md
-    - name: 데이터 손실을 방지할 수 있는 정책 설정
-      href: prevent-data-loss.md
-    - name: 데이터 그룹 소개
-      href: introduction-to-data-groups.md
-- name: DSR 요청에 응답
-  items:
+  - name: 조직의 Microsoft Flow 관련 Q&A
+    href: organization-q-and-a.md
+  - name: 가격 책정
+    href: billing-questions.md
+  - name: 관리 센터에 대한 소개
+    href: admin-center-introduction.md
+  - name: 환경 관리
+    href: environments-overview-admin.md
+  - name: 데이터 손실을 방지할 수 있는 정책 설정
+    href: prevent-data-loss.md
+  - name: 데이터 그룹 소개
+    href: introduction-to-data-groups.md
+  - name: DSR 요청에 응답
+    items:
     - name: 요약
       href: gdpr-dsr-summary.md
     - name: 검색 요청
@@ -122,8 +171,8 @@
       href: gdpr-dsr-export.md
     - name: 삭제 요청
       href: gdpr-dsr-delete.md
-- name: Microsoft 계정에 대한 DSR 요청
-  items:
+  - name: Microsoft 계정에 대한 DSR 요청
+    items:
     - name: 요약
       href: gdpr-dsr-summary-msa.md
     - name: 검색 요청
@@ -136,9 +185,25 @@
       href: gdpr-dsr-accountclose-msa.md
 - name: 참조
   items:
-    - name: 지역 개요
-      href: regions-overview.md
-    - name: 제한 및 구성
-      href: limits-and-config.md
-    - name: 릴리스 정보
-      href: release-notes.md
+  - name: 지역 개요
+    href: regions-overview.md
+  - name: 제한 및 구성
+    href: limits-and-config.md
+  - name: 릴리스 정보
+    href: release-notes.md
+  - name: 질문과 대답
+    href: frequently-asked-questions.md
+- name: 다른 사용자에게 배우기
+  items:
+  - name: 웨비나
+    href: https://flow.microsoft.com/blog/category/webinars/
+  - name: 블로그
+    href: https://flow.microsoft.com/blog/
+  - name: 포럼
+    href: https://powerusers.microsoft.com/t5/Microsoft-Flow-Community/ct-p/FlowCommunity
+ms.openlocfilehash: 0ea74141e1c80b2f550ca5f43191a40c1b5aad58
+ms.sourcegitcommit: f7985b96afe68b079b7fd4a6d04cd0a042d893e0
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 09/26/2018
+ms.locfileid: "47188527"

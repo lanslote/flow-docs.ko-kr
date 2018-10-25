@@ -16,12 +16,17 @@ ms.date: 03/28/2018
 ms.topic: hub-page
 ms.reviewer:
 - karann-msft
-ms.openlocfilehash: 05bf99aa91b5cfe8635cc7be72669b4d1012ef49
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 03eebb10c1155894b9dc1db5a0283cd72d78a1ae
+ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "34479761"
+ms.lasthandoff: 09/24/2018
+ms.locfileid: "46711591"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -56,16 +61,16 @@ ms.locfileid: "34479761"
                     <a href="#start-all"></a>
                     <ul id="start-all" class="cardsC">
                         <li>
-                            <a href="./guided-learning/index.yml">
+                            <a href="https://docs.microsoft.com/learn/paths/automate-process-using-flow">
                             <div class="cardSize">
                                 <div class="cardPadding">
                                     <div class="card">
                                         <div class="cardImageOuter">
                                             <div class="cardImage  bgdAccent1">
-                                                <img src="media/index/guidedlearningtour.svg" alt="Take a guided learning tour" /><br/>                                            </div>
+                                                <img src="media/index/guidedlearningtour.svg" alt="Learn Microsoft Flow" /><br/>                                            </div>
                                         </div>
                                         <div class="cardText">
-                                            <h3>단계별 학습 둘러보기</h3>
+                                            <h3>Microsoft Flow에 대한 자세한 정보</h3>
                                             <p>이 과정의 순차적 컬렉션에서 학습을 시작하고 Microsoft Flow의 광범위하고 강력한 기능을 이해합니다.</p>
                                         </div>
                                     </div>
@@ -391,6 +396,44 @@ ms.locfileid: "34479761"
                                         <div class="cardText">
                                             <h3>Logic Apps에서 흐름 확장</h3>
                                             <p>Azure Logic Apps는 Microsoft Flow에 포함된 것보다 더 다양한 기능 집합을 제공합니다. 모든 흐름을 Logic Apps 템플릿으로 저장한 다음, 다른 Logic Apps 리소스처럼 관리하기만 하면 됩니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/business-process-flows-overview">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Drive data collection and workflow consistency." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>데이터 컬렉션 및 워크플로 일관성 유지</h3>
+                                            <p>비즈니스 프로세스 흐름을 사용하여 데이터 컬렉션 및 워크플로 일관성을 유지합니다.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://docs.microsoft.com/flow/workflow-processes">
+                            <div class="cardSize">
+                                <div class="cardPadding">
+                                    <div class="card">
+                                        <div class="cardImageOuter">
+                                            <div class="cardImage  bgdAccent1">
+                                                <img src="media/index/analytics_reporting.svg" alt="Use Common Data Service (CDS) for apps." />
+                                            </div>
+                                        </div>
+                                        <div class="cardText">
+                                            <h3>앱용 CDS(Common Data Service) 사용</h3>
+                                            <p>워크플로 프로세스와 함께 앱용 CDS(Common Data Service)를 사용합니다.</p>
                                         </div>
                                     </div>
                                 </div>

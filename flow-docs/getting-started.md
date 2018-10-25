@@ -5,7 +5,7 @@ services: ''
 suite: flow
 documentationcenter: na
 author: stepsic-microsoft-com
-manager: anneta
+manager: kvivek
 editor: ''
 tags: ''
 ms.service: flow
@@ -15,18 +15,27 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 10/31/2017
 ms.author: stepsic
-ms.openlocfilehash: 11c8d9846982cfd372df787b6a7c9e6584d61ae5
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: cfd337180d1517df67864e239b611f6283e3af14
+ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "23439995"
+ms.lasthandoff: 09/12/2018
+ms.locfileid: "44689781"
 ---
 # <a name="get-started-with-microsoft-flow"></a>Microsoft Flow 시작 #
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/iMteXfAvDSE?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 환영합니다! Microsoft Flow는 자주 사용하는 앱과 서비스 사이에 자동화된 워크플로를 만들어 파일 동기화, 알림 수신, 데이터 수집 등의 작업을 수행하는 데 도움이 되는 서비스입니다.
+
+기본 흐름 형식은 [자동화됨](get-started-logic-flow.md), [단추](introduction-to-button-flows.md), [예약됨](run-scheduled-tasks.md) 및 [비즈니스 프로세스](business-process-flows-overview.md) 흐름입니다.
+
+Dynamics 365 고객 관계 사용자 지정자인 경우 [워크플로](configure-workflow-steps.md), [작업](create-actions.md), [모바일 작업 흐름](create-mobile-task-flow.md) 및 [대화](use-cds-for-apps-dialogs.md)를 포함하는 클래식 앱용 Common Data Service 프로세스에 익숙할 수 있습니다.
 
 가장 먼저 해야 할 단계는 [등록](sign-up-sign-in.md)입니다. 이미 Microsoft Flow 계정이 있는 경우 태블릿, 데스크톱 컴퓨터 또는 휴대폰에서 바로 [로그인](https://flow.microsoft.com/signin)하세요.
 

@@ -1,0 +1,1 @@
+Microsoft는 이 미리 보기 기능의 지원을 제공하지 않습니다. Microsoft Dynamics 365 지원 팀은 문제 또는 질문 관련 지원을 제공할 수 없습니다. 미리 보기 기능은 프로덕션용으로 제공되지 않으며 별도의 [추가 사용 약관](http://go.microsoft.com/fwlink/p/?LinkId=511446)이 적용됩니다.

@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 180ff4b54fdf395c8524fd1ff132e9adedf1c848
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: 04246007fabacabaf86914f906eee1741df217a1
+ms.sourcegitcommit: b5395b7f3d6610990cbbeeff8f6972224bc2149a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44690379"
+ms.lasthandoff: 10/05/2018
+ms.locfileid: "48817944"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-microsoft-flow"></a>Microsoft Flow에서 온-프레미스 데이터 게이트웨이 관리에 대해 알아보기
 
@@ -33,16 +33,20 @@ Microsoft Flow를 통해, 온-프레미스 데이터 게이트웨이를 설치 �
 
 게이트웨이로 이런한 연결을 통해 온-프레미스 데이터에 연결할 수 있습니다.
 
+* Apache Impala
+* DB2
+* 파일 시스템
+* Azure AD를 사용한 Http
+* Informix
+* MySQL
+* Oracle Database
+* PostgreSQL
 * SharePoint
 * SQL Server
-* Oracle
-* Informix
-* Filesystem
-* DB2
+* Teradata(미리 보기)
 
 > [!IMPORTANT]
 > Microsoft SharePoint 데이터 게이트웨이는 이제 HTTP와 HTTPS 트래픽을 모두 지원합니다.
-
 
 ## <a name="prerequisites"></a>필수 구성 요소
 

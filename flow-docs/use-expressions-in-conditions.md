@@ -1,16 +1,6 @@
 ---
 title: 조건에 따라 식을 사용합니다. | Microsoft Docs
-description: '다음과 같은 고급 식을 사용합니다 '
-"\"and\"\",": ''
-"\"\"or\"\",": ''
-"\"\"empty\"\",": ''
-"\"\"less\"\"": ''
-and: ''
-"\"\"greater\"\"": ''
-with: ''
-microsoft: ''
-flow: ''
-conditions.": ''
+description: Microsoft Flow 조건을 사용하여 “and”, “or”, “empty”, “less” 및 “greater”와 같은 고급 식을 사용합니다.
 services: ''
 suite: flow
 documentationcenter: na
@@ -25,12 +15,17 @@ ms.tgt_pltfrm: na
 ms.workload: na
 ms.date: 08/01/2017
 ms.author: deonhe
-ms.openlocfilehash: 3a089735cc2d8c9144e18a2765b549b528470d1e
-ms.sourcegitcommit: 945614d737d5909c40029a61e050302d96e1619d
+search.app:
+- Flow
+search.audienceType:
+- flowmaker
+- enduser
+ms.openlocfilehash: 81aa718837fa14615459f3688a282c25cb99bab6
+ms.sourcegitcommit: dc188618c36583b20af3e838d72bd7b020575d7d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2018
-ms.locfileid: "31008640"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48874440"
 ---
 # <a name="use-expressions-in-conditions-to-check-multiple-values"></a>조건에서 식을 사용하여 여러 값을 확인합니다.
 이 연습에서는 식과 **조건**을 사용하여 **고급 모드**에서 여러 값을 비교하는 법을 알아봅니다.
@@ -49,7 +44,7 @@ ms.locfileid: "31008640"
 |[greater](#use-the-greater-expression)|두 인수를 사용하여 첫 번째 인수가 두 번째 인수보다 클 경우 true를 반환합니다. <br><b>참고</b>: 지원 되는 형식은 integer, float 및 string입니다.|이 식은 false를 반환합니다.<br>greater(10,10)
 |greaterOrEquals|두 인수를 사용하여 첫 번째 인수가 두 번째 인수보다 크거나 같을 경우 true를 반환합니다. <br><b>참고</b>: 지원 되는 형식은 integer, float 및 string입니다.|이 식은 false를 반환합니다.<br>greaterOrEquals(10,100)
 |[empty](#use-the-empty-expression)|개체, 배열 또는 문자열이 비어 있다면 true를 반환합니다.|이 식은 true를 반환합니다.<br>empty('')
-|not|두 인수를 사용하여 인수가 false이면 true를 반환합니다. <br><b>참고</b>: 두 인수는 부울이어야 합니다.|이 식은 true를 반환합니다.<br>not(contains('200 Success','Fail'))
+|not|부울 값의 반대 값을 반환합니다. |이 식은 true를 반환합니다.<br>not(contains('200 Success','Fail'))
 |if|식의 결과 값이 true 또는 false이면 특정 값을 반환합니다.|이 식은 "예"를 반환합니다.<br>if(equals(1, 1), 'yes', 'no')
 
 ## <a name="prerequisites"></a>필수 구성 요소

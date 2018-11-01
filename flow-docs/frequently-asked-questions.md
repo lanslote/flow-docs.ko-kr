@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 15f7a58f6cee58d588cf10976cabf55b800f28ce
-ms.sourcegitcommit: ffed9f02092fbd19fc4108aee05dd40d1a2a3755
+ms.openlocfilehash: 1d2560a2a15a77a516701bce977c5bed9fbbe1cf
+ms.sourcegitcommit: c8646cff9ca510203cd0414d1be93a7d12e6018d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/24/2018
-ms.locfileid: "46711660"
+ms.lasthandoff: 10/09/2018
+ms.locfileid: "48892407"
 ---
 # <a name="frequently-asked-questions"></a>질문과 대답
 ## <a name="audience-and-strategy"></a>대상 그룹 및 전략
@@ -133,7 +133,7 @@ Microsoft Flow 모바일 앱은 [Android](https://aka.ms/flowmobiledocsandroid),
 
 트리거 형식|설명
 -------|--------
-**되풀이** 트리거와 같은 폴링|흐름을 다시 설정하는 경우 처리되지 않은/보류 중인 이벤트를 모두 처리합니다.
+**되풀이** 트리거와 같은 폴링|흐름을 다시 설정하는 경우 처리되지 않은/보류 중인 이벤트를 모두 처리합니다. 보류 중인 항목을 처리하지 않으려면 흐름을 삭제합니다.
 Webhook|흐름을 다시 설정할 때 흐름을 설정한 후에만 생성되는 새로운 이벤트를 처리합니다.
 
 ### <a name="what-regions-and-languages-does-microsoft-flow-support"></a>Microsoft Flow가 지원하는 지역과 언어는 무엇인가요?

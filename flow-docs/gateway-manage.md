@@ -20,12 +20,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 04246007fabacabaf86914f906eee1741df217a1
-ms.sourcegitcommit: b5395b7f3d6610990cbbeeff8f6972224bc2149a
+ms.openlocfilehash: b25f63a3980d21e60b26a0783ac4bf5eb6030cd3
+ms.sourcegitcommit: 282059c82bfcf5896d06043476c34641906e20e3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2018
-ms.locfileid: "48817944"
+ms.lasthandoff: 10/11/2018
+ms.locfileid: "49087911"
 ---
 # <a name="manage-an-on-premises-data-gateway-in-microsoft-flow"></a>Microsoft Flow에서 온-프레미스 데이터 게이트웨이 관리에 대해 알아보기
 
@@ -34,6 +34,7 @@ Microsoft Flow를 통해, 온-프레미스 데이터 게이트웨이를 설치 �
 게이트웨이로 이런한 연결을 통해 온-프레미스 데이터에 연결할 수 있습니다.
 
 * Apache Impala
+* 만들 사용자 지정 커넥터
 * DB2
 * 파일 시스템
 * Azure AD를 사용한 Http

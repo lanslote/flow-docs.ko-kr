@@ -22,12 +22,12 @@ search.app:
 search.audienceType:
 - flowmaker
 - enduser
-ms.openlocfilehash: 94c38a54fec91e6a480cd90d0a72f19ca56ae51c
-ms.sourcegitcommit: a20fbed9941f0cd8b69dc579277a30da9c8bb31b
+ms.openlocfilehash: bba5b203782cfa813de6ddc509a8be604e5e146b
+ms.sourcegitcommit: 50ea1cdd763863a2cbc88f9f965bdf9351f1059c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/12/2018
-ms.locfileid: "44689528"
+ms.lasthandoff: 11/09/2018
+ms.locfileid: "51225543"
 ---
 # <a name="best-practices-for-workflow-processes"></a>워크플로 프로세스의 모범 사례
 
@@ -61,7 +61,7 @@ ms.locfileid: "44689528"
 ![실패한 워크플로의 로드 유지 옵션](media/keep-logs-for-workflows.png)
 
 ## <a name="limit-the-number-of-workflows-that-update-the-same-entity"></a>동일한 엔터티를 업데이트하는 워크플로 수 제한
-동일한 엔터티를 업데이트하는 둘 이상의 워크플로를 실행하면 리소스 잠금 문제가 발생할 수 있습니다. 모든 영업 기회 업데이트가 연결된 계정의 업데이트를 트리거하는 여러 워크플로가 실행 중인 경우를 살펴봅니다. 이러한 워크플로의 여러 인스턴스가 실행 중이고 동일한 계정 레코드를 동시에 업데이트하려고 하면 리소스 잠금 문제가 발생할 수 있습니다. 워크플로 실패가 발생하고 **SQL 시간 제한: 리소스 *resource name*의 잠금을 가져올 수 없음**과 같은 오류 메시지가 기록됩니다. 
+동일한 엔터티를 업데이트하는 둘 이상의 워크플로를 실행하면 리소스 잠금 문제가 발생할 수 있습니다. 모든 영업 기회 업데이트가 연결된 계정의 업데이트를 트리거하는 여러 워크플로가 실행 중인 경우를 살펴봅니다. 이러한 워크플로의 여러 인스턴스가 실행 중이고 동일한 계정 레코드를 동시에 업데이트하려고 하면 리소스 잠금 문제가 발생할 수 있습니다. 워크플로 실패가 발생하고 **SQL 시간 제한: 리소스 _리소스 이름_의 잠금을 가져올 수 없음**과 같은 오류 메시지가 기록됩니다. 
 
   
 <a name="BKMK_DocumentChangesUsingNotes"></a>   

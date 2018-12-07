@@ -30,7 +30,7 @@ ms.locfileid: "44690095"
 # <a name="sign-up-and-sign-in-for-microsoft-flow"></a>Microsoft Flow 가입 및 로그인
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cRkmSZrctLc?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
-스스로 Microsoft Flow를 시작하는 것은 간단합니다! 흐름을 만들기 전에 전자 메일 주소를 사용하여 가입합니다. 해당 주소로 온라인 Microsoft 제품을 사용한 경험이 없다면 등록에 잠시 시간이 필요합니다.
+스스로 Microsoft Flow를 시작하는 것은 간단합니다! 플로우를 만들기 전에 전자 메일 주소를 사용하여 가입합니다. 해당 주소로 온라인 Microsoft 제품을 사용한 경험이 없다면 등록에 잠시 시간이 필요합니다.
 
 ## <a name="sign-up-free"></a>무료 등록
 다른 온라인 Microsoft 제품을 사용한 적이 없는 경우 등록해야 합니다.
@@ -67,6 +67,6 @@ ms.locfileid: "44690095"
 |                                                   **전자 메일 주소가 Office 365 ID가 아님**<br><br>가입 중 다음과 같은 메시지가 나타납니다.<br>*contoso.com에서 사용자를 찾을 수 없습니다.  회사 또는 학교에서 다른 ID를 사용하는 경우 해당 ID로 로그인하고, 그래도 작동하지 않으면 IT 부서에 문의합니다.*                                                    | 해당 조직에서 ID를 사용하여 Office 365 및 기타 Microsoft 서비스에 로그인하며 그러한 ID가 사용자의 전자 메일 주소와 다릅니다. 예를 들어 전자 메일 주소가 Nancy.Smith@contoso.com이고 ID는 nancys@contoso.com일 수 있습니다. 등록을 완료하려면 조직에서 Office 365 또는 기타 Microsoft 서비스 로그인을 위해 할당한 ID를 사용합니다. |
 
 ## <a name="next-steps"></a>다음 단계
-* 사용자를 위해 준비된 미리 작성된 흐름인 [템플릿으로 시작합니다](get-started-logic-template.md).
+* 사용자를 위해 준비된 미리 작성된 플로우인 [템플릿으로 시작합니다](get-started-logic-template.md).
 * 이미 정한 프로세스가 있으나 그에 대한 템플릿이 없는 경우 [처음부터 새로 시작](get-started-logic-flow.md)합니다.
 

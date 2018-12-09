@@ -28,7 +28,7 @@ ms.lasthandoff: 09/12/2018
 ms.locfileid: "44689459"
 ---
 # <a name="create-a-flow-from-a-template-in-microsoft-flow"></a>Microsoft Flow 템플릿에서 흐름 만들기
-상사가 Office 365에서 전자 메일을 보내면 Slack 메시지를 보내는 것과 같이, 여러 기본 제공 템플릿에서 흐름을 만들 수 있습니다.
+예를 들어 상사가 Office 365에서 당신에게 전자 메일을 보내면 Slack 메시지가 당신에게 발송되는 것과 같은, 기본 제공 템플릿에서 흐름을 만들 수 있습니다.
 
 **참고:** 이미 정한 프로세스가 있으나 그에 대한 템플릿이 없는 경우 [처음부터 새로 흐름을 만듭니다](get-started-logic-flow.md).
 

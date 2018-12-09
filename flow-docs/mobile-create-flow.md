@@ -1,5 +1,5 @@
 ---
-title: 전화에서 흐름 만들기 | Microsoft Docs
+title: 휴대폰에서 흐름 만들기 | Microsoft Docs
 description: 사용자가 지정한 주소에서 메일을 받으면 알림을 푸시하는 것처럼, 템플릿에서 흐름을 만들 수 있습니다.
 services: ''
 suite: flow
@@ -27,8 +27,8 @@ ms.contentlocale: ko-KR
 ms.lasthandoff: 09/12/2018
 ms.locfileid: "44688332"
 ---
-# <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Microsoft Flow를 사용하여 전화에서 흐름 만들기
-서비스 목록 검색, 카테고리 탐색 또는 키워드 지정을 통해 찾을 수 있는 템플릿을 사용하여 전화에서 흐름을 만듭니다. 이 토픽의 단계에 따라, 상사에게 메일을 받으면 전화로 푸시 알림을 보내는 흐름을 만듭니다.
+# <a name="create-a-flow-from-your-phone-by-using-microsoft-flow"></a>Microsoft Flow를 사용하여 휴대폰에서 흐름 만들기
+서비스 목록 검색, 카테고리 탐색 또는 키워드 지정을 통해 찾을 수 있는 템플릿을 사용하여 휴대폰에서 흐름을 만듭니다. 이 토픽의 단계에 따라, 상사에게 메일을 받으면 휴대폰으로 푸시 알림을 보내는 흐름을 만듭니다.
 
 Microsoft Flow에 친숙하지 않은 경우 [개요를 살펴봅니다](getting-started.md).
 
@@ -38,7 +38,7 @@ Microsoft Flow에 친숙하지 않은 경우 [개요를 살펴봅니다](getting
 * 이 토픽에서 설명한 템플릿을 사용하려면 다음도 필요합니다.
   
   * Office 365 자격 증명
-  * 전화에서 푸시 알림 사용
+  * 휴대폰에서 푸시 알림 사용
 
 ## <a name="find-a-template"></a>템플릿 찾기
 1. 모바일 앱을 연 다음 화면 아래쪽의 **찾아보기**를 누릅니다.

@@ -42,7 +42,7 @@ ms.locfileid: "44689459"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJK8cYdjAic?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 1. [flow.microsoft.com](https://flow.microsoft.com)의 상단 탐색 모음에서 **템플릿**을 선택합니다.
-2. 검색 막대에 **Slack**을 입력한 다음 검색 아이콘을 선택합니다.
+2. 검색 입력창에 **Slack**을 입력한 다음 검색 아이콘을 선택합니다.
 3. Slack과 관련한 템플릿만 표시되므로 **상사가 전자 메일을 보내면 Slack 메시지 보내기**를 선택할 수 있습니다.
    
     ![왼쪽 탐색 모음의 새 옵션 ](./media/get-started-logic-template/select-template.png)

@@ -32,7 +32,7 @@ ms.locfileid: "44688332"
 
 Microsoft Flow에 친숙하지 않은 경우 [개요를 살펴봅니다](getting-started.md).
 
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="prerequisites"></a>사전준비
 * [Microsoft Flow 계정](sign-up-sign-in.md)
 * [지원되는 장치](getting-started.md#use-the-mobile-app)에 설치된 [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios) 또는 [Windows Phone](https://aka.ms/flowmobilewindows)용 Microsoft Flow 모바일 앱. 이 토픽의 그래픽은 앱의 iPhone 버전이지만 Android 장치 또는 Windows Phone의 인터페이스도 비슷합니다.
 * 이 토픽에서 설명한 템플릿을 사용하려면 다음도 필요합니다.

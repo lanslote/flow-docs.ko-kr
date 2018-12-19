@@ -42,7 +42,7 @@ ms.locfileid: "44689459"
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZJK8cYdjAic?list=PL8nfc9haGeb55I9wL9QnWyHp3ctU2_ThF" frameborder="0" allowfullscreen></iframe>
 
 1. [flow.microsoft.com](https://flow.microsoft.com)의 상단 탐색 모음에서 **템플릿**을 선택합니다.
-2. 검색 입력창에 **Slack**을 입력한 다음 검색 아이콘을 선택합니다.
+2. 검색 입력창에 Slack 을 입력한 다음 검색 아이콘을 선택합니다.
 3. Slack과 관련한 템플릿만 표시되므로 **상사가 전자 메일을 보내면 Slack 메시지 보내기**를 선택할 수 있습니다.
    
     ![왼쪽 탐색 모음의 새 옵션 ](./media/get-started-logic-template/select-template.png)
@@ -56,11 +56,11 @@ ms.locfileid: "44689459"
    
     ![템플릿의 기본 이벤트 및 동작](./media/get-started-logic-template/template-default.png)
 
-## <a name="customize-your-flow"></a>흐름 커스너마이징
-1. 이벤트의 제목 표시줄을 선택하여 확장한 다음 제목을 입력합니다(예: 나와 관련이 있는 전자 메일에 대해 필터 지정).
+## <a name="customize-your-flow"></a>흐름 사용자 지정
+1. 이벤트의 제목 표시줄을 선택하여 확장한 다음 제목을 직접 입력합니다(예: 나와 관련이 있는 전자 메일에 대해 필터 지정).
 2. 사용자 입력이 필요한 동작은 자동으로 확장됩니다.
    
-    예를 들어 **메시지 게시** 동작은 *\@username* 등의 채널을 입력해야 하므로 확장됩니다. 메시지 콘텐츠를 변경하여 입력할 수도 있습니다. 기본적으로 메시지는 제목만 포함하지만 다른 정보도 넣을 수 있습니다.
+    예를 들어 메시지 게시 동작은 *\@username* 등의 채널을 입력해야 하므로 확장됩니다. 메시지 콘텐츠를 직접 입력할 수도 있습니다. 기본적으로 메시지에는 제목만 포함되지만 다른 정보도 넣을 수 있습니다.
    
     ![Slack에 대한 채널 지정](./media/get-started-logic-template/specify-keyword.png)
 3. 화면 상단에서 흐름의 이름을 지정한 다음 **흐름 만들기**를 선택합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "44689459"
    
     ![완료 단추](./media/get-started-logic-template/done.png)
 
-이제 상사가 전자 메일을 보냈을 때, 커스터마이징된 정보가 담긴 Slack 메시지를 받을 수 있습니다.
+이제 상사가 전자 메일을 보냈을 때, 사용자가 지정한 정보가 담긴 Slack 메시지를 받을 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 * [작동 중인 흐름 보기](see-a-flow-run.md)

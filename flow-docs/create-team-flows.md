@@ -48,7 +48,7 @@ ms.locfileid: "44689735"
 소유자는 흐름에서 서비스를 사용할 수 있지만 다른 소유자가 만든 연결에 대한 자격 증명을 수정할 수 없습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
-팀 흐름을 만들려면 [유료 Microsoft Flow 플랜](https://flow.microsoft.com/pricing/)이 있어야 합니다. 또한 팀 흐름에서 소유자를 추가/제거하려면 작성자 또는 소유자여야 합니다.
+팀 흐름을 만들려면 [유료 Microsoft Flow 플랜](https://flow.microsoft.com/pricing/)이 있어야 합니다. 또한 작성자 또는 소유자만 팀 흐름에서 소유자를 추가/제거할 수 있습니다.
 
 ## <a name="create-a-team-flow"></a>팀 흐름 만들기
 이러한 단계를 따라 팀 흐름을 만들거나 팀 흐름에 더 많은 소유자를 추가합니다.
@@ -68,7 +68,7 @@ ms.locfileid: "44689735"
    
     ![새 소유자](./media/create-team-flows/addowner4.png)
    
-     축하합니다. 팀 흐름을 만들었습니다.
+     &mdash;, 축하합니다. 팀 흐름을 만들었습니다.
 
 ##<a name="add-a-list-as-a-co-owner"></a>목록을 공동 소유자로 추가
 
@@ -89,7 +89,7 @@ ms.locfileid: "44689735"
 3. 확인 대화 상자에서 **이 소유자 제거**를 선택합니다.
    
     ![제거 확인](./media/create-team-flows/removeowner3.png)
-4. 축하합니다. 제거하려는 사용자 또는 그룹이 더 이상 흐름의 소유자로 나열되지 않습니다.
+4. &mdash;, 축하합니다. 제거하려는 사용자 또는 그룹이 더 이상 흐름의 소유자로 나열되지 않습니다.
    
     ![사용자 제거됨](./media/create-team-flows/removeowner4.png)
 
